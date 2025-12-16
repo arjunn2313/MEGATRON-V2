@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Quote() {
     return (
         <>
-            <div className="tf-widget-quote">
+            <div className="tf-widget-quote my-5">
                 <div className="themesflat-container">
                     <div className="widget-quote">
                         <div className="quote-wrap">

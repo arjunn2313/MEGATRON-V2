@@ -1,3 +1,4 @@
+import ChristmasOffers from "@/components/elements/Christmas"
 import Layout from "@/components/layout/Layout"
 import BrowseByMode from "@/components/sections/BrowseByMode"
 import CarBannerV1 from "@/components/sections/CarBannerV1"
@@ -20,6 +21,7 @@ export default function Home() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <Slide />
+                <ChristmasOffers/>
                 {/* <SlideSearchCar /> */}
                 <IconBox />
                 <TabCarService />
@@ -27,10 +29,10 @@ export default function Home() {
                 {/* <Logo /> */}
                 <CarListV2 />
                 <Quote />
-                <SellingCar />
-                <CounterCar />
-                <TestimonialCar />
-                <FeaturesCar />
+                {/* <SellingCar /> */}
+                {/* <CounterCar /> */}
+                {/* <TestimonialCar /> */}
+                {/* <FeaturesCar /> */}
                 {/* <CarBannerV1 /> */}
                 {/* <CarBlogV1 /> */}
             </Layout>

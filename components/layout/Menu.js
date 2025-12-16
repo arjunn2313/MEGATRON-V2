@@ -29,7 +29,7 @@ export default function Menu() {
                     </ul> */}
                 </li>
                 <li className="dropdown">
-                    <Link href="/#">Page</Link>
+                    <Link href="/#">Services</Link>
                     {/* <ul>
                         <li className={pathname == "/dashboard" ? "current" : ""}><Link href="/dashboard">Dashboard</Link></li>
                         <li className={pathname == "/my-inventory" ? "current" : ""}><Link href="/my-inventory">My Inventory</Link></li>

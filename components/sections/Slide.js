@@ -49,7 +49,7 @@ export default function Slide() {
                     data-wow-delay="400ms"
                     data-wow-duration="2000ms"
                   >
-                    <Link href="/listing" className="button_main_inner">
+                    <Link href="/car-list" className="button_main_inner">
                       <span>Go To Listing</span>
                     </Link>
                   </div>

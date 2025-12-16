@@ -1,9 +1,11 @@
 
+import ChristmasSnow from "@/components/elements/Snowfall"
 import "/public/assets/css/magnific-popup.min.css"
 import "/public/assets/css/style.css"
 
 
 import { DM_Sans, Plus_Jakarta_Sans } from 'next/font/google'
+import SantaWaving from "@/components/elements/SantaWaving"
 const jakarta = Plus_Jakarta_Sans({
     weight: ['300', '400', '500', '600', '700'],
     subsets: ['latin'],
@@ -31,7 +33,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}>{children}</body>
+            <body className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}>
+                <SantaWaving/>
+                  <ChristmasSnow/>
+                {children}</body>
         </html>
     )
 }

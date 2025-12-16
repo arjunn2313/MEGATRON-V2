@@ -10,14 +10,14 @@ export default function CarListV2({ h5 }) {
     }
     return (
         <>
-            <div className={`${h5 ? "widget-car-list-v2-h5" : "widget-car-list-v2"} `}>
+            <div className={`${h5 ? "widget-car-list-v2-h5" : "widget-car-list-v2"} mt-5 `}>
                 <div className="themesflat-container">
                     <div className="header-tab mb-46">
                         <div className="heading-section">
                             {!h5 && <span className="sub-title mb-10 wow fadeInUp">Trusted Car Delaer Service</span>}
                             <h2 className={`${h5 ? "title-section-main" : "title"} wow fadeInUp`}>{`${!h5 ? "Popular Makes by" : "Explore All Cars"}`}</h2>
                         </div>
-                        <ul className="nav nav-pills tab-car-service-v2 justify-content-end" id="pills-tab-service-v2" role="tablist">
+                        {/* <ul className="nav nav-pills tab-car-service-v2 justify-content-end" id="pills-tab-service-v2" role="tablist">
                             <li className="nav-item" onClick={() => handleOnClick(1)}>
                                 <button className={activeIndex == 1 ? "nav-link active" : "nav-link"}> Cadilliac</button>
                             </li>
@@ -33,7 +33,7 @@ export default function CarListV2({ h5 }) {
                             <li className="nav-item" onClick={() => handleOnClick(5)}>
                                 <button className={activeIndex == 5 ? "nav-link active" : "nav-link"}>Haundai </button>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                     <div className="tab-content" id="pills-tabContent-v2">
                         <div className={activeIndex == 1 ? "tab-pane fade show active" : "tab-pane fade"}>

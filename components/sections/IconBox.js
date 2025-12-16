@@ -45,7 +45,7 @@ export default function IconBox() {
                             </Link>
                         </div>
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
-                            <Link href="/car-list?make=Cheavrolet" className="icon-box border-line">
+                            <Link href="/car-list?make=Chevrolet" className="icon-box border-line">
                                 <div className="image-box-wrap">
                                     <img src="/assets/images/car-logo/cheavrolet.png" alt="" />
                                 </div>
@@ -67,7 +67,7 @@ export default function IconBox() {
                             </Link>
                         </div>
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
-                            <Link href="/car-list?make=Mercedes" className="icon-box border-line">
+                            <Link href="/car-list?make=Mercedes-Benz" className="icon-box border-line">
                                 <div className="image-box-wrap">
                                     <img src="/assets/images/car-logo/mercedes.png" alt="" />
                                 </div>

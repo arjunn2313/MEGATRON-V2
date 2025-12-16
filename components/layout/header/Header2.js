@@ -75,12 +75,12 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
                                                 <a data-bs-toggle="modal" onClick={handleToggle1} role="button"><img src="/assets/images/avatar/avt.png" alt="" /></a>
                                             </div>
                                         </div>
-                                        <div className="flat-bt-top sc-btn-top ml--20 ">
+                                        {/* <div className="flat-bt-top sc-btn-top ml--20 ">
                                             <Link className="btn-icon-list" href="/car-list">
                                                 <span>Listing Yours</span>
                                                 <i className="icon-add-button-1" />
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="mobile-nav-toggler mobile-button" onClick={handleMobileMenu}>
                                         <span />

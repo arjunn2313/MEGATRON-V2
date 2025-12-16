@@ -99,7 +99,7 @@ export default function Header3({
                                                         </ul> */}
                           </li>
                           <li className="dropdown">
-                            <Link href="/#">Page</Link>
+                            <Link href="/#">Services</Link>
                             <ul>
                               {/* <li><Link href="/dashboard">Dashboard</Link></li>
                                                             <li><Link href="/my-inventory">My Inventory</Link></li>
@@ -130,12 +130,12 @@ export default function Header3({
                                                 <a data-bs-toggle="modal" onClick={handleToggle2} role="button">Login</a>
                                             </div>
                                         </div> */}
-                    <div className="flat-bt-top sc-btn-top ml--20 ">
+                    {/* <div className="flat-bt-top sc-btn-top ml--20 ">
                       <Link className="btn-icon-list" href="/car-list">
                         <span>Listing Yours</span>
                         <i className="icon-add-button-1" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div
                     className="mobile-nav-toggler mobile-button"

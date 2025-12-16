@@ -12,7 +12,7 @@ export default function PopularMakesTab3() {
       <div className="header-section tab-car-service">
         <div className="heading-section">
           <span className="sub-title mb-6 wow fadeInUp">
-            Trusted Car DeAler Service
+             Trusted Used Car Dealer
           </span>
           <h2 className="title wow fadeInUp">Explore all Vehicles</h2>
         </div>
@@ -28,7 +28,7 @@ export default function PopularMakesTab3() {
               All Status
             </button>
           </li>
-          <li className="nav-item" onClick={() => handleOnClick(2)}>
+          {/* <li className="nav-item" onClick={() => handleOnClick(2)}>
             <button
               className={activeIndex == 2 ? "nav-link active" : "nav-link"}
             >
@@ -41,7 +41,7 @@ export default function PopularMakesTab3() {
             >
               Used Cars
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="tab-content" id="pills-tabContent">
