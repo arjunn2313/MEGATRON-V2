@@ -170,7 +170,7 @@ export default function GarageServices() {
       {/* IMAGE */}
       <div className="col-lg-6 mt-4 mt-lg-0">
         <img
-          src="/assets/images/garage/vintage.JPG"
+          src="/assets/images/garage/vintage.jpg"
           alt="Premium Used Cars"
           style={{
             width: "100%",
