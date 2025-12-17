@@ -39,6 +39,30 @@ export default function ListingDetails({ params }) {
   const { slug } = params;
   const car = cars.find((item) => item.slug === slug);
 
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [phone, setPhone] = useState("")
+  const [message, setMessage] = useState("")
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    const whatsappMessage = `
+Hi, I am contacting from Optimus Megatron Cars website.
+
+👤 Name: ${name}
+📧 Email: ${email}
+📞 Phone: ${phone}
+💬 Message: ${message}
+    `.trim()
+
+    const whatsappUrl = `https://wa.me/971565049928?text=${encodeURIComponent(
+      whatsappMessage
+    )}`
+
+    window.open(whatsappUrl, "_blank")
+  }
+
   if (!car) {
     notFound();
   }
@@ -639,51 +663,60 @@ export default function ListingDetails({ params }) {
                         </span>
                       </div>
                     </div>
-                    <form
-                      action="/"
-                      method="post"
-                      className="form-contact-admin"
-                      aria-label="Contact form"
-                    >
-                      <div className="group-form">
-                        <input
-                          className="admin-form"
-                          aria-required="true"
-                          aria-invalid="false"
-                          placeholder="Your Name"
-                          type="text"
-                        />
-                        <i className="icon-user-1-1" />
-                      </div>
-                      <div className="group-form">
-                        <input
-                          className="admin-form"
-                          aria-required="true"
-                          aria-invalid="false"
-                          placeholder="Email"
-                          type="email"
-                        />
-                        <i className="icon-Group2" />
-                      </div>
-                      <div className="group-form">
-                        <input
-                          className="admin-form"
-                          aria-invalid="false"
-                          placeholder="Enter Phone"
-                          type="text"
-                        />
-                        <i className="icon-Group-14" />
-                      </div>
-                      <div className="group-form">
-                        <textarea
-                          className="admin-form"
-                          aria-invalid="false"
-                          defaultValue={""}
-                        />
-                        <i className="icon-edit-1" />
-                      </div>
-                      <button type="submit"> Send Message </button>
-                    </form>
+                     <form
+      className="form-contact-admin"
+      aria-label="Contact form"
+      onSubmit={handleSubmit}
+      noValidate
+    >
+      <div className="group-form">
+        <input
+          className="admin-form"
+          placeholder="Your Name"
+          type="text"
+          required
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <i className="icon-user-1-1" />
+      </div>
+
+      <div className="group-form">
+        <input
+          className="admin-form"
+          placeholder="Email"
+          type="email"
+          required
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <i className="icon-Group2" />
+      </div>
+
+      <div className="group-form">
+        <input
+          className="admin-form"
+          placeholder="Enter Phone"
+          type="text"
+          required
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+        />
+        <i className="icon-Group-14" />
+      </div>
+
+      <div className="group-form">
+        <textarea
+          className="admin-form"
+          placeholder="Your Message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        />
+        <i className="icon-edit-1" />
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
                   </div>
                 </div>
               </div>

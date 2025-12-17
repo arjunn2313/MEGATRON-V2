@@ -156,16 +156,32 @@ export default function GarageServices() {
 
       {/* CTA SECTION */}
 
-      <section className="cta-section py-5 bg-dark text-white">
-          <div className="themesflat-container text-center">
-            <h2 className="my-3">Need a Quick Repair?</h2>
-            <p className="my-4">We offer same-day service for most minor repairs and maintenance.</p>
-            <div className="d-flex justify-content-center gap-3">
-               <button className="btn btn-danger px-5 py-3">Book Appointment</button>
-               <button className="btn btn-outline-light px-5 py-3">Contact Us</button>
-            </div>
-          </div>
-        </section>
+   <section className="cta-section py-5 bg-dark text-white">
+  <div className="themesflat-container text-center">
+    <h2 className="my-3">Need a Quick Repair?</h2>
+    <p className="my-4">
+      We offer same-day service for most minor repairs and maintenance.
+    </p>
+
+    <div className="d-flex justify-content-center gap-3">
+      {/* WhatsApp Button */}
+      <a
+        href="https://wa.me/971565049928?text=Hi%20I%20would%20like%20to%20book%20a%20car%20service"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-danger px-5 py-3"
+      >
+        Book Appointment
+      </a>
+
+      {/* Contact Page Button */}
+      <a href="/contact-us" className="btn btn-outline-light px-5 py-3">
+        Contact Us
+      </a>
+    </div>
+  </div>
+</section>
+
     </Layout>
   );
 }
