@@ -24,10 +24,11 @@ export default function Home() {
                 <ChristmasOffers/>
                 {/* <SlideSearchCar /> */}
                 <IconBox />
+                   <CarListV2 />
                 <TabCarService />
-                  <BrowseByMode />
+               <BrowseByMode />
                 {/* <Logo /> */}
-                <CarListV2 />
+                
                 <Quote />
                 {/* <SellingCar /> */}
                 {/* <CounterCar /> */}

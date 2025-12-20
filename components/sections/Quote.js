@@ -57,7 +57,7 @@ export default function Quote() {
                                     </div>
                                     <div className="content">
                                         <p className="phone">Phone Number</p>
-                                        <p className="phone-number"> +(971) 565049928</p>
+                                        <p className="phone-number"> +971 565049928</p>
                                     </div>
                                 </div>
                                 <div className="btn-main">
