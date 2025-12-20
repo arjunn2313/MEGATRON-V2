@@ -1877,8 +1877,8 @@ const cars = [
      PRICING
   ========================== */
     currency: "AED",
-    price: 18000, // market price
-    salePrice: 16500, // offer price
+    price: 42000, // market price
+    salePrice: 40000, // offer price
 
     /* =========================
      LOCATION (Details page)

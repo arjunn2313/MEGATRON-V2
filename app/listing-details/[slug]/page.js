@@ -70,9 +70,9 @@ Hi, I am contacting from Optimus Megatron Cars website.
   const overviewFields = [
   { label: "Condition", value: car.condition || "Used", icon: "icon-Vector5" },
   { label: "Cylinders", value: car.overview.cylinders, icon: "icon-Group-1000002834" },
-  { label: "Stock Number", value: car.overview.stockNumber, icon: "icon-Vector-13" },
+  // { label: "Stock Number", value: car.overview.stockNumber, icon: "icon-Vector-13" },
   { label: "Fuel Type", value: car.overview.fuelType, icon: "icon-Group5" },
-  { label: "VIN Number", value: car.overview.vin, icon: "icon-Vector-13" },
+  // { label: "VIN Number", value: car.overview.vin, icon: "icon-Vector-13" },
   { label: "Doors", value: car.overview.doors, icon: "icon-Group-15" },
   { label: "Year", value: car.overview.year, icon: "icon-Vector-13" },
   { label: "Color", value: car.overview.color, icon: "icon-Format-color-fill" },
