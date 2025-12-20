@@ -16,32 +16,143 @@ export default function GarageServices() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // const services = [
+  //   {
+  //     title: "General Car Service",
+  //     img: "/assets/images/garage/gs.jpg",
+  //   },
+  //   {
+  //     title: "Engine Diagnostics",
+  //     img: "/assets/images/garage/eg.jpg",
+  //   },
+  //   {
+  //     title: "Brake & Suspension Repair",
+  //     img: "/assets/images/garage/su.jpg",
+  //   },
+  //   {
+  //     title: "Oil Change & Maintenance",
+  //     img: "/assets/images/garage/oil.jpg",
+  //   },
+  //   {
+  //     title: "AC Repair & Gas Refill",
+  //     img: "/assets/images/garage/ac.jpg",
+  //   },
+  //   {
+  //     title: "Battery Replacement",
+  //     img: "/assets/images/garage/battery.jpg",
+  //   },
+  // ];
+
   const services = [
-    {
-      title: "General Car Service",
-      img: "/assets/images/garage/gs.jpg",
-    },
-    {
-      title: "Engine Diagnostics",
-      img: "/assets/images/garage/eg.jpg",
-    },
-    {
-      title: "Brake & Suspension Repair",
-      img: "/assets/images/garage/su.jpg",
-    },
-    {
-      title: "Oil Change & Maintenance",
-      img: "/assets/images/garage/oil.jpg",
-    },
-    {
-      title: "AC Repair & Gas Refill",
-      img: "/assets/images/garage/ac.jpg",
-    },
-    {
-      title: "Battery Replacement",
-      img: "/assets/images/garage/battery.jpg",
-    },
-  ];
+  {
+    title: "Car Detailing",
+    img: "/assets/images/garage/detailing.jpg",
+    desc: "Restore your car’s showroom shine with interior cleaning, exterior polishing, waxing, and paint protection.",
+  },
+  {
+    title: "Engine Cleaning & Restoration",
+    img: "/assets/images/garage/oil.jpg",
+    desc: "Deep engine bay cleaning to improve performance, safety, and long-term durability.",
+  },
+  {
+    title: "Tinting & Wrapping",
+    img: "/assets/images/garage/wrap.jpg",
+    desc: "Premium window tinting and custom vehicle wraps for style, comfort, and protection.",
+  },
+  {
+    title: "Alloy & Wheel Restoration",
+    img: "/assets/images/garage/alloy.jpg",
+    desc: "Repair, repaint, and polish alloy wheels to restore shine and protect against corrosion.",
+  },
+  {
+    title: "Tuning & Performance Upgrades",
+    img: "/assets/images/garage/eg.jpg",
+    desc: "ECU tuning and performance enhancements to boost power, efficiency, and driving dynamics.",
+  },
+  {
+    title: "Upholstery & Interior Refurbishing",
+    img: "/assets/images/garage/interior.jpg",
+    desc: "From seat repair to full interior detailing, we refresh your cabin to a premium finish.",
+  },
+];
+
+const showroomServices = [
+  {
+    title: "Luxury, Premium & Economy Cars",
+    desc: "Explore a curated selection of luxury, premium, and economy vehicles under one roof.",
+    img: "/assets/images/showroom/luxury.jpg",
+  },
+  {
+    title: "Park & Sell Service",
+    desc: "Showcase your car in our showroom while we handle marketing, enquiries, and sales.",
+    img: "/assets/images/showroom/park-sell.jpg",
+  },
+  {
+    title: "Buy & Sell with Confidence",
+    desc: "Transparent pricing, verified listings, and expert guidance for every transaction.",
+    img: "/assets/images/showroom/buy-sell.jpg",
+  },
+  {
+    title: "Certified Vehicle Inspection",
+    desc: "Every vehicle passes a certified multi-point inspection for performance and safety.",
+    img: "/assets/images/showroom/inspection.jpg",
+  },
+  {
+    title: "Easy Financing Options",
+    desc: "Flexible financing plans with quick approvals to help you drive your dream car.",
+    img: "/assets/images/showroom/finance.jpg",
+  },
+  {
+    title: "Worldwide Car Export",
+    desc: "Global vehicle export with complete documentation and trusted logistics support.",
+    img: "/assets/images/showroom/export.jpg",
+  },
+];
+
+
+const detailingServices = [
+  {
+    title: "Complete Car Detailing",
+    desc: "Interior deep cleaning and exterior polishing for a spotless, showroom-quality finish.",
+    img: "/assets/images/detailing/detailings.jpg",
+  },
+  {
+    title: "Ceramic Coating",
+    desc: "Long-lasting ceramic protection with extreme gloss, hydrophobic effect, and durability.",
+    img: "/assets/images/detailing/ceramic.jpg",
+  },
+  {
+    title: "Paint Protection Film (PPF)",
+    desc: "Premium PPF to protect your paint from scratches, chips, and UV damage.",
+    img: "/assets/images/detailing/ppf.jpg",
+  },
+  {
+    title: "Alloy Restoration & Polishing",
+    desc: "Restore alloy wheels by removing stains, scratches, and brake dust.",
+    img: "/assets/images/detailing/alloy.jpg",
+  },
+  {
+    title: "Engine Cleaning",
+    desc: "Safe engine bay cleaning to enhance performance and extend engine life.",
+    img: "/assets/images/detailing/engine.jpg",
+  },
+  {
+    title: "Upholstery Restoration",
+    desc: "Leather rejuvenation and interior refurbishing with premium materials.",
+    img: "/assets/images/detailing/upholstery.jpg",
+  },
+  {
+    title: "Window Tinting",
+    desc: "Heat & UV blocking window tints for privacy, comfort, and style.",
+    img: "/assets/images/detailing/tint.jpg",
+  },
+  {
+    title: "Vehicle Wrapping",
+    desc: "Matte, gloss, and custom wraps to transform your car’s look while protecting paint.",
+    img: "/assets/images/detailing/wrap.jpg",
+  },
+];
+
 
   return (
     <Layout headerStyle={1} footerStyle={1}>
@@ -101,10 +212,22 @@ export default function GarageServices() {
       {/* SERVICES LIST */}
       <section className="garage-services mt-5">
         <div className="themesflat-container">
-          <div className="heading-section text-center mb-40">
+          {/* <div className="heading-section text-center mb-40">
             <span className="sub-title">What We Offer</span>
             <h2 className="title">Our Garage Services</h2>
-          </div>
+          </div> */}
+
+          <div className="heading-section text-center mb-40">
+  <span className="sub-title">Professional Auto Care</span>
+  <h2 className="title">
+    Expert <span className="text-red">Garage Services</span> Under One Roof
+  </h2>
+  <p className="mt-12">
+    From routine maintenance to advanced repairs, our certified technicians
+    deliver reliable, high-quality automotive services you can trust.
+  </p>
+</div>
+
 
           <div className="row">
             {services.map((service, index) => (
@@ -125,6 +248,72 @@ export default function GarageServices() {
           </div>
         </div>
       </section>
+
+
+{/* SHOWROOM SERVICES SECTION */}
+<section className="showroom-services my-5">
+  <div className="themesflat-container">
+    <div className="heading-section text-center mb-40">
+      <span className="sub-title">Megatron Showroom</span>
+      <h2 className="title">
+        Premium <span className="text-red">Car Showroom Services</span>
+      </h2>
+      <p className="mt-12">
+        Buy, sell, or showcase your car with complete confidence and transparency.
+      </p>
+    </div>
+
+    <div className="row">
+      {showroomServices.map((service, index) => (
+        <div key={index} className="col-lg-4 col-md-6 mb-30">
+          <div className="service-card h-100">
+            <div className="service-image">
+              {/* <img src={service.img} alt={service.title} /> */}
+            </div>
+
+            <h5 className="mt-20">{service.title}</h5>
+            <p>{service.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+
+{/* DETAILING SERVICES SECTION */}
+<section className="detailing-services my-5 bg-dar text-white">
+  <div className="themesflat-container">
+    <div className="heading-section text-center mb-40">
+      <span className="sub-title text-warning">
+        Optimus Megatron Detailing Studio
+      </span>
+      <h2 className="title">
+        Redefining <span className="text-warning">Perfection</span>   
+         One Car at a Time
+      </h2>
+      <p className="mt-12">
+        Premium car detailing, paint protection, and restoration services
+        designed to make your vehicle look and feel brand new.
+      </p>
+    </div>
+
+    <div className="row">
+      {detailingServices.map((service, index) => (
+        <div key={index} className="col-lg-3 col-md-6 mb-30">
+          <div className="service-card h-100 bg-black borde border-warning">
+            <div className="service-image">
+              <img src={service.img} alt={service.title} />
+            </div>
+
+            <h5 className="mt-20 text-warning">{service.title}</h5>
+            <p className="text-light">{service.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
 
       {/* USED CAR SALES SECTION */}
