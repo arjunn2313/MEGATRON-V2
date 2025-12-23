@@ -596,10 +596,10 @@ export default function CarList() {
 
                               {/* PRICE */}
                               <div className="bottom-price-wrap">
-                                <div className="price-wrap">
+                                {/* <div className="price-wrap">
                                     <p className="price">{car.currency} {Number(car.price).toLocaleString()}</p>
                                     <p className="price-sale">{car.currency} {Number(car.salePrice).toLocaleString()}</p>
-                                  </div>
+                                  </div> */}
 
                                 <div className="btn-read-more">
                                   <Link

@@ -39,13 +39,13 @@ export default function ListingDetails({ params }) {
   const { slug } = params;
   const car = cars.find((item) => item.slug === slug);
 
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [phone, setPhone] = useState("")
-  const [message, setMessage] = useState("")
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     const whatsappMessage = `
 Hi, I am contacting from Optimus Megatron Cars website.
@@ -54,37 +54,64 @@ Hi, I am contacting from Optimus Megatron Cars website.
 📧 Email: ${email}
 📞 Phone: ${phone}
 💬 Message: ${message}
-    `.trim()
+    `.trim();
 
     const whatsappUrl = `https://wa.me/971565049928?text=${encodeURIComponent(
       whatsappMessage
-    )}`
+    )}`;
 
-    window.open(whatsappUrl, "_blank")
-  }
+    window.open(whatsappUrl, "_blank");
+  };
 
   if (!car) {
     notFound();
   }
 
   const overviewFields = [
-  { label: "Condition", value: car.condition || "Used", icon: "icon-Vector5" },
-  { label: "Cylinders", value: car.overview.cylinders, icon: "icon-Group-1000002834" },
-  // { label: "Stock Number", value: car.overview.stockNumber, icon: "icon-Vector-13" },
-  { label: "Fuel Type", value: car.overview.fuelType, icon: "icon-Group5" },
-  // { label: "VIN Number", value: car.overview.vin, icon: "icon-Vector-13" },
-  { label: "Doors", value: car.overview.doors, icon: "icon-Group-15" },
-  { label: "Year", value: car.overview.year, icon: "icon-Vector-13" },
-  { label: "Color", value: car.overview.color, icon: "icon-Format-color-fill" },
-  { label: "Mileage", value: car.overview.mileage, icon: "icon-dashboard-2" },
-  { label: "Seats", value: car.overview.seats, icon: "icon-Group-22" },
-  { label: "Transmission", value: car.overview.transmission, icon: "icon-Vector-22" },
-  { label: "City MPG", value: car.overview.cityMPG, icon: "icon-Group-31" },
-  { label: "Engine Size", value: car.overview.engineSize, icon: "icon-engine-1" },
-  { label: "Highway MPG", value: car.overview.highwayMPG, icon: "icon-Group-31" },
-  { label: "Drive Type", value: car.overview.driveType, icon: "icon-steering-wheel-1" },
-];
-
+    {
+      label: "Condition",
+      value: car.condition || "Used",
+      icon: "icon-Vector5",
+    },
+    {
+      label: "Cylinders",
+      value: car.overview.cylinders,
+      icon: "icon-Group-1000002834",
+    },
+    // { label: "Stock Number", value: car.overview.stockNumber, icon: "icon-Vector-13" },
+    { label: "Fuel Type", value: car.overview.fuelType, icon: "icon-Group5" },
+    // { label: "VIN Number", value: car.overview.vin, icon: "icon-Vector-13" },
+    { label: "Doors", value: car.overview.doors, icon: "icon-Group-15" },
+    { label: "Year", value: car.overview.year, icon: "icon-Vector-13" },
+    {
+      label: "Color",
+      value: car.overview.color,
+      icon: "icon-Format-color-fill",
+    },
+    { label: "Mileage", value: car.overview.mileage, icon: "icon-dashboard-2" },
+    { label: "Seats", value: car.overview.seats, icon: "icon-Group-22" },
+    {
+      label: "Transmission",
+      value: car.overview.transmission,
+      icon: "icon-Vector-22",
+    },
+    { label: "City MPG", value: car.overview.cityMPG, icon: "icon-Group-31" },
+    {
+      label: "Engine Size",
+      value: car.overview.engineSize,
+      icon: "icon-engine-1",
+    },
+    {
+      label: "Highway MPG",
+      value: car.overview.highwayMPG,
+      icon: "icon-Group-31",
+    },
+    {
+      label: "Drive Type",
+      value: car.overview.driveType,
+      icon: "icon-steering-wheel-1",
+    },
+  ];
 
   const [isToggled4, setToggled4] = useState(false);
   const handleToggle4 = () => setToggled4(!isToggled4);
@@ -93,10 +120,7 @@ Hi, I am contacting from Optimus Megatron Cars website.
 
   const { features } = car;
 
-  const relatedCars = cars
-  .filter(c => c.slug !== car.slug)
-  .slice(0, 6); // limit slides
-
+  const relatedCars = cars.filter((c) => c.slug !== car.slug).slice(0, 6); // limit slides
 
   return (
     <>
@@ -136,11 +160,13 @@ Hi, I am contacting from Optimus Megatron Cars website.
                         </div>
                         <div className="info flex">
                           <span className="text-light">Body:</span>
-                          <span className="fw-4 text-light">{car.bodyType}</span>
+                          <span className="fw-4 text-light">
+                            {car.bodyType}
+                          </span>
                         </div>
                       </div>
                       <div className="title-heading text-white">
-                       {car.title}
+                        {car.title}
                       </div>
                       <div className="text-address">
                         <i className="icon-map-1-1" />
@@ -159,8 +185,13 @@ Hi, I am contacting from Optimus Megatron Cars website.
                         </Link>
                       </div>
                       <div className="price-wrap flex text-white">
-                        <p className="price-sale text-white">{Number(car.salePrice).toLocaleString()}{car.currency}</p>
-                        <p className="price text-warning">{Number(car.price).toLocaleString()} {car.currency}</p>
+                        <p className="price-sale text-white">
+                          {Number(car.salePrice).toLocaleString()}
+                          {car.currency}
+                        </p>
+                        <p className="price text-warning">
+                          {Number(car.price).toLocaleString()} {car.currency}
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -171,7 +202,6 @@ Hi, I am contacting from Optimus Megatron Cars website.
                   <div className="gallary-property-details">
                     {/* <ThumbSlider /> */}
                     <ThumbSlider images={car.images} />
-
                   </div>
                 </div>
               </div>
@@ -180,62 +210,65 @@ Hi, I am contacting from Optimus Megatron Cars website.
                   <div className="post-property">
                     <div className="wrap-description wrap-style">
                       <h4 className="title">Description</h4>
-                      <p>
-                        {car.description}
-                      </p>
+                      <p>{car.description}</p>
                     </div>
                     <div className="wrap-car-overview wrap-style">
-  <h4 className="title">Car Overview</h4>
+                      <h4 className="title">Car Overview</h4>
 
-  <div className="listing-info">
-    <div className="row">
-      {overviewFields.map((item, index) =>
-        item.value ? (
-          <div key={index} className="col-xl-6 col-md-6 item">
-            <div className="inner listing-infor-box">
-              <div className="icon">
-                <i className={item.icon} />
-              </div>
-              <div className="content-listing-info">
-                <span className="listing-info-title">
-                  {item.label}:
-                </span>
-                <p className="listing-info-value">
-                  {item.value}
-                </p>
-              </div>
-            </div>
-          </div>
-        ) : null
-      )}
-    </div>
-  </div>
-</div>
+                      <div className="listing-info">
+                        <div className="row">
+                          {overviewFields.map((item, index) =>
+                            item.value ? (
+                              <div
+                                key={index}
+                                className="col-xl-6 col-md-6 item"
+                              >
+                                <div className="inner listing-infor-box">
+                                  <div className="icon">
+                                    <i className={item.icon} />
+                                  </div>
+                                  <div className="content-listing-info">
+                                    <span className="listing-info-title">
+                                      {item.label}:
+                                    </span>
+                                    <p className="listing-info-value">
+                                      {item.value}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            ) : null
+                          )}
+                        </div>
+                      </div>
+                    </div>
 
                     <div className="wrap-car-feature wrap-style">
-  <h4 className="title">Features</h4>
+                      <h4 className="title">Features</h4>
 
-  <div className="tf-listing-info">
-    <div id="tf-features">
+                      <div className="tf-listing-info">
+                        <div id="tf-features">
+                          {Object.entries(features).map(([category, items]) => (
+                            <div className="features-item" key={category}>
+                              <h5 className="features-type-title">
+                                {category.charAt(0).toUpperCase() +
+                                  category.slice(1)}
+                              </h5>
 
-      {Object.entries(features).map(([category, items]) => (
-        <div className="features-item" key={category}>
-          <h5 className="features-type-title">
-            {category.charAt(0).toUpperCase() + category.slice(1)}
-          </h5>
-
-          {items.map((feature, index) => (
-            <div className="listing-feature-wrap" key={index}>
-              <i className="icon-Vector-32" />
-              {feature}
-            </div>
-          ))}
-        </div>
-      ))}
-
-    </div>
-  </div>
-</div>
+                              {items.map((feature, index) => (
+                                <div
+                                  className="listing-feature-wrap"
+                                  key={index}
+                                >
+                                  <i className="icon-Vector-32" />
+                                  {feature}
+                                </div>
+                              ))}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
 
                     {/* <div className="wrap-car-location wrap-style">
                       <h4 className="title">Features</h4>
@@ -657,66 +690,64 @@ Hi, I am contacting from Optimus Megatron Cars website.
                         <p className="desc">Owner of listing</p>
                         <span className="number-phone">
                           <i className=" icon-Group-14" />
-                         +(971) 565049928
-
-
+                          +(971) 565049928
                         </span>
                       </div>
                     </div>
-                     <form
-      className="form-contact-admin"
-      aria-label="Contact form"
-      onSubmit={handleSubmit}
-      noValidate
-    >
-      <div className="group-form">
-        <input
-          className="admin-form"
-          placeholder="Your Name"
-          type="text"
-          required
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <i className="icon-user-1-1" />
-      </div>
+                    <form
+                      className="form-contact-admin"
+                      aria-label="Contact form"
+                      onSubmit={handleSubmit}
+                      noValidate
+                    >
+                      <div className="group-form">
+                        <input
+                          className="admin-form"
+                          placeholder="Your Name"
+                          type="text"
+                          required
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                        />
+                        <i className="icon-user-1-1" />
+                      </div>
 
-      <div className="group-form">
-        <input
-          className="admin-form"
-          placeholder="Email"
-          type="email"
-          required
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <i className="icon-Group2" />
-      </div>
+                      <div className="group-form">
+                        <input
+                          className="admin-form"
+                          placeholder="Email"
+                          type="email"
+                          required
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                        />
+                        <i className="icon-Group2" />
+                      </div>
 
-      <div className="group-form">
-        <input
-          className="admin-form"
-          placeholder="Enter Phone"
-          type="text"
-          required
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-        />
-        <i className="icon-Group-14" />
-      </div>
+                      <div className="group-form">
+                        <input
+                          className="admin-form"
+                          placeholder="Enter Phone"
+                          type="text"
+                          required
+                          value={phone}
+                          onChange={(e) => setPhone(e.target.value)}
+                        />
+                        <i className="icon-Group-14" />
+                      </div>
 
-      <div className="group-form">
-        <textarea
-          className="admin-form"
-          placeholder="Your Message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-        />
-        <i className="icon-edit-1" />
-      </div>
+                      <div className="group-form">
+                        <textarea
+                          className="admin-form"
+                          placeholder="Your Message"
+                          value={message}
+                          onChange={(e) => setMessage(e.target.value)}
+                        />
+                        <i className="icon-edit-1" />
+                      </div>
 
-      <button type="submit">Send Message</button>
-    </form>
+                      <button type="submit">Send Message</button>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -1391,156 +1422,159 @@ Hi, I am contacting from Optimus Megatron Cars website.
           </div> */}
 
           <div className="widget-related-single-listing">
-  <div className="themesflat-container">
-    <div className="related-single-listing swiper">
-
-      <Swiper {...swiperOptions}>
-        {relatedCars.map((item) => (
-          <SwiperSlide
-            key={item.id}
-            className="listing-grid-item swiper-slide"
-          >
-            {/* IMAGE */}
-            <div className="listing-item-image">
-              <div className="hover-listing-image">
-                <div className="wrap-hover-listing">
-
-                  {item.images.slice(0, 2).map((img, i) => (
-                    <div
-                      key={i}
-                      className={`listing-item ${i === 0 ? "active" : ""}`}
-                      title={item.title}
+            <div className="themesflat-container overflow-hidden">
+              <div className="related-single-listing swiper">
+                <Swiper {...swiperOptions}>
+                  {relatedCars.map((item) => (
+                    <SwiperSlide
+                      key={item.id}
+                      className="listing-grid-item swiper-slide"
                     >
-                      <div className="images">
-                        <img
-                          src={img}
-                          className="swiper-image tfcl-light-gallery"
-                          alt={item.title}
-                        />
-                      </div>
-                    </div>
-                  ))}
+                      {/* IMAGE */}
+                      <div className="listing-item-image">
+                        <div className="hover-listing-image">
+                          <div className="wrap-hover-listing">
+                            {item.images.slice(0, 2).map((img, i) => (
+                              <div
+                                key={i}
+                                className={`listing-item  ${
+                                  i === 0 ? "active" : ""
+                                }`}
+                                title={item.title}
+                              >
+                                <div className="images">
+                                  <img
+                                    src={img}
+                                    className="swiper-image tfcl-light-gallery"
+                                    alt={item.title}
+                                  />
+                                </div>
+                              </div>
+                            ))}
 
-                  {/* VIEW GALLERY */}
-                  {item.images.length > 2 && (
-                    <div className="listing-item view-gallery">
-                      <div className="images">
-                        <img
-                          src={item.images[2]}
-                          className="swiper-image"
-                          alt={item.title}
-                        />
-                        <div className="overlay-limit">
-                          <img
-                            src="/assets/images/car-list/img.png"
-                            className="icon-img"
-                            alt="gallery"
-                          />
-                          <p>{item.images.length - 2} more photos</p>
+                            {/* VIEW GALLERY */}
+                            {item.images.length > 2 && (
+                              <div className="listing-item view-gallery">
+                                <div className="images">
+                                  <img
+                                    src={item.images[2]}
+                                    className="swiper-image"
+                                    alt={item.title}
+                                  />
+                                  <div className="overlay-limit">
+                                    <img
+                                      src="/assets/images/car-list/img.png"
+                                      className="icon-img"
+                                      alt="gallery"
+                                    />
+                                    <p>{item.images.length - 2} more photos</p>
+                                  </div>
+                                </div>
+                              </div>
+                            )}
+
+                            {/* BULLETS */}
+                            <div className="bullet-hover-listing">
+                              {item.images.slice(0, 3).map((_, i) => (
+                                <div
+                                  key={i}
+                                  className={`bl-item ${
+                                    i === 0 ? "active" : ""
+                                  }`}
+                                />
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+
+                        {item.featured && (
+                          <span className="feature">Featured</span>
+                        )}
+                      </div>
+
+                      {/* CONTENT */}
+                      <div className="listing-item-content">
+                        <div className="listing-top-content">
+                          <h6 className="title">
+                            <Link href={`/listing-details/${item.slug}`}>
+                              {item.title}
+                            </Link>
+                          </h6>
+
+                          {/* RATING */}
+                          <div className="review-wrap">
+                            <div className="rating">
+                              {[...Array(item.rating || 4)].map((_, i) => (
+                                <i className="icon-Vector3" key={i} />
+                              ))}
+                            </div>
+                            <span className="review">
+                              ({item.reviews || 0} Reviews)
+                            </span>
+                          </div>
+
+                          {/* SPECS */}
+                          <div className="description">
+                            <ul>
+                              <li className="listing-information fuel">
+                                <i className="icon-gasoline-pump-1" />
+                                <div className="inner">
+                                  <span>Fuel</span>
+                                  <p>{item.quickSpecs.fuel}</p>
+                                </div>
+                              </li>
+
+                              <li className="listing-information size-engine">
+                                <i className="icon-Group1" />
+                                <div className="inner">
+                                  <span>Mileage</span>
+                                  <p>{item.quickSpecs.mileage}</p>
+                                </div>
+                              </li>
+
+                              <li className="listing-information transmission">
+                                <i className="icon-gearbox-1" />
+                                <div className="inner">
+                                  <span>Transmission</span>
+                                  <p>{item.quickSpecs.transmission}</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        {/* PRICE */}
+                        <div className="bottom-price-wrap">
+                          {/* <div className="price-wrap">
+                            <p className="price-sale">
+                              {item.currency}
+                              {item.salePrice}
+                            </p>
+                            <p className="price">
+                              {item.currency}
+                              {item.price}
+                            </p>
+                          </div> */}
+
+                          <div className="btn-read-more">
+                            <Link
+                              className="more-link"
+                              href={`/listing-details/${item.slug}`}
+                            >
+                              <span>View details</span>
+                              <i className="icon-arrow-right2" />
+                            </Link>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  )}
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
 
-                  {/* BULLETS */}
-                  <div className="bullet-hover-listing">
-                    {item.images.slice(0, 3).map((_, i) => (
-                      <div
-                        key={i}
-                        className={`bl-item ${i === 0 ? "active" : ""}`}
-                      />
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              {item.featured && <span className="feature">Featured</span>}
-            </div>
-
-            {/* CONTENT */}
-            <div className="listing-item-content">
-              <div className="listing-top-content">
-                <h6 className="title">
-                  <Link href={`/listing-details/${item.slug}`}>
-                    {item.title}
-                  </Link>
-                </h6>
-
-                {/* RATING */}
-                <div className="review-wrap">
-                  <div className="rating">
-                    {[...Array(item.rating || 4)].map((_, i) => (
-                      <i className="icon-Vector3" key={i} />
-                    ))}
-                  </div>
-                  <span className="review">
-                    ({item.reviews || 0} Reviews)
-                  </span>
-                </div>
-
-                {/* SPECS */}
-                <div className="description">
-                  <ul>
-                    <li className="listing-information fuel">
-                      <i className="icon-gasoline-pump-1" />
-                      <div className="inner">
-                        <span>Fuel</span>
-                        <p>{item.quickSpecs.fuel}</p>
-                      </div>
-                    </li>
-
-                    <li className="listing-information size-engine">
-                      <i className="icon-Group1" />
-                      <div className="inner">
-                        <span>Mileage</span>
-                        <p>{item.quickSpecs.mileage}</p>
-                      </div>
-                    </li>
-
-                    <li className="listing-information transmission">
-                      <i className="icon-gearbox-1" />
-                      <div className="inner">
-                        <span>Transmission</span>
-                        <p>{item.quickSpecs.transmission}</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* PRICE */}
-              <div className="bottom-price-wrap">
-                <div className="price-wrap">
-                  <p className="price-sale">
-                    {item.currency}
-                    {item.salePrice}
-                  </p>
-                  <p className="price">
-                    {item.currency}
-                    {item.price}
-                  </p>
-                </div>
-
-                <div className="btn-read-more">
-                  <Link
-                    className="more-link"
-                    href={`/listing-details/${item.slug}`}
-                  >
-                    <span>View details</span>
-                    <i className="icon-arrow-right2" />
-                  </Link>
-                </div>
+                <div className="swiper-pagination" />
               </div>
             </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
-      <div className="swiper-pagination" />
-    </div>
-  </div>
-</div>
-
+          </div>
         </div>
       </Layout>
       <ModalTestDriver isToggled4={isToggled4} handleToggle4={handleToggle4} />

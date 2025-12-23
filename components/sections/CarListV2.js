@@ -118,11 +118,11 @@ export default function CarListV2({ h5 }) {
             {/* PRICE + ACTIONS */}
             <div className="bottom-btn-wrap">
               <div className="price-group">
-                {car.salePrice && (
+                {/* {car.salePrice && (
                   <span className="price-sale">
                     {car.currency} {Number(car.salePrice).toLocaleString()}
                   </span>
-                )}
+                )} */}
                 {/* {car.price && (
                   <span className="price">
                     {car.currency}{car.price}
@@ -226,11 +226,11 @@ export default function CarListV2({ h5 }) {
             {/* PRICE + ACTIONS */}
             <div className="bottom-btn-wrap">
               <div className="price-group">
-                {car.salePrice && (
+                {/* {car.salePrice && (
                   <span className="price-sale">
                     {car.currency} {Number(car.salePrice).toLocaleString()}
                   </span>
-                )}
+                )} */}
                 {/* {car.price && (
                   <span className="price">
                     {car.currency}{car.price}

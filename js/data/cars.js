@@ -804,7 +804,7 @@ const cars = [
       mileage: "78,000 miles",
       transmission: "Automatic",
       engineSize: "3.6L V6",
-      driveType: "RWD",
+      driveType: "2WD",
       cylinders: 6,
       fuelType: "Petrol",
       doors: 2,

@@ -155,11 +155,11 @@ export default function PopularMakesTab3() {
                     </Link>
                   </h6>
 
-                  {car.salePrice && (
+                  {/* {car.salePrice && (
                     <span className="price">
                       {`${car.currency} ${Number(car.salePrice).toLocaleString()}`}
                     </span>
-                  )}
+                  )} */}
 
                   {/* SPECS */}
                   <div className="description">
