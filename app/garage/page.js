@@ -9,6 +9,13 @@ import {
   FaCheckCircle
 } from "react-icons/fa"
 
+export const metadata = {
+  title: "Best Luxury Used Cars in Dubai | Optimus Megatron Cars",
+  description:
+    "Best luxury and used cars in Dubai. Optimus Megatron Cars offers inspected premium vehicles with finance assistance and export support.",
+};
+
+
 export default function Garage() {
   return (
     <Layout headerStyle={1} footerStyle={1}>

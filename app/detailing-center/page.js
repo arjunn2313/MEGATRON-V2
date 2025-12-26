@@ -8,6 +8,14 @@ import {
   FaCouch,
 } from "react-icons/fa";
 
+export const metadata = {
+  title: "Top Used Car Dealer in Dubai UAE | Optimus Megatron Cars",
+  description:
+    "Find the best used cars in Dubai and UAE. Optimus Megatron Cars provides certified vehicles, transparent pricing, finance assistance, and export services.",
+};
+
+
+
 export default function DetailingCenter() {
   return (
     <Layout headerStyle={1} footerStyle={1}>

@@ -1,5 +1,13 @@
 
 import Layout from "@/components/layout/Layout"
+
+export const metadata = {
+  title: "Top Used Cars Showroom in Dubai | Optimus Megatron Cars",
+  description:
+    "Top used car showroom in Dubai. Shop inspected pre-owned cars with transparent pricing, easy financing, and trusted service at Optimus Megatron Cars.",
+};
+
+
 export default function ContactUs() {
 
     return (
