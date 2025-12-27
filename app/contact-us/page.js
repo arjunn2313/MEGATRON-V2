@@ -63,7 +63,7 @@ export default function ContactUs() {
                                                 </svg>
                                             </div>
                                             <div className="title">Opening Hours</div>
-                                            <p className="des">Monday - Sunday <br /> 24hrs Open</p>
+                                            <p className="des">Monday - Sunday <br />   9:00 AM – 9:30 PM</p>
                                         </div>
                                     </div>
                                 </div>
