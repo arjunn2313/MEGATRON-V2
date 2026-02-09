@@ -55,46 +55,115 @@ export const metadata = {
   ],
 };
 
+// export default function RootLayout({ children }) {
+//   return (
+//     <html lang="en">
+//       {/* TikTok Pixel */}
+//       <Script id="tiktok-pixel" strategy="afterInteractive">
+//         {`
+// !function (w, d, t) {
+//   w.TiktokAnalyticsObject=t;
+//   var ttq=w[t]=w[t]||[];
+//   ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+//   ttq.setAndDefer=function(t,e){
+//     t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}
+//   };
+//   for(var i=0;i<ttq.methods.length;i++) ttq.setAndDefer(ttq,ttq.methods[i]);
+//   ttq.load=function(e){
+//     var n=document.createElement("script");
+//     n.async=true;
+//     n.src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid="+e+"&lib=ttq";
+//     document.head.appendChild(n);
+//   };
+//   ttq.load('D5BOA63C77U9GN88CKMG');
+//   ttq.page();
+// }(window, document, 'ttq');
+//         `}
+//       </Script>
+
+//       <meta
+//         name="google-site-verification"
+//         content="AahdyWclyu6WA9OgOzl20rLRIlULacCEl27vruRgPSQ"
+//       />
+
+//       <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17693165640">
+// </script>
+// <script>
+//   window.dataLayer = window.dataLayer || [];
+//   function gtag(){dataLayer.push(arguments);}
+//   gtag('js', new Date());
+
+//   gtag('config', 'AW-17693165640');
+// </script>
+
+//       <head />
+
+//       <body
+//         className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}
+//       >
+//          <Toaster position="top-right" />
+//         <WhatsAppFloat />
+//         {/* <SantaWaving /> */}
+//         {/* <ChristmasSnow /> */}
+//         {children}
+//       </body>
+//     </html>
+//   );
+// }
+ 
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* TikTok Pixel */}
-      <Script id="tiktok-pixel" strategy="afterInteractive">
-        {`
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;
-  var ttq=w[t]=w[t]||[];
-  ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
-  ttq.setAndDefer=function(t,e){
-    t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}
-  };
-  for(var i=0;i<ttq.methods.length;i++) ttq.setAndDefer(ttq,ttq.methods[i]);
-  ttq.load=function(e){
-    var n=document.createElement("script");
-    n.async=true;
-    n.src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid="+e+"&lib=ttq";
-    document.head.appendChild(n);
-  };
-  ttq.load('D5BOA63C77U9GN88CKMG');
-  ttq.page();
-}(window, document, 'ttq');
-        `}
-      </Script>
+      <head>
+        {/* Google Site Verification */}
+        <meta
+          name="google-site-verification"
+          content="AahdyWclyu6WA9OgOzl20rLRIlULacCEl27vruRgPSQ"
+        />
 
-      <meta
-        name="google-site-verification"
-        content="AahdyWclyu6WA9OgOzl20rLRIlULacCEl27vruRgPSQ"
-      />
+        {/* Google Ads */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17693165640"
+          strategy="afterInteractive"
+        />
 
-      <head />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17693165640');
+          `}
+        </Script>
 
-      <body
-        className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}
-      >
-         <Toaster position="top-right" />
+        {/* TikTok Pixel */}
+        <Script id="tiktok-pixel" strategy="afterInteractive">
+          {`
+            !function (w, d, t) {
+              w.TiktokAnalyticsObject=t;
+              var ttq=w[t]=w[t]||[];
+              ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+              ttq.setAndDefer=function(t,e){
+                t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}
+              };
+              for(var i=0;i<ttq.methods.length;i++) ttq.setAndDefer(ttq,ttq.methods[i]);
+              ttq.load=function(e){
+                var n=document.createElement("script");
+                n.async=true;
+                n.src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid="+e+"&lib=ttq";
+                document.head.appendChild(n);
+              };
+              ttq.load('D5BOA63C77U9GN88CKMG');
+              ttq.page();
+            }(window, document, 'ttq');
+          `}
+        </Script>
+      </head>
+
+      <body className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}>
+        <Toaster position="top-right" />
         <WhatsAppFloat />
-        {/* <SantaWaving /> */}
-        {/* <ChristmasSnow /> */}
         {children}
       </body>
     </html>
