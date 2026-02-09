@@ -43,7 +43,7 @@ export default function CarListV2({ h5 }) {
                           
   {cars
     .filter((car) => car.make === "Dodge") // 🔥 only Dodge
-    .slice(0, 2) // optional: show max 2
+    .slice(0,1) // optional: show max 2
     .map((car) => (
       <div
         className="col-12 col-sm-6 col-md-6 col-xl-6"
