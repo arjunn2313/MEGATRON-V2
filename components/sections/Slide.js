@@ -202,10 +202,10 @@ export default function Slide() {
                 </div>
               </div>
 
-              <div className="box">
+              {/* <div className="box">
                 <span>+(971) 565049928</span>
                 <span>optimusmegatroncars@gmail.com</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </SwiperSlide>

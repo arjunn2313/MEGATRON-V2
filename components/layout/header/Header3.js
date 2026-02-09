@@ -58,7 +58,8 @@ export default function Header3({
           </div>
         </div>
         <div className="header-lower">
-          <div className="themesflat-container">
+          {/* <div className="themesflat-container"> */}
+          <div className="themesflat-containe">
             <div className="row">
               <div className="col-lg-12">
                 <div className="header-style2 flex justify-space align-center">
