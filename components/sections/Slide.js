@@ -168,7 +168,7 @@ export default function Slide() {
         <SwiperSlide>
           <div className="tf-slide-item ">
             <div className="slide-item-image">
-              <img src="/assets/images/slide/p.jpg" alt="Used Cars" />
+              <img src="/assets/images/slide/p.webp" alt="Used Cars" />
               <div className="overlay" />
             </div>
 
@@ -220,7 +220,7 @@ export default function Slide() {
                   srcSet="/assets/images/slide/offer-portrait.png"
                 />
                 <img
-                  src="/assets/images/slide/offers.png"
+                  src="/assets/images/slide/offers.webp"
                   alt="Car Showroom Offer"
                 />
               </picture>

@@ -21,6 +21,8 @@ export default function Home() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <Slide />
+   
+
                 <ChristmasOffers/>
                 {/* <SlideSearchCar /> */}
                 <IconBox />

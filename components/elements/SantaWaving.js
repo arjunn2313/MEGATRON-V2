@@ -3,7 +3,7 @@
 export default function SantaWaving() {
   return (
     <img
-      src="/assets/santa.gif"
+      src="/assets/ramdan.gif"
       alt="Santa Waving"
       className="santa-waving"
     />

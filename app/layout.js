@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { DM_Sans, Plus_Jakarta_Sans } from "next/font/google";
 import SantaWaving from "@/components/elements/SantaWaving";
 import WhatsAppFloat from "@/components/elements/Whatsapp";
+import RamadanGlow from "@/components/elements/RamadanGlow";
 const jakarta = Plus_Jakarta_Sans({
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
@@ -164,6 +165,8 @@ export default function RootLayout({ children }) {
       <body className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}>
         <Toaster position="top-right" />
         <WhatsAppFloat />
+        <SantaWaving />
+        <RamadanGlow />
         {children}
       </body>
     </html>
