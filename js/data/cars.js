@@ -1,5 +1,579 @@
 const cars = [
   {
+  id: "ford-mustang-2020",
+  slug: "ford-mustang-2020",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2020,
+
+  title: "Ford Mustang 2020",
+  make: "Ford",
+  model: "Mustang",
+  bodyType: "Coupe",
+
+  rating: 4,
+  reviews: 7,
+
+  currency: "AED",
+  price: 145000,
+  salePrice: 138000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/ford-mustang/mustang (1).jpg",
+    "/assets/images/ford-mustang/mustang (2).jpg",
+    "/assets/images/ford-mustang/mustang (3).jpg",
+    "/assets/images/ford-mustang/mustang (4).jpg",
+    "/assets/images/ford-mustang/mustang (5).jpg",
+    "/assets/images/ford-mustang/mustang (6).jpg",
+    "/assets/images/ford-mustang/mustang (7).jpg",
+    "/assets/images/ford-mustang/mustang (8).jpg",
+    "/assets/images/ford-mustang/mustang (9).jpg",
+    "/assets/images/ford-mustang/mustang (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "66,423 miles",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "FMST2020",
+    vin: "1FA6P8TH6L5123456",
+    year: 2020,
+    mileage: "66,423 miles",
+    transmission: "Automatic",
+    engineSize: "2.3L Turbo",
+    driveType: "RWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Black",
+    seats: 4,
+    cityMPG: 21,
+    highwayMPG: 32,
+  },
+
+  description:
+    "Sporty Ford Mustang 2020 in black with rear-wheel drive and automatic transmission. Powerful performance, iconic muscle car design, and comfortable interior make it perfect for enthusiasts and daily driving.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Stability control",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Rear spoiler",
+      "Dual exhaust",
+    ],
+    interior: [
+      "Leather seats",
+      "Digital instrument cluster",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual-zone climate control",
+      "Electric seat adjustment",
+    ],
+  },
+},
+  {
+  id: "mini-cooper-s-countryman-2020",
+  slug: "mini-cooper-s-countryman-2020",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2020,
+
+  title: "Mini Cooper S Countryman 2020",
+  make: "Mini",
+  model: "Cooper S Countryman",
+  bodyType: "SUV",
+
+  rating: 4,
+  reviews: 6,
+
+  currency: "AED",
+  price: 98000,
+  salePrice: 92500,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/mini/countryman (1).jpg",
+    "/assets/images/mini/countryman (2).jpg",
+    "/assets/images/mini/countryman (3).jpg",
+    "/assets/images/mini/countryman (4).jpg",
+    "/assets/images/mini/countryman (5).jpg",
+    "/assets/images/mini/countryman (6).jpg",
+    "/assets/images/mini/countryman (7).jpg",
+    "/assets/images/mini/countryman (8).jpg",
+    "/assets/images/mini/countryman (9).jpg",
+    "/assets/images/mini/countryman (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "96,945 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "MINICSM2020",
+    vin: "WMZYS7C03L3A12345",
+    year: 2020,
+    mileage: "96,945 km",
+    transmission: "Automatic",
+    engineSize: "2.0L Turbo",
+    driveType: "FWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Red",
+    seats: 5,
+    cityMPG: 23,
+    highwayMPG: 31,
+  },
+
+  description:
+    "Sporty Mini Cooper S Countryman 2020 with front-wheel drive and turbocharged engine. Stylish design, responsive performance, and comfortable interior make it a great compact SUV for city and highway driving.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Stability control",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Fog lamps",
+      "Roof rails",
+    ],
+    interior: [
+      "Leather seats",
+      "Digital display",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Automatic climate control",
+      "Electric seat adjustment",
+    ],
+  },
+},
+  {
+  id: "jeep-wrangler-2025",
+  slug: "jeep-wrangler-2025",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2025,
+
+  title: "Jeep Wrangler 2025",
+  make: "Jeep",
+  model: "Wrangler",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 1,
+
+  currency: "AED",
+  price: 215000,
+  salePrice: 208000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/jeep-wranglers/wrangler (1).jpg",
+    "/assets/images/jeep-wranglers/wrangler (2).jpg",
+    "/assets/images/jeep-wranglers/wrangler (3).jpg",
+    "/assets/images/jeep-wranglers/wrangler (4).jpg",
+    "/assets/images/jeep-wranglers/wrangler (5).jpg",
+    "/assets/images/jeep-wranglers/wrangler (6).jpg",
+    "/assets/images/jeep-wranglers/wrangler (7).jpg",
+    "/assets/images/jeep-wranglers/wrangler (8).jpg",
+    "/assets/images/jeep-wranglers/wrangler (9).jpg",
+    "/assets/images/jeep-wranglers/wrangler (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "50 km",
+    transmission: "Manual",
+  },
+
+  overview: {
+    stockNumber: "JPWR2025MT",
+    vin: "1C4HJXDN5PW123456",
+    year: 2025,
+    mileage: "50 km",
+    transmission: "Manual",
+    engineSize: "2.0L Turbo",
+    driveType: "4X4",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Orange",
+    seats: 5,
+    cityMPG: 17,
+    highwayMPG: 23,
+  },
+
+  description:
+    "Jeep Wrangler 2025 with extremely low mileage. Equipped with manual transmission and true 4X4 drivetrain for serious off-road capability. Rugged design combined with modern comfort features.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Hill descent control",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Fog lamps",
+      "Removable roof panels",
+    ],
+    interior: [
+      "Cloth seats",
+      "Touchscreen infotainment",
+      "Cruise control",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual-zone climate control",
+      "Electric windows",
+    ],
+  },
+},{
+  id: "lamborghini-urus-s-2023",
+  slug: "lamborghini-urus-s-2023",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2023,
+
+  title: "Lamborghini Urus S 2023",
+  make: "Lamborghini",
+  model: "Urus S",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 2,
+
+  currency: "AED",
+  price: 1250000,
+  salePrice: 1215000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/lamborghini/urus-s (1).jpg",
+    "/assets/images/lamborghini/urus-s (2).jpg",
+    "/assets/images/lamborghini/urus-s (3).jpg",
+    "/assets/images/lamborghini/urus-s (4).jpg",
+    "/assets/images/lamborghini/urus-s (5).jpg",
+    "/assets/images/lamborghini/urus-s (6).jpg",
+    "/assets/images/lamborghini/urus-s (7).jpg",
+    "/assets/images/lamborghini/urus-s (8).jpg",
+    "/assets/images/lamborghini/urus-s (9).jpg",
+    "/assets/images/lamborghini/urus-s (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "423 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "LURUSS2023",
+    vin: "ZPBUA1ZL4PLA12345",
+    year: 2023,
+    mileage: "423 km",
+    transmission: "Automatic",
+    engineSize: "4.0L Twin Turbo V8",
+    driveType: "4WD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Grey",
+    seats: 5,
+    cityMPG: 12,
+    highwayMPG: 17,
+  },
+
+  description:
+    "Ultra-low mileage Lamborghini Urus S 2023 in grey with only 423 km driven. Powered by a 4.0L twin-turbo V8 engine with 4WD system, delivering extreme performance and luxury. Like-new condition with aggressive styling and premium interior.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360-degree camera",
+    ],
+    exterior: [
+      "Urus S alloy wheels",
+      "LED matrix headlights",
+      "Panoramic sunroof",
+      "Sport exhaust system",
+      "Carbon fiber accents",
+    ],
+    interior: [
+      "Premium leather sport seats",
+      "Digital cockpit",
+      "Dual touchscreen infotainment",
+      "Ambient lighting",
+      "Multi-function sport steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Multi-zone climate control",
+      "Electric seat adjustment",
+      "Premium sound system",
+    ],
+  },
+},
+  {
+  id: "land-rover-defender-2023",
+  slug: "land-rover-defender-2023",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2023,
+
+  title: "Land Rover Defender 2023",
+  make: "Land Rover",
+  model: "Defender",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 5,
+
+  currency: "AED",
+  price: 325000,
+  salePrice: 312000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/landrover-defender/defender (1).jpg",
+    "/assets/images/landrover-defender/defender (2).jpg",
+    "/assets/images/landrover-defender/defender (3).jpg",
+    "/assets/images/landrover-defender/defender (4).jpg",
+    "/assets/images/landrover-defender/defender (5).jpg",
+    "/assets/images/landrover-defender/defender (6).jpg",
+    "/assets/images/landrover-defender/defender (7).jpg",
+    "/assets/images/landrover-defender/defender (8).jpg",
+    "/assets/images/landrover-defender/defender (9).jpg",
+    "/assets/images/landrover-defender/defender (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "30,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "LRDEF2023",
+    vin: "SALEA7AX5P2123456",
+    year: 2023,
+    mileage: "30,000 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Turbo",
+    driveType: "4WD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Grey",
+    seats: 5,
+    cityMPG: 18,
+    highwayMPG: 24,
+  },
+
+  description:
+    "Powerful Land Rover Defender 2023 in grey with 4WD capability and automatic transmission. Rugged off-road performance combined with modern luxury interior and advanced technology features.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Hill descent control",
+      "Lane assist",
+      "360-degree camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Roof rails",
+      "Power tailgate",
+    ],
+    interior: [
+      "Leather seats",
+      "Digital driver display",
+      "Touchscreen infotainment system",
+      "Cruise control",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual-zone climate control",
+      "Electric seat adjustment",
+      "Wireless charging",
+    ],
+  },
+},
+  {
+  id: "nissan-kicks-2019",
+  slug: "nissan-kicks-2019",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
+
+  title: "Nissan Kicks 2019",
+  make: "Nissan",
+  model: "Kicks",
+  bodyType: "SUV",
+
+  rating: 4,
+  reviews: 14,
+
+  currency: "AED",
+  price: 36000,
+  salePrice: 33500,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/nissan-kicks/kicks (1).jpg",
+    "/assets/images/nissan-kicks/kicks (2).jpg",
+    "/assets/images/nissan-kicks/kicks (3).jpg",
+    "/assets/images/nissan-kicks/kicks (4).jpg",
+    "/assets/images/nissan-kicks/kicks (5).jpg",
+    "/assets/images/nissan-kicks/kicks (6).jpg",
+    "/assets/images/nissan-kicks/kicks (7).jpg",
+    "/assets/images/nissan-kicks/kicks (8).jpg",
+
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "158,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "NKCK2019",
+    vin: "3N1CP5CU4KL123456",
+    year: 2019,
+    mileage: "158,000 km",
+    transmission: "Automatic",
+    engineSize: "1.6L",
+    driveType: "2WD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "White",
+    seats: 5,
+    cityMPG: 31,
+    highwayMPG: 36,
+  },
+
+  description:
+    "Economical Nissan Kicks 2019 in white. Smooth automatic transmission, fuel-efficient engine, spacious interior, and practical SUV design. Ideal for city driving and daily commuting.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Stability control",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED daytime running lights",
+      "Roof rails",
+    ],
+    interior: [
+      "Fabric seats",
+      "Touchscreen infotainment",
+      "Cruise control",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Automatic climate control",
+      "Power steering",
+    ],
+  },
+},
+  {
   id: "land-rover-range-rover-velar-dynamic-se-2025",
   slug: "land-rover-range-rover-velar-dynamic-se-2025",
 
