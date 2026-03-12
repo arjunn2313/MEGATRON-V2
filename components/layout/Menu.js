@@ -59,6 +59,7 @@ export default function Menu() {
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">Blog Detail</Link></li>
                     </ul>
                 </li> */}
+                <li className={pathname == "/careers" ? "current" : ""}><Link href="/careers">Careers</Link></li>
                 <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us">Contact us </Link>
                 </li>
             </ul>

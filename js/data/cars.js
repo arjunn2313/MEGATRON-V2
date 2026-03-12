@@ -152,7 +152,7 @@ const cars = [
     cylinders: 4,
     fuelType: "Petrol",
     doors: 5,
-    color: "Red",
+    color: "White",
     seats: 5,
     cityMPG: 23,
     highwayMPG: 31,

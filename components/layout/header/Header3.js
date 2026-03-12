@@ -123,6 +123,9 @@ export default function Header3({
                                                         </ul>
                                                     </li> */}
                           <li>
+                            <Link href="/careers">Careers </Link>
+                          </li>
+                          <li>
                             <Link href="/contact-us">Contact us </Link>
                           </li>
                         </ul>
