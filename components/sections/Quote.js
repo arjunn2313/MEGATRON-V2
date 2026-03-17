@@ -61,7 +61,7 @@ export default function Quote() {
                                     </div>
                                 </div>
                                 <div className="btn-main">
-                                    <Link href="/#" className="button_main_inner">
+                                    <Link href="/car-list" className="button_main_inner">
                                         <p className='text-dark'  > More Listings</p>
                                     </Link>
                                 </div>

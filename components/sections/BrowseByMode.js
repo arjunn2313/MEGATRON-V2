@@ -20,7 +20,7 @@ export default function BrowseByMode() {
               </p>
 
               <div className="btn-main mt-40 wow fadeInUp">
-                <Link href="/listing" className="button_main_inner">
+                <Link href="/car-list" className="button_main_inner">
                   <span>View All Listings</span>
                 </Link>
               </div>

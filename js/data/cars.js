@@ -1,5 +1,785 @@
 const cars = [
   {
+  id: "mercedes-560-sel-1989",
+  slug: "mercedes-560-sel-1989",
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 1989,
+
+  title: "Mercedes-Benz 560 SEL 1989",
+  make: "Mercedes-Benz",
+  model: "560 SEL",
+  bodyType: "Sedan",
+
+  rating: 4,
+  reviews: 5,
+
+  currency: "AED",
+  price: 45000,
+  salePrice: 42000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/560sel/560sel (1).jpg",
+    "/assets/images/560sel/560sel (2).jpg",
+    "/assets/images/560sel/560sel (3).jpg",
+    "/assets/images/560sel/560sel (4).jpg",
+    "/assets/images/560sel/560sel (5).jpg",
+    "/assets/images/560sel/560sel (6).jpg",
+    "/assets/images/560sel/560sel (7).jpg",
+    "/assets/images/560sel/560sel (8).jpg",
+    "/assets/images/560sel/560sel (9).jpg",
+    "/assets/images/560sel/560sel (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "157,531 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "MB5601989",
+    vin: "WDBCA39D0KA123456",
+    year: 1989,
+    mileage: "157,531 km",
+    transmission: "Automatic",
+    engineSize: "5.6L V8",
+    driveType: "RWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Metalic White",
+    seats: 5,
+  },
+
+  description:
+    "Classic Mercedes-Benz 560 SEL with V8 engine, luxury interior and smooth ride.",
+
+  features: {
+    safety: ["ABS", "Airbags", "Traction control"],
+    exterior: ["Alloy wheels", "Chrome trim"],
+    interior: ["Leather seats", "Wood trim", "Power seats"],
+    convenience: ["Power steering", "AC", "Central lock"],
+  },
+},
+
+{
+  id: "mercedes-slc-300-2019",
+  slug: "mercedes-slc-300-2019",
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
+
+  title: "Mercedes-Benz SLC 300 2019",
+  make: "Mercedes-Benz",
+  model: "SLC 300",
+  bodyType: "Convertible",
+
+  rating: 4,
+  reviews: 4,
+
+  currency: "AED",
+  price: 135000,
+  salePrice: 128000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/slc300/slc300 (1).jpg",
+    "/assets/images/slc300/slc300 (2).jpg",
+    "/assets/images/slc300/slc300 (3).jpg",
+    "/assets/images/slc300/slc300 (4).jpg",
+    "/assets/images/slc300/slc300 (5).jpg",
+    "/assets/images/slc300/slc300 (6).jpg",
+    "/assets/images/slc300/slc300 (7).jpg",
+    "/assets/images/slc300/slc300 (8).jpg",
+    "/assets/images/slc300/slc300 (9).jpg",
+    "/assets/images/slc300/slc300 (10).jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "92,119 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "SLC2019",
+    vin: "WDDPK3JA0KF123456",
+    year: 2019,
+    mileage: "92,119 km",
+    transmission: "Automatic",
+    engineSize: "2.0L Turbo",
+    driveType: "RWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Black",
+    seats: 2,
+  },
+
+  description:
+    "Sporty Mercedes-Benz SLC 300 convertible with turbo engine and luxury interior.",
+
+  features: {
+    safety: ["ABS", "Airbags", "Camera"],
+    exterior: ["Alloy wheels", "LED lights", "Convertible roof"],
+    interior: ["Leather seats", "Digital display"],
+    convenience: ["Keyless", "Push start", "Climate control"],
+  },
+},
+
+{
+  id: "range-rover-velar-2020",
+  slug: "range-rover-velar-2020",
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2020,
+
+  title: "Range Rover Velar 2020",
+  make: "Land Rover",
+  model: "Velar",
+  bodyType: "SUV",
+
+  rating: 4,
+  reviews: 6,
+
+  currency: "AED",
+  price: 125000,
+  salePrice: 118000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/velar/velar (1).jpg",
+    "/assets/images/velar/velar (2).jpg",
+    "/assets/images/velar/velar (3).jpg",
+    "/assets/images/velar/velar (4).jpg",
+    "/assets/images/velar/velar (5).jpg",
+    "/assets/images/velar/velar (6).jpg",
+    "/assets/images/velar/velar (7).jpg",
+    "/assets/images/velar/velar (8).jpg",
+    "/assets/images/velar/velar (9).jpg",
+    "/assets/images/velar/velar (10).jpg",
+  
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "154,818 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "VEL2020",
+    vin: "SALYA2EX4LA123456",
+    year: 2020,
+    mileage: "154,818 km",
+    transmission: "Automatic",
+    engineSize: "2.0L",
+    driveType: "AWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Byron Blue Metallic",
+    seats: 5,
+  },
+
+  description:
+    "Luxury Range Rover Velar with AWD, premium interior and smooth drive.",
+
+  features: {
+    safety: ["ABS", "Airbags", "360 camera", "Lane assist"],
+    exterior: ["Alloy wheels", "LED", "Sunroof"],
+    interior: ["Leather", "Touchscreen", "Ambient light"],
+    convenience: ["Keyless", "Push start", "Electric seats"],
+  },
+},
+
+{
+  id: "chevrolet-camaro-2020",
+  slug: "chevrolet-camaro-2020",
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2020,
+
+  title: "Chevrolet Camaro 2020",
+  make: "Chevrolet",
+  model: "Camaro",
+  bodyType: "Coupe",
+
+  rating: 4,
+  reviews: 5,
+
+  currency: "AED",
+  price: 140000,
+  salePrice: 132000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/camaro/camaro (1).jpg",
+    "/assets/images/camaro/camaro (2).jpg",
+    "/assets/images/camaro/camaro (3).jpg",
+    "/assets/images/camaro/camaro (4).jpg",
+    "/assets/images/camaro/camaro (5).jpg",
+    "/assets/images/camaro/camaro (6).jpg",
+    "/assets/images/camaro/camaro (7).jpg",
+    "/assets/images/camaro/camaro (8).jpg",
+    "/assets/images/camaro/camaro (9).jpg",
+    "/assets/images/camaro/camaro (10).jpg",
+  
+
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "98,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "CAM2020",
+    vin: "1G1FE1R79L0123456",
+    year: 2020,
+    mileage: "98,000 km",
+    transmission: "Automatic",
+    engineSize: "2.0L Turbo",
+    driveType: "RWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Blue",
+    seats: 4,
+  },
+
+  description:
+    "Chevrolet Camaro 2020 sporty coupe with strong engine and RWD performance.",
+
+  features: {
+    safety: ["ABS", "Airbags", "Camera"],
+    exterior: ["Alloy wheels", "LED", "Spoiler"],
+    interior: ["Sport seats", "Display"],
+    convenience: ["Keyless", "Push start", "AC"],
+  },
+},
+  {
+  id: "cadillac-escalade-600-2023",
+  slug: "cadillac-escalade-600-2023",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2023,
+
+  title: "Cadillac Escalade 600 2023",
+  make: "Cadillac",
+  model: "Escalade 600",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 3,
+
+  currency: "AED",
+  price: 420000,
+  salePrice: 405000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/cadillac/escalade (8).jpg",
+    "/assets/images/cadillac/escalade (2).jpg",
+    "/assets/images/cadillac/escalade (3).jpg",
+    "/assets/images/cadillac/escalade (4).jpg",
+    "/assets/images/cadillac/escalade (5).jpg",
+    "/assets/images/cadillac/escalade (6).jpg",
+    "/assets/images/cadillac/escalade (7).jpg",
+    "/assets/images/cadillac/escalade (1).jpg",
+    "/assets/images/cadillac/escalade (9).jpg",
+    "/assets/images/cadillac/escalade (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "79,424 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "ESC6002023",
+    vin: "1GYS4MKJ8PR123456",
+    year: 2023,
+    mileage: "79,424 km",
+    transmission: "Automatic",
+    engineSize: "6.2L V8",
+    driveType: "AWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Black",
+    seats: 7,
+    cityMPG: 14,
+    highwayMPG: 19,
+  },
+
+  description:
+    "Luxury Cadillac Escalade 600 2023 in black with powerful V8 engine and AWD system. Spacious 7-seater SUV with premium interior, advanced technology, and strong road presence. Well maintained and excellent condition.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360-degree camera"
+    ],
+    exterior: [
+      "Premium alloy wheels",
+      "LED headlights",
+      "Panoramic sunroof",
+      "Power tailgate",
+      "Chrome exterior package"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital dashboard",
+      "Large touchscreen infotainment",
+      "Ambient lighting",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Tri-zone climate control",
+      "Electric seat adjustment",
+      "Premium sound system"
+    ]
+  }
+},
+  {
+  id: "chevrolet-corvette-2021",
+  slug: "chevrolet-corvette-2021",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2021,
+
+  title: "Chevrolet Corvette 2021",
+  make: "Chevrolet",
+  model: "Corvette",
+  bodyType: "Coupe",
+
+  rating: 5,
+  reviews: 4,
+
+  currency: "AED",
+  price: 310000,
+  salePrice: 298000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/chevrolet/corvette (1).jpg",
+    "/assets/images/chevrolet/corvette (2).jpg",
+    "/assets/images/chevrolet/corvette (3).jpg",
+    "/assets/images/chevrolet/corvette (4).jpg",
+    "/assets/images/chevrolet/corvette (5).jpg",
+    "/assets/images/chevrolet/corvette (6).jpg",
+    "/assets/images/chevrolet/corvette (7).jpg",
+    "/assets/images/chevrolet/corvette (8).jpg",
+    "/assets/images/chevrolet/corvette (9).jpg",
+    "/assets/images/chevrolet/corvette (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "52,014 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "CORV2021",
+    vin: "1G1Y82D46M5123456",
+    year: 2021,
+    mileage: "52,014 km",
+    transmission: "Automatic",
+    engineSize: "6.2L V8",
+    driveType: "RWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Red",
+    seats: 2,
+    cityMPG: 15,
+    highwayMPG: 27,
+  },
+
+  description:
+    "Chevrolet Corvette 2021 in red with powerful 6.2L V8 engine and rear-wheel drive. Iconic sports car with aggressive styling, premium interior, and thrilling performance. Well maintained with excellent condition.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Stability control",
+      "Rear view camera",
+      "Parking sensors"
+    ],
+    exterior: [
+      "Sport alloy wheels",
+      "LED headlights",
+      "Quad exhaust",
+      "Rear spoiler"
+    ],
+    interior: [
+      "Leather sport seats",
+      "Digital cockpit",
+      "Touchscreen infotainment",
+      "Heads-up display",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual-zone climate control",
+      "Electric seat adjustment",
+      "Premium sound system"
+    ]
+  }
+},
+  {
+  id: "audi-rs6-2023",
+  slug: "audi-rs6-2023",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2023,
+
+  title: "Audi RS6 2023",
+  make: "Audi",
+  model: "RS6",
+  bodyType: "Wagon",
+
+  rating: 5,
+  reviews: 3,
+
+  currency: "AED",
+  price: 520000,
+  salePrice: 505000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+      "/assets/images/audi/rs6 (10).jpg",
+    "/assets/images/audi/rs6 (1).jpg",
+    "/assets/images/audi/rs6 (2).jpg",
+    "/assets/images/audi/rs6 (4).jpg",
+    "/assets/images/audi/rs6 (5).jpg",
+    "/assets/images/audi/rs6 (6).jpg",
+    "/assets/images/audi/rs6 (7).jpg",
+    "/assets/images/audi/rs6 (8).jpg",
+    "/assets/images/audi/rs6 (9).jpg",
+    "/assets/images/audi/rs6 (3).jpg",
+  
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "30,114 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "AUDIRS62023",
+    vin: "WAUZZZF20PN123456",
+    year: 2023,
+    mileage: "30,114 km",
+    transmission: "Automatic",
+    engineSize: "4.0L Twin Turbo V8",
+    driveType: "AWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Grey",
+    seats: 5,
+    cityMPG: 15,
+    highwayMPG: 22,
+  },
+
+  description:
+    "Audi RS6 2023 in grey with powerful twin-turbo V8 engine and AWD system. High-performance wagon with premium interior, aggressive styling, and advanced technology. Excellent condition with low mileage.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360-degree camera"
+    ],
+    exterior: [
+      "RS alloy wheels",
+      "LED matrix headlights",
+      "Panoramic roof",
+      "Sport exhaust"
+    ],
+    interior: [
+      "RS sport seats",
+      "Digital cockpit",
+      "Touchscreen infotainment",
+      "Ambient lighting",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Quad-zone climate control",
+      "Electric seat adjustment",
+      "Premium sound system"
+    ]
+  }
+},
+  {
+  id: "bentley-continental-gt-2022",
+  slug: "bentley-continental-gt-2022",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2022,
+
+  title: "Bentley Continental GT 2022",
+  make: "Bentley",
+  model: "Continental GT",
+  bodyType: "Coupe",
+
+  rating: 5,
+  reviews: 2,
+
+  currency: "AED",
+  price: 880000,
+  salePrice: 850000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+      "/assets/images/continentalgt/continentalgt (9).jpg",
+    "/assets/images/continentalgt/continentalgt (10).jpg",
+    "/assets/images/continentalgt/continentalgt (1).jpg",
+    "/assets/images/continentalgt/continentalgt (2).jpg",
+    "/assets/images/continentalgt/continentalgt (3).jpg",
+    "/assets/images/continentalgt/continentalgt (4).jpg",
+    "/assets/images/continentalgt/continentalgt (5).jpg",
+    "/assets/images/continentalgt/continentalgt (6).jpg",
+    "/assets/images/continentalgt/continentalgt (7).jpg",
+    "/assets/images/continentalgt/continentalgt (8).jpg",
+  
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "31,407 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BENTGT2022",
+    vin: "SCBDG4ZG9NC123457",
+    year: 2022,
+    mileage: "31,407 km",
+    transmission: "Automatic",
+    engineSize: "4.0L Twin Turbo V8",
+    driveType: "AWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "White",
+    seats: 4,
+    cityMPG: 15,
+    highwayMPG: 23,
+  },
+
+  description:
+    "Luxury Bentley Continental GT 2022 in white with AWD and twin-turbo V8 engine. Premium handcrafted interior, powerful performance, and smooth ride quality. Well maintained with low mileage.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360-degree camera",
+    ],
+    exterior: [
+      "Premium alloy wheels",
+      "LED matrix headlights",
+      "Soft-close doors",
+      "Quad exhaust",
+    ],
+    interior: [
+      "Handcrafted leather seats",
+      "Digital cockpit",
+      "Rotating infotainment display",
+      "Ambient lighting",
+      "Heated & ventilated seats",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Multi-zone climate control",
+      "Electric seat adjustment",
+      "Premium sound system",
+    ],
+  },
+},
+  {
+  id: "bmw-x6-2018",
+  slug: "bmw-x6-2018",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2018,
+
+  title: "BMW X6 2018",
+  make: "BMW",
+  model: "X6",
+  bodyType: "SUV Coupe",
+
+  rating: 4,
+  reviews: 9,
+
+  currency: "AED",
+  price: 92000,
+  salePrice: 86500,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/bmw-x6-2018/x6 (1).jpg",
+    "/assets/images/bmw-x6-2018/x6 (2).jpg",
+    "/assets/images/bmw-x6-2018/x6 (3).jpg",
+    "/assets/images/bmw-x6-2018/x6 (4).jpg",
+    "/assets/images/bmw-x6-2018/x6 (5).jpg",
+    "/assets/images/bmw-x6-2018/x6 (6).jpg",
+    "/assets/images/bmw-x6-2018/x6 (7).jpg",
+    "/assets/images/bmw-x6-2018/x6 (8).jpg",
+    "/assets/images/bmw-x6-2018/x6 (9).jpg",
+    "/assets/images/bmw-x6-2018/x6 (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "165,435 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BMX62018",
+    vin: "WBAXX6100J0A12345",
+    year: 2018,
+    mileage: "165,435 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Turbo",
+    driveType: "AWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Grey",
+    seats: 5,
+    cityMPG: 17,
+    highwayMPG: 24,
+  },
+
+  description:
+    "BMW X6 2018 in grey with AWD drivetrain and powerful turbo engine. Sporty coupe-style SUV with premium interior, smooth automatic transmission, and strong performance. Well maintained and ready to drive.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Fog lamps",
+      "Sunroof",
+    ],
+    interior: [
+      "Leather seats",
+      "Digital display",
+      "Touchscreen infotainment",
+      "Cruise control",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual-zone climate control",
+      "Electric seat adjustment",
+    ],
+  },
+},
+  {
   id: "ford-mustang-2020",
   slug: "ford-mustang-2020",
 
@@ -2176,15 +2956,15 @@ const cars = [
     },
   },
   {
-    id: "bmw-x6-m60i-2025",
-    slug: "bmw-x6-m60i-2025",
+    id: "bmw-x6-m60i-2024",
+    slug: "bmw-x6-m60i-2024",
 
     featured: false,
     discountPercent: 0,
     condition: "Used",
-    year: 2025,
+    year: 2024,
 
-    title: "BMW X6 M60i 2025",
+    title: "BMW X6 M60i 2024",
     make: "BMW",
     model: "X6 M60i",
     bodyType: "SUV Coupe",
@@ -2225,7 +3005,7 @@ const cars = [
     overview: {
       stockNumber: "BMX6M60I25",
       vin: "WBAX6M60I25A12345",
-      year: 2025,
+      year: 2024,
       mileage: "10,000 km",
       transmission: "Automatic",
       engineSize: "4.4L Twin Turbo V8",
@@ -2276,8 +3056,8 @@ const cars = [
     /* =========================
      IDENTIFICATION
   ========================== */
-    id: "bmw-x6-2019",
-    slug: "bmw-x6-2019",
+    id: "bmw-x6-2014",
+    slug: "bmw-x6-2014",
 
     /* =========================
      BADGES / FLAGS
@@ -2285,12 +3065,12 @@ const cars = [
     featured: false,
     discountPercent: 0,
     condition: "Used",
-    year: 2019,
+    year: 2014,
 
     /* =========================
      BASIC DISPLAY INFO (Listing)
   ========================== */
-    title: "BMW X6 2019",
+    title: "BMW X6 2014",
     make: "BMW",
     model: "X6",
     bodyType: "SUV Coupe",
@@ -2346,7 +3126,7 @@ const cars = [
     overview: {
       stockNumber: "BMX62019",
       vin: "WBAXX6100KZB12345", // placeholder VIN
-      year: 2019,
+      year: 2014,
       mileage: "111,000 km",
       transmission: "Automatic",
       engineSize: "3.0L Turbo",
@@ -2364,7 +3144,7 @@ const cars = [
      DESCRIPTION (Details page)
   ========================== */
     description:
-      "Powerful and luxurious BMW X6 2019 in excellent condition. Features a strong turbo engine, AWD capability, premium interior, and sporty coupe-style design. Perfect blend of performance, comfort, and style.",
+      "Powerful and luxurious BMW X6 2014 in excellent condition. Features a strong turbo engine, AWD capability, premium interior, and sporty coupe-style design. Perfect blend of performance, comfort, and style.",
 
     /* =========================
      FEATURES (Details page)
@@ -3499,8 +4279,8 @@ const cars = [
     /* =========================
      IDENTIFICATION
   ========================== */
-    id: "range-rover-evoque-ingenium-2021",
-    slug: "range-rover-evoque-ingenium-2021",
+    id: "range-rover-evoque-ingenium-2022",
+    slug: "range-rover-evoque-ingenium-2022",
 
     /* =========================
      BADGES / FLAGS
@@ -3508,12 +4288,12 @@ const cars = [
     featured: true,
     discountPercent: 0,
     condition: "Used",
-    year: 2021,
+    year: 2022,
 
     /* =========================
      BASIC DISPLAY INFO (Listing)
   ========================== */
-    title: "Range Rover Evoque Ingenium 2021",
+    title: "Range Rover Evoque Ingenium 2022",
     make: "Land Rover",
     model: "Range Rover Evoque Ingenium",
     bodyType: "SUV",
@@ -3569,7 +4349,7 @@ const cars = [
     overview: {
       stockNumber: "RRE2021",
       vin: "SALZJ2FX1NH167442",
-      year: 2021,
+      year: 2022,
       mileage: "64,500 miles",
       transmission: "9-speed Automatic",
       engineSize: "2.0L Ingenium Turbo I4",

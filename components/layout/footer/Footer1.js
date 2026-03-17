@@ -13,7 +13,7 @@ export default function Footer1() {
               {/* <img className="icon-ft" src="/assets/images/page/shape-footer.png" alt="" /> */}
             </div>
             <div className="col-lg-6 col-md-12 col-12 t-al-right pt-20">
-              <Link href="/#" className="btn-sell">
+              <Link href="/contact-us" className="btn-sell">
                 Sell your car today
               </Link>
             </div>
