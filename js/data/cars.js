@@ -1,5 +1,201 @@
 const cars = [
   {
+  id: "porsche-macan-2024",
+  slug: "porsche-macan-2024",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2024,
+
+  title: "Porsche Macan 2024",
+  make: "Porsche",
+  model: "Macan",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 3,
+
+  currency: "AED",
+  price: 265000,
+  salePrice: 252000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+     "/assets/images/porsche-macan/macan (6).jpg",
+         "/assets/images/porsche-macan/macan (4).jpg",
+    "/assets/images/porsche-macan/macan (5).jpg",
+    "/assets/images/porsche-macan/macan (1).jpg",
+    "/assets/images/porsche-macan/macan (2).jpg",
+    "/assets/images/porsche-macan/macan (3).jpg",
+,
+   
+    "/assets/images/porsche-macan/macan (7).jpg",
+    "/assets/images/porsche-macan/macan (8).jpg",
+    "/assets/images/porsche-macan/macan (9).jpg",
+    "/assets/images/porsche-macan/macan (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "19,731 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "PMAC2024",
+    vin: "WP1ZZZ95ZRL123456",
+    year: 2024,
+    mileage: "19,731 km",
+    transmission: "Automatic",
+    engineSize: "2.0L Turbo",
+    driveType: "AWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Black",
+    seats: 5,
+    cityMPG: 20,
+    highwayMPG: 26,
+  },
+
+  description:
+    "Porsche Macan 2024 in black with AWD and low mileage. Sporty luxury SUV with turbo engine, premium interior, and smooth performance. Excellent condition.",
+
+  features: {
+    safety: [
+      "Front airbags",
+      "Side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "360 camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Panoramic roof",
+      "Power tailgate"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital display",
+      "Touchscreen infotainment",
+      "Ambient lighting"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual climate control",
+      "Electric seats",
+      "Cruise control"
+    ],
+  },
+},
+  {
+  id: "mercedes-benz-e220-2021",
+  slug: "mercedes-benz-e220-2021",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2021,
+
+  title: "Mercedes-Benz E220 2021",
+  make: "Mercedes-Benz",
+  model: "E220",
+  bodyType: "Sedan",
+
+  rating: 4,
+  reviews: 6,
+
+  currency: "AED",
+  price: 168000,
+  salePrice: 159000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/mercedes-e220/e220 (1).jpg",
+    "/assets/images/mercedes-e220/e220 (2).jpg",
+    "/assets/images/mercedes-e220/e220 (3).jpg",
+    "/assets/images/mercedes-e220/e220 (4).jpg",
+    "/assets/images/mercedes-e220/e220 (5).jpg",
+    "/assets/images/mercedes-e220/e220 (6).jpg",
+    "/assets/images/mercedes-e220/e220 (7).jpg",
+    "/assets/images/mercedes-e220/e220 (8).jpg",
+    "/assets/images/mercedes-e220/e220 (9).jpg",
+    "/assets/images/mercedes-e220/e220 (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "33,856 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "MBE2202021",
+    vin: "W1K2130421A123456",
+    year: 2021,
+    mileage: "33,856 km",
+    transmission: "Automatic",
+    engineSize: "2.0L Turbo",
+    driveType: "AWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Blue",
+    seats: 5,
+    cityMPG: 23,
+    highwayMPG: 31,
+  },
+
+  description:
+    "Mercedes-Benz E220 2021 in blue with AWD and low mileage. Smooth automatic transmission, premium interior, and comfortable luxury driving experience.",
+
+  features: {
+    safety: [
+      "Front airbags",
+      "Side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Rear camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Sunroof",
+      "Chrome trim"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital cluster",
+      "Touchscreen",
+      "Ambient lighting"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual climate control",
+      "Electric seats",
+      "Cruise control"
+    ],
+  },
+},
+  {
   id: "mercedes-560-sel-1989",
   slug: "mercedes-560-sel-1989",
   featured: false,
