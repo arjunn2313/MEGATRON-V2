@@ -98,18 +98,18 @@ const cars = [
     ],
   },
 },
-  {
-  id: "mercedes-benz-e220-2021",
-  slug: "mercedes-benz-e220-2021",
+{
+  id: "mercedes-benz-e250-2021",
+  slug: "mercedes-benz-e250-2021",
 
   featured: false,
   discountPercent: 0,
   condition: "Used",
   year: 2021,
 
-  title: "Mercedes-Benz E220 2021",
+  title: "Mercedes-Benz E250 2021",
   make: "Mercedes-Benz",
-  model: "E220",
+  model: "E250",
   bodyType: "Sedan",
 
   rating: 4,
@@ -163,7 +163,7 @@ const cars = [
   },
 
   description:
-    "Mercedes-Benz E220 2021 in blue with AWD and low mileage. Smooth automatic transmission, premium interior, and comfortable luxury driving experience.",
+    "Mercedes-Benz E250 2021 in blue with AWD and low mileage. Smooth automatic transmission, premium interior, and comfortable luxury driving experience.",
 
   features: {
     safety: [
