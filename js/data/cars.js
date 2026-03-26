@@ -2407,7 +2407,7 @@ const cars = [
       mileage: "49,414 km",
       transmission: "Automatic",
       engineSize: "3.0L Twin Turbo V6",
-      driveType: "4WD",
+      driveType: "AWD",
       cylinders: 6,
       fuelType: "Petrol",
       doors: 5,
@@ -3104,96 +3104,7 @@ const cars = [
     },
   },
 
-  {
-    id: "mercedes-benz-cla-250-2014",
-    slug: "mercedes-benz-cla-250-2014",
-
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2014,
-
-    title: "Mercedes-Benz CLA 250 2014",
-    make: "Mercedes-Benz",
-    model: "CLA 250",
-    bodyType: "Sedan",
-
-    rating: 4,
-    reviews: 11,
-
-    currency: "AED",
-    price: 52000,
-    salePrice: 48500,
-
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Ras Al Khor Auto Market, Dubai",
-    },
-
-    images: [
-      "/assets/images/mercedes-cla250/cla250 (1).jpg",
-      "/assets/images/mercedes-cla250/cla250 (2).jpg",
-      "/assets/images/mercedes-cla250/cla250 (3).jpg",
-      "/assets/images/mercedes-cla250/cla250 (4).jpg",
-      "/assets/images/mercedes-cla250/cla250 (5).jpg",
-      "/assets/images/mercedes-cla250/cla250 (6).jpg",
-      "/assets/images/mercedes-cla250/cla250 (7).jpg",
-      "/assets/images/mercedes-cla250/cla250 (8).jpg",
-      "/assets/images/mercedes-cla250/cla250 (9).jpg",
-      "/assets/images/mercedes-cla250/cla250 (10).jpg",
-    ],
-
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "145,000 km",
-      transmission: "Automatic",
-    },
-
-    overview: {
-      stockNumber: "MBCLA25014",
-      vin: "WDDSJ4EB0EN123456",
-      year: 2014,
-      mileage: "145,000 km",
-      transmission: "Automatic",
-      engineSize: "2.0L Turbo",
-      driveType: "2WD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Black",
-      seats: 5,
-      cityMPG: 26,
-      highwayMPG: 38,
-    },
-
-    description:
-      "Stylish Mercedes-Benz CLA 250 2014 in black. Turbocharged engine, smooth automatic transmission, sporty design, and premium interior. Well maintained and ideal for comfortable daily driving.",
-
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Stability control",
-        "Rear view camera",
-      ],
-      exterior: ["Alloy wheels", "LED daytime running lights", "Fog lamps"],
-      interior: [
-        "Leather seats",
-        "Touchscreen display",
-        "Cruise control",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Automatic climate control",
-        "Power steering",
-      ],
-    },
-  },
+ 
   {
     id: "honda-civic-2022",
     slug: "honda-civic-2022",
