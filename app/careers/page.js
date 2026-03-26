@@ -111,8 +111,8 @@ export default function Page() {
 
           <p className="apply-mail">
             Apply: 
-            <a href="mailto:optimusmegatroncars@gmail.com">
-              optimusmegatroncars@gmail.com
+            <a href="mailto:info@optimusmegatroncars.com">
+              info@optimusmegatroncars.com
             </a>
           </p>
 

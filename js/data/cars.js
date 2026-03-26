@@ -1,5 +1,511 @@
 const cars = [
   {
+  id: "maserati-levante-s-2019",
+  slug: "maserati-levante-s-2019",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
+
+  title: "Maserati Levante S 2019",
+  make: "Maserati",
+  model: "Levante S",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 3,
+
+  currency: "AED",
+  price: 165000,
+  salePrice: 158000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+     "/assets/images/maserati-levante/levante (8).jpg",
+    "/assets/images/maserati-levante/levante (9).jpg",
+    "/assets/images/maserati-levante/levante (10).jpg",
+    "/assets/images/maserati-levante/levante (1).jpg",
+    "/assets/images/maserati-levante/levante (2).jpg",
+    "/assets/images/maserati-levante/levante (3).jpg",
+    "/assets/images/maserati-levante/levante (4).jpg",
+    "/assets/images/maserati-levante/levante (5).jpg",
+    "/assets/images/maserati-levante/levante (6).jpg",
+    "/assets/images/maserati-levante/levante (7).jpg",
+   
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "92,030 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "LEVANTE2019",
+    vin: "ZN661XUA0KX123456",
+    year: 2019,
+    mileage: "92,030 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Twin Turbo V6",
+    driveType: "AWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Black",
+    seats: 5,
+    cityMPG: 18,
+    highwayMPG: 24,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "424 HP"
+    }
+  },
+
+  description:
+    "Maserati Levante S 2019 GCC in black with AWD and automatic transmission. Luxury performance SUV with twin-turbo engine, premium interior, and sporty driving experience.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Blind spot monitoring",
+      "360 camera"
+    ],
+    exterior: [
+      "Premium alloy wheels",
+      "LED headlights",
+      "Panoramic roof",
+      "Power tailgate"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital display",
+      "Touchscreen infotainment",
+      "Ambient lighting"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Dual climate control",
+      "Electric seats"
+    ]
+  }
+},
+  {
+  id: "lexus-nx350-2025",
+  slug: "lexus-nx350-2025",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2025,
+
+  title: "Lexus NX350 2025",
+  make: "Lexus",
+  model: "NX350",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 2,
+
+  currency: "AED",
+  price: 235000,
+  salePrice: 228000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/lexus-nx/1.jpg",
+    "/assets/images/lexus-nx/2.jpg",
+    "/assets/images/lexus-nx/3.jpg",
+    "/assets/images/lexus-nx/4.jpg",
+    "/assets/images/lexus-nx/5.jpg",
+    "/assets/images/lexus-nx/6.jpg",
+    "/assets/images/lexus-nx/7.jpg",
+    "/assets/images/lexus-nx/8.jpg",
+    "/assets/images/lexus-nx/9.jpg",
+    "/assets/images/lexus-nx/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "1,276 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "NX3502025",
+    vin: "JTJHKCFZ0S2123456",
+    year: 2025,
+    mileage: "1,276 km",
+    transmission: "Automatic",
+    engineSize: "2.4L Turbo",
+    driveType: "AWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Black",
+    seats: 5,
+    cityMPG: 22,
+    highwayMPG: 28,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "275 HP"
+    }
+  },
+
+  description:
+    "Lexus NX350 2025 AWD in black with automatic transmission and very low mileage. Luxury compact SUV with turbo performance, premium interior, and advanced safety features.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360 camera"
+    ],
+    exterior: [
+      "Premium alloy wheels",
+      "LED headlights",
+      "Power tailgate",
+      "Sunroof"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital cluster",
+      "Large touchscreen",
+      "Ambient lighting"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Dual climate control",
+      "Electric seats"
+    ]
+  }
+},
+  {
+  id: "mercedes-benz-cla250-2015",
+  slug: "mercedes-benz-cla250-2015",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2015,
+
+  title: "Mercedes Benz CLA 250 2015",
+  make: "Mercedes Benz",
+  model: "CLA 250",
+  bodyType: "Sedan",
+
+  rating: 4,
+  reviews: 5,
+
+  currency: "AED",
+  price: 52000,
+  salePrice: 49500,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/cla250/1.jpg",
+    "/assets/images/cla250/2.jpg",
+    "/assets/images/cla250/3.jpg",
+    "/assets/images/cla250/4.jpg",
+    "/assets/images/cla250/5.jpg",
+    "/assets/images/cla250/6.jpg",
+    "/assets/images/cla250/7.jpg",
+    "/assets/images/cla250/8.jpg",
+    "/assets/images/cla250/9.jpg",
+    "/assets/images/cla250/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "145,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "CLA2502015",
+    vin: "WDDSJ4GB5FN123456",
+    year: 2015,
+    mileage: "145,000 km",
+    transmission: "Automatic",
+    engineSize: "2.0L Turbo",
+    driveType: "AWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Black",
+    seats: 5,
+    cityMPG: 24,
+    highwayMPG: 33,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "208 HP"
+    }
+  },
+
+  description:
+    "Mercedes Benz CLA 250 2015 in black with automatic transmission and AWD. Sporty luxury sedan with turbo engine, premium interior, and smooth driving performance.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Blind spot monitoring",
+      "Rear camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Sport styling"
+    ],
+    interior: [
+      "Leather seats",
+      "Display screen",
+      "Multi-function steering"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Climate control"
+    ]
+  }
+},
+  {
+  id: "lexus-lc500h-2025",
+  slug: "lexus-lc500h-2025",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2025,
+
+  title: "Lexus LC500h 2025",
+  make: "Lexus",
+  model: "LC500h",
+  bodyType: "Coupe",
+
+  rating: 5,
+  reviews: 2,
+
+  currency: "AED",
+  price: 420000,
+  salePrice: 405000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/lexus-lc/1.jpg",
+    "/assets/images/lexus-lc/2.jpg",
+    "/assets/images/lexus-lc/3.jpg",
+    "/assets/images/lexus-lc/4.jpg",
+    "/assets/images/lexus-lc/5.jpg",
+    "/assets/images/lexus-lc/6.jpg",
+    "/assets/images/lexus-lc/7.jpg",
+    "/assets/images/lexus-lc/8.jpg",
+    "/assets/images/lexus-lc/9.jpg",
+    "/assets/images/lexus-lc/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Hybrid",
+    mileage: "7,674 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "LC500H2025",
+    vin: "JTHHP5AYXSA123456",
+    year: 2025,
+    mileage: "7,674 km",
+    transmission: "Automatic",
+    engineSize: "3.5L Hybrid",
+    driveType: "4WD",
+    cylinders: 6,
+    fuelType: "Hybrid",
+    doors: 2,
+    color: "Deep Green",
+    seats: 4,
+    cityMPG: 26,
+    highwayMPG: 33,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "354 HP"
+    }
+  },
+
+  description:
+    "Lexus LC500h 2025 in deep green with automatic transmission and 4WD. Luxury hybrid coupe with powerful performance, premium interior, and very low mileage.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360 camera"
+    ],
+    exterior: [
+      "Premium alloy wheels",
+      "LED headlights",
+      "Sport body styling",
+      "Carbon accents"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital cluster",
+      "Touchscreen infotainment",
+      "Ambient lighting"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Climate control",
+      "Electric seats"
+    ]
+  }
+},
+  {
+  id: "bmw-x6-2019",
+  slug: "bmw-x6-2019",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
+
+  title: "BMW X6 2019",
+  make: "BMW",
+  model: "X6",
+  bodyType: "SUV Coupe",
+
+  rating: 4,
+  reviews: 5,
+
+  currency: "AED",
+  price: 155000,
+  salePrice: 148000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/bmw-x6-2019/x6 (1).jpg",
+    "/assets/images/bmw-x6-2019/x6 (2).jpg",
+    "/assets/images/bmw-x6-2019/x6 (3).jpg",
+    "/assets/images/bmw-x6-2019/x6 (4).jpg",
+    "/assets/images/bmw-x6-2019/x6 (5).jpg",
+    "/assets/images/bmw-x6-2019/x6 (6).jpg",
+    "/assets/images/bmw-x6-2019/x6 (7).jpg",
+    "/assets/images/bmw-x6-2019/x6 (8).jpg",
+    "/assets/images/bmw-x6-2019/x6 (9).jpg",
+    "/assets/images/bmw-x6-2019/x6 (10).jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "111,050 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BMX62019",
+    vin: "WBAXXXXXXXXX2019",
+    year: 2019,
+    mileage: "111,050 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Turbo",
+    driveType: "AWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Silver",
+    seats: 5,
+    cityMPG: 18,
+    highwayMPG: 25,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "335 HP"
+    }
+  },
+
+  description:
+    "BMW X6 2019 in silver with automatic transmission and AWD. Luxury SUV coupe with powerful engine, premium interior, and sporty driving performance.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Parking sensors",
+      "Rear view camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Panoramic sunroof",
+      "Power tailgate"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital display",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Dual-zone climate control",
+      "Electric seats"
+    ]
+  }
+},
+  {
   id: "porsche-macan-2024",
   slug: "porsche-macan-2024",
 
@@ -237,7 +743,7 @@ const cars = [
 
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "157,531 km",
+    mileage: "157,500 km",
     transmission: "Automatic",
   },
 
@@ -245,7 +751,7 @@ const cars = [
     stockNumber: "MB5601989",
     vin: "WDBCA39D0KA123456",
     year: 1989,
-    mileage: "157,531 km",
+    mileage: "157,500 km",
     transmission: "Automatic",
     engineSize: "5.6L V8",
     driveType: "RWD",
@@ -1219,7 +1725,7 @@ const cars = [
     mileage: "50 km",
     transmission: "Manual",
     engineSize: "2.0L Turbo",
-    driveType: "4X4",
+    driveType: "M 4WD",
     cylinders: 4,
     fuelType: "Petrol",
     doors: 4,
@@ -1259,16 +1765,17 @@ const cars = [
       "Electric windows",
     ],
   },
-},{
-  id: "lamborghini-urus-s-2023",
-  slug: "lamborghini-urus-s-2023",
+},
+ {
+  id: "lamborghini-urus-s-2024",
+  slug: "lamborghini-urus-s-2024",
 
   featured: true,
   discountPercent: 0,
   condition: "Used",
-  year: 2023,
+  year: 2024,
 
-  title: "Lamborghini Urus S 2023",
+  title: "Lamborghini Urus S 2024",
   make: "Lamborghini",
   model: "Urus S",
   bodyType: "SUV",
@@ -1309,7 +1816,7 @@ const cars = [
   overview: {
     stockNumber: "LURUSS2023",
     vin: "ZPBUA1ZL4PLA12345",
-    year: 2023,
+    year: 2024,
     mileage: "423 km",
     transmission: "Automatic",
     engineSize: "4.0L Twin Turbo V8",
@@ -1324,7 +1831,7 @@ const cars = [
   },
 
   description:
-    "Ultra-low mileage Lamborghini Urus S 2023 in grey with only 423 km driven. Powered by a 4.0L twin-turbo V8 engine with 4WD system, delivering extreme performance and luxury. Like-new condition with aggressive styling and premium interior.",
+    "Ultra-low mileage Lamborghini Urus S 2024 in grey with only 423 km driven. Powered by a 4.0L twin-turbo V8 engine with 4WD system, delivering extreme performance and luxury. Like-new condition with aggressive styling and premium interior.",
 
   features: {
     safety: [
@@ -1358,18 +1865,18 @@ const cars = [
     ],
   },
 },
-  {
-  id: "land-rover-defender-2023",
-  slug: "land-rover-defender-2023",
+ {
+  id: "land-rover-defender-s110-p400-2023",
+  slug: "land-rover-defender-s110-p400-2023",
 
   featured: false,
   discountPercent: 0,
   condition: "Used",
   year: 2023,
 
-  title: "Land Rover Defender 2023",
+  title: "Land Rover Defender S110 P400 2023",
   make: "Land Rover",
-  model: "Defender",
+  model: "Defender S110 (P400)",
   bodyType: "SUV",
 
   rating: 5,
@@ -1401,7 +1908,7 @@ const cars = [
 
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "30,000 km",
+    mileage: "48,433 km",
     transmission: "Automatic",
   },
 
@@ -1409,7 +1916,7 @@ const cars = [
     stockNumber: "LRDEF2023",
     vin: "SALEA7AX5P2123456",
     year: 2023,
-    mileage: "30,000 km",
+    mileage: "48,433 km",
     transmission: "Automatic",
     engineSize: "3.0L Turbo",
     driveType: "4WD",
@@ -1423,7 +1930,7 @@ const cars = [
   },
 
   description:
-    "Powerful Land Rover Defender 2023 in grey with 4WD capability and automatic transmission. Rugged off-road performance combined with modern luxury interior and advanced technology features.",
+    "Land Rover Defender S110 P400 2023 in grey with 4WD and automatic transmission. Powerful engine, premium interior, and strong off-road capability. Well maintained and excellent condition.",
 
   features: {
     safety: [
@@ -1498,7 +2005,7 @@ const cars = [
 
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "158,000 km",
+    mileage: "158,486 km",
     transmission: "Automatic",
   },
 
@@ -1506,7 +2013,7 @@ const cars = [
     stockNumber: "NKCK2019",
     vin: "3N1CP5CU4KL123456",
     year: 2019,
-    mileage: "158,000 km",
+    mileage: "158,486 km",
     transmission: "Automatic",
     engineSize: "1.6L",
     driveType: "2WD",
@@ -1549,18 +2056,18 @@ const cars = [
     ],
   },
 },
-  {
-  id: "land-rover-range-rover-velar-dynamic-se-2025",
-  slug: "land-rover-range-rover-velar-dynamic-se-2025",
+ {
+  id: "range-rover-velar-2025",
+  slug: "range-rover-velar-2025",
 
   featured: true,
   discountPercent: 0,
   condition: "Used",
   year: 2025,
 
-  title: "Land Rover Range Rover Velar Dynamic SE 2025",
+  title: "Range Rover Velar 2025",
   make: "Land Rover",
-  model: "Range Rover Velar Dynamic SE",
+  model: "Velar",
   bodyType: "SUV",
 
   rating: 5,
@@ -1592,7 +2099,7 @@ const cars = [
 
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "1,669 km",
+    mileage: "1,670 km",
     transmission: "Automatic",
   },
 
@@ -1600,21 +2107,21 @@ const cars = [
     stockNumber: "RRVELAR25",
     vin: "SALYA2EX5SA123456",
     year: 2025,
-    mileage: "1,669 km",
+    mileage: "1,670 km",
     transmission: "Automatic",
     engineSize: "2.0L Turbo",
     driveType: "AWD",
     cylinders: 4,
     fuelType: "Petrol",
     doors: 5,
-    color: "Grey",
+    color: "Black",
     seats: 5,
     cityMPG: 20,
     highwayMPG: 26,
   },
 
   description:
-    "Like-new Land Rover Range Rover Velar Dynamic SE 2025 with ultra-low mileage. Premium luxury SUV featuring modern design, advanced technology, smooth automatic transmission, and all-wheel-drive capability.",
+    "Range Rover Velar 2025 in black with AWD and automatic transmission. Like-new condition with low mileage, premium interior, and smooth luxury driving experience.",
 
   features: {
     safety: [
@@ -1748,103 +2255,104 @@ const cars = [
 }
 ,
   {
-    id: "bentley-continental-gt-convertible-v8-2022",
-    slug: "bentley-continental-gt-convertible-v8-2022",
+  id: "bentley-continental-gt-convertible-2022",
+  slug: "bentley-continental-gt-convertible-2022",
 
-    featured: true,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2022,
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2022,
 
-    title: "Bentley Continental GT Convertible V8 2022",
-    make: "Bentley",
-    model: "Continental GT Convertible V8",
-    bodyType: "Convertible",
+  title: "Bentley Continental GT Convertible 2022",
+  make: "Bentley",
+  model: "Continental GT Convertible",
+  bodyType: "Convertible",
 
-    rating: 5,
-    reviews: 3,
+  rating: 5,
+  reviews: 3,
 
-    currency: "AED",
-    price: 950000,
-    salePrice: 920000,
+  currency: "AED",
+  price: 950000,
+  salePrice: 920000,
 
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Ras Al Khor Auto Market, Dubai",
-    },
-
-    images: [
-      "/assets/images/bentley/continentalgt (7).jpg",
-      "/assets/images/bentley/continentalgt (8).jpg",
-      "/assets/images/bentley/continentalgt (9).jpg",
-      "/assets/images/bentley/continentalgt (10).jpg",
-      "/assets/images/bentley/continentalgt (1).jpg",
-      "/assets/images/bentley/continentalgt (2).jpg",
-      "/assets/images/bentley/continentalgt (3).jpg",
-      "/assets/images/bentley/continentalgt (4).jpg",
-      "/assets/images/bentley/continentalgt (5).jpg",
-      "/assets/images/bentley/continentalgt (6).jpg",
-    ],
-
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "16,020 km",
-      transmission: "Automatic",
-    },
-
-    overview: {
-      stockNumber: "BENTGT22",
-      vin: "SCBDG4ZG9NC123456",
-      year: 2022,
-      mileage: "16,020 km",
-      transmission: "Automatic",
-      engineSize: "4.0L Twin Turbo V8",
-      driveType: "AWD",
-      cylinders: 8,
-      fuelType: "Petrol",
-      doors: 2,
-      color: "Black",
-      seats: 4,
-      cityMPG: 15,
-      highwayMPG: 23,
-    },
-
-    description:
-      "Ultra-luxury Bentley Continental GT Convertible V8 2022 with 4.0L twin turbo engine. Exceptional performance, handcrafted premium interior, and open-top driving experience. Low mileage and pristine condition.",
-
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Lane assist",
-        "Blind spot monitoring",
-        "360-degree camera",
-      ],
-      exterior: [
-        "Convertible soft top",
-        "Premium alloy wheels",
-        "LED matrix headlights",
-        "Quad exhaust system",
-      ],
-      interior: [
-        "Hand-stitched leather seats",
-        "Digital cockpit",
-        "Rotating infotainment display",
-        "Heated & ventilated seats",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Dual-zone climate control",
-        "Electric seat adjustment",
-        "Premium sound system",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
   },
+
+  images: [
+    "/assets/images/bentley/continentalgt (7).jpg",
+    "/assets/images/bentley/continentalgt (8).jpg",
+    "/assets/images/bentley/continentalgt (9).jpg",
+    "/assets/images/bentley/continentalgt (10).jpg",
+    "/assets/images/bentley/continentalgt (1).jpg",
+    "/assets/images/bentley/continentalgt (2).jpg",
+    "/assets/images/bentley/continentalgt (3).jpg",
+    "/assets/images/bentley/continentalgt (4).jpg",
+    "/assets/images/bentley/continentalgt (5).jpg",
+    "/assets/images/bentley/continentalgt (6).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "16,053 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BENTGT22",
+    vin: "SCBDG4ZG9NC123456",
+    year: 2022,
+    mileage: "16,053 km",
+    transmission: "Automatic",
+    engineSize: "4.0L Twin Turbo V8",
+    driveType: "AWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Silver",
+    seats: 4,
+    cityMPG: 15,
+    highwayMPG: 23,
+  },
+
+  description:
+    "Bentley Continental GT Convertible 2022 in silver with AWD and automatic transmission. Twin-turbo V8 performance, luxury handcrafted interior, and premium open-top driving experience with low mileage.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360-degree camera",
+    ],
+    exterior: [
+      "Convertible soft top",
+      "Premium alloy wheels",
+      "LED matrix headlights",
+      "Quad exhaust system",
+    ],
+    interior: [
+      "Hand-stitched leather seats",
+      "Digital cockpit",
+      "Rotating infotainment display",
+      "Heated & ventilated seats",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual-zone climate control",
+      "Electric seat adjustment",
+      "Premium sound system",
+    ],
+  },
+}
+  ,
   {
     id: "mercedes-benz-glc-43-amg-2021",
     slug: "mercedes-benz-glc-43-amg-2021",
@@ -1987,7 +2495,7 @@ const cars = [
 
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "120,000 km",
+      mileage: "129,804 km",
       transmission: "Automatic",
     },
 
@@ -1995,10 +2503,10 @@ const cars = [
       stockNumber: "MBE3002017",
       vin: "WDDZF4KB8HA123456",
       year: 2017,
-      mileage: "120,000 km",
+      mileage: "129,804 km",
       transmission: "Automatic",
       engineSize: "2.0L Turbo",
-      driveType: "2WD",
+      driveType: "RWD",
       cylinders: 4,
       fuelType: "Petrol",
       doors: 4,
@@ -2080,7 +2588,7 @@ const cars = [
 
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "64,000 km",
+      mileage: "103,291 km",
       transmission: "Automatic",
     },
 
@@ -2088,7 +2596,7 @@ const cars = [
       stockNumber: "NARMNIS22",
       vin: "JN8AY2DB6N9123456",
       year: 2022,
-      mileage: "64,000 km",
+      mileage: "103,291 km",
       transmission: "Automatic",
       engineSize: "5.6L V8",
       driveType: "4WD",
@@ -2179,7 +2687,7 @@ const cars = [
 
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "12,000 km",
+      mileage: "30,139 km",
       transmission: "Automatic",
     },
 
@@ -2187,10 +2695,10 @@ const cars = [
       stockNumber: "BMW430I24",
       vin: "WBA43AT02RCH12345",
       year: 2024,
-      mileage: "12,000 km",
+      mileage: "30,139 km",
       transmission: "Automatic",
       engineSize: "2.0L Turbo",
-      driveType: "2WD",
+      driveType: "AWD",
       cylinders: 4,
       fuelType: "Petrol",
       doors: 2,
@@ -2372,7 +2880,7 @@ const cars = [
       mileage: "11,000 km",
       transmission: "Automatic",
       engineSize: "3.5L Twin Turbo V6",
-      driveType: "4WD",
+      driveType: "2WD",
       cylinders: 6,
       fuelType: "Petrol",
       doors: 4,
@@ -2452,7 +2960,7 @@ const cars = [
 
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "46,000 km",
+      mileage: "300 M",
       transmission: "Automatic",
     },
 
@@ -2460,10 +2968,10 @@ const cars = [
       stockNumber: "FMGT2024",
       vin: "1FA6P8CF6R5123456",
       year: 2024,
-      mileage: "46,000 km",
+      mileage: "300 M",
       transmission: "Automatic",
       engineSize: "5.0L V8",
-      driveType: "4WD",
+      driveType: "RWD",
       cylinders: 8,
       fuelType: "Petrol",
       doors: 2,
@@ -2729,7 +3237,7 @@ const cars = [
 
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "84,000 km",
+      mileage: "134,430 km",
       transmission: "Automatic",
     },
 
@@ -2737,7 +3245,7 @@ const cars = [
       stockNumber: "HCVC2022",
       vin: "2HGFE2F59NH123456",
       year: 2022,
-      mileage: "84,000 km",
+      mileage: "134,430 km",
       transmission: "Automatic",
       engineSize: "2.0L",
       driveType: "2WD",
@@ -2910,7 +3418,7 @@ const cars = [
 
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "3,000 km",
+      mileage: "3,698 km",
       transmission: "Automatic",
     },
 
@@ -2918,7 +3426,7 @@ const cars = [
       stockNumber: "DHN2024",
       vin: "ZACNDFAN4R3A12345",
       year: 2024,
-      mileage: "3,000 km",
+      mileage: "3,698 km",
       transmission: "Automatic",
       engineSize: "2.0L Turbo",
       driveType: "AWD",
@@ -2964,96 +3472,101 @@ const cars = [
     },
   },
 
-  {
-    id: "dodge-challenger-2021",
-    slug: "dodge-challenger-2021",
+ {
+  id: "dodge-challenger-2021",
+  slug: "dodge-challenger-2021",
 
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2021,
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2021,
 
-    title: "Dodge Challenger 2021",
-    make: "Dodge",
-    model: "Challenger",
-    bodyType: "Coupe",
+  title: "Dodge Challenger 2021",
+  make: "Dodge",
+  model: "Challenger",
+  bodyType: "Coupe",
 
-    rating: 4,
-    reviews: 6,
+  rating: 4,
+  reviews: 6,
 
-    currency: "AED",
-    price: 135000,
-    salePrice: 128000,
+  currency: "AED",
+  price: 135000,
+  salePrice: 128000,
 
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Ras Al Khor Auto Market, Dubai",
-    },
-
-    images: [
-      "/assets/images/dodge2/challenger (1).jpg",
-      "/assets/images/dodge2/challenger (2).jpg",
-      "/assets/images/dodge2/challenger (3).jpg",
-      "/assets/images/dodge2/challenger (4).jpg",
-      "/assets/images/dodge2/challenger (5).jpg",
-      "/assets/images/dodge2/challenger (6).jpg",
-      "/assets/images/dodge2/challenger (7).jpg",
-      "/assets/images/dodge2/challenger (8).jpg",
-      "/assets/images/dodge2/challenger (9).jpg",
-      "/assets/images/dodge2/challenger (10).jpg",
-    ],
-
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "140,000 km",
-      transmission: "Automatic",
-    },
-
-    overview: {
-      stockNumber: "DCH2021",
-      vin: "2C3CDZAG5MH123456",
-      year: 2021,
-      mileage: "140,000 km",
-      transmission: "Automatic",
-      engineSize: "3.6L V6",
-      driveType: "2WD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 2,
-      color: "Orange",
-      seats: 5,
-      cityMPG: 19,
-      highwayMPG: 30,
-    },
-
-    description:
-      "Sporty Dodge Challenger 2021 in striking orange color. Automatic transmission, strong V6 engine, rear-wheel drive performance, and aggressive muscle car styling. Well maintained and ready to drive.",
-
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Stability control",
-        "Rear view camera",
-      ],
-      exterior: ["Alloy wheels", "LED headlights", "Fog lamps", "Dual exhaust"],
-      interior: [
-        "Leather seats",
-        "Touchscreen infotainment",
-        "Cruise control",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Power steering",
-        "Dual-zone climate control",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
   },
+
+  images: [
+    "/assets/images/dodge2/challenger (1).jpg",
+    "/assets/images/dodge2/challenger (2).jpg",
+    "/assets/images/dodge2/challenger (3).jpg",
+    "/assets/images/dodge2/challenger (4).jpg",
+    "/assets/images/dodge2/challenger (5).jpg",
+    "/assets/images/dodge2/challenger (6).jpg",
+    "/assets/images/dodge2/challenger (7).jpg",
+    "/assets/images/dodge2/challenger (8).jpg",
+    "/assets/images/dodge2/challenger (9).jpg",
+    "/assets/images/dodge2/challenger (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "131,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "DCH2021",
+    vin: "2C3CDZAG5MH123456",
+    year: 2021,
+    mileage: "131,000 km",
+    transmission: "Automatic",
+    engineSize: "3.6L V6",
+    driveType: "RWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Cinnamon Stick",
+    seats: 5,
+    cityMPG: 19,
+    highwayMPG: 30,
+  },
+
+  description:
+    "Dodge Challenger 2021 in Cinnamon Stick color with automatic transmission and RWD. Powerful V6 engine, aggressive muscle car design, and comfortable interior. Well maintained and ready to drive.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Stability control",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Fog lamps",
+      "Dual exhaust"
+    ],
+    interior: [
+      "Leather seats",
+      "Touchscreen infotainment",
+      "Cruise control",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Power steering",
+      "Dual-zone climate control",
+    ],
+  },
+},
   {
     id: "land-rover-defender-110-p300-2024",
     slug: "land-rover-defender-110-p300-2024",
@@ -3063,7 +3576,7 @@ const cars = [
     condition: "Used",
     year: 2024,
 
-    title: "Land Rover Defender 110 P300 2024",
+    title: "Land Rover Defender S110 P300 2024",
     make: "Land Rover",
     model: "Defender 110 P300",
     bodyType: "SUV",
@@ -3112,7 +3625,7 @@ const cars = [
       cylinders: 4,
       fuelType: "Petrol",
       doors: 5,
-      color: "Grey",
+      color: "Green",
       seats: 5,
       cityMPG: 19,
       highwayMPG: 25,
@@ -3152,1325 +3665,675 @@ const cars = [
     },
   },
   {
-    id: "bmw-x6-m60i-2024",
-    slug: "bmw-x6-m60i-2024",
+  id: "bmw-x6-m60i-2025",
+  slug: "bmw-x6-m60i-2025",
 
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2024,
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2025,
 
-    title: "BMW X6 M60i 2024",
-    make: "BMW",
-    model: "X6 M60i",
-    bodyType: "SUV Coupe",
+  title: "BMW X6 M60i 2025",
+  make: "BMW",
+  model: "X6 M60i",
+  bodyType: "SUV Coupe",
 
-    rating: 5,
-    reviews: 3,
+  rating: 5,
+  reviews: 3,
 
-    currency: "AED",
-    price: 520000,
-    salePrice: 505000,
+  currency: "AED",
+  price: 520000,
+  salePrice: 505000,
 
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Ras Al Khor Auto Market, Dubai",
-    },
-
-    images: [
-      "/assets/images/bmw-x6m60i/x6m60i (1).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (2).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (3).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (4).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (5).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (6).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (7).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (8).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (9).jpg",
-      "/assets/images/bmw-x6m60i/x6m60i (10).jpg",
-    ],
-
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "10,000 km",
-      transmission: "Automatic",
-    },
-
-    overview: {
-      stockNumber: "BMX6M60I25",
-      vin: "WBAX6M60I25A12345",
-      year: 2024,
-      mileage: "10,000 km",
-      transmission: "Automatic",
-      engineSize: "4.4L Twin Turbo V8",
-      driveType: "4WD",
-      cylinders: 8,
-      fuelType: "Petrol",
-      doors: 5,
-      color: "Grey",
-      seats: 5,
-      cityMPG: 15,
-      highwayMPG: 22,
-    },
-
-    description:
-      "High-performance BMW X6 M60i 2025 with powerful V8 engine, 4WD drivetrain, premium luxury interior, and aggressive M styling. Low mileage and excellent condition.",
-
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Lane keep assist",
-        "Blind spot monitoring",
-        "360-degree camera",
-      ],
-      exterior: [
-        "M alloy wheels",
-        "LED headlights",
-        "Panoramic sunroof",
-        "Power tailgate",
-      ],
-      interior: [
-        "Leather sport seats",
-        "Digital cockpit",
-        "Touchscreen infotainment",
-        "Heads-up display",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Dual-zone climate control",
-        "Electric seat adjustment",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
   },
 
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "bmw-x6-2014",
-    slug: "bmw-x6-2014",
+  images: [
+    "/assets/images/bmw-x6m60i/x6m60i (1).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (2).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (3).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (4).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (5).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (6).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (7).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (8).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (9).jpg",
+    "/assets/images/bmw-x6m60i/x6m60i (10).jpg",
+  ],
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "10,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BMX6M60I25",
+    vin: "WBAX6M60I25A12345",
+    year: 2025,
+    mileage: "10,000 km",
+    transmission: "Automatic",
+    engineSize: "4.4L Twin Turbo V8",
+    driveType: "AWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Grey",
+    seats: 5,
+    cityMPG: 15,
+    highwayMPG: 22,
+  },
+
+  description:
+    "BMW X6 M60i 2025 in grey with automatic transmission and AWD. Powerful twin-turbo V8 engine, premium luxury interior, and aggressive M styling. Low mileage and excellent condition.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane keep assist",
+      "Blind spot monitoring",
+      "360-degree camera",
+    ],
+    exterior: [
+      "M alloy wheels",
+      "LED headlights",
+      "Panoramic sunroof",
+      "Power tailgate",
+    ],
+    interior: [
+      "Leather sport seats",
+      "Digital cockpit",
+      "Touchscreen infotainment",
+      "Heads-up display",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual-zone climate control",
+      "Electric seat adjustment",
+    ],
+  },
+},
+
+ {
+  id: "bmw-x6-2014",
+  slug: "bmw-x6-2014",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2014,
+
+  title: "BMW X6 2014",
+  make: "BMW",
+  model: "X6",
+  bodyType: "SUV Coupe",
+
+  rating: 4,
+  reviews: 10,
+
+  currency: "AED",
+  price: 125000,
+  salePrice: 118000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/bmw-x6/x6 (1).jpg",
+    "/assets/images/bmw-x6/x6 (2).jpg",
+    "/assets/images/bmw-x6/x6 (3).jpg",
+    "/assets/images/bmw-x6/x6 (4).jpg",
+    "/assets/images/bmw-x6/x6 (5).jpg",
+    "/assets/images/bmw-x6/x6 (6).jpg",
+    "/assets/images/bmw-x6/x6 (7).jpg",
+    "/assets/images/bmw-x6/x6 (8).jpg",
+    "/assets/images/bmw-x6/x6 (9).jpg",
+    "/assets/images/bmw-x6/x6 (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "135,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BMX62019",
+    vin: "WBAXX6100KZB12345",
     year: 2014,
-
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "BMW X6 2014",
-    make: "BMW",
-    model: "X6",
-    bodyType: "SUV Coupe",
-
-    rating: 4,
-    reviews: 10,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 125000, // estimated market price
-    salePrice: 118000, // offer price
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Ras Al Khor Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/bmw-x6/x6 (1).jpg",
-      "/assets/images/bmw-x6/x6 (2).jpg",
-      "/assets/images/bmw-x6/x6 (3).jpg",
-      "/assets/images/bmw-x6/x6 (4).jpg",
-      "/assets/images/bmw-x6/x6 (5).jpg",
-      "/assets/images/bmw-x6/x6 (6).jpg",
-      "/assets/images/bmw-x6/x6 (7).jpg",
-      "/assets/images/bmw-x6/x6 (8).jpg",
-      "/assets/images/bmw-x6/x6 (9).jpg",
-      "/assets/images/bmw-x6/x6 (10).jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "111,000 km",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "BMX62019",
-      vin: "WBAXX6100KZB12345", // placeholder VIN
-      year: 2014,
-      mileage: "111,000 km",
-      transmission: "Automatic",
-      engineSize: "3.0L Turbo",
-      driveType: "AWD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 5,
-      color: "Grey",
-      seats: 5,
-      cityMPG: 18,
-      highwayMPG: 25,
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Powerful and luxurious BMW X6 2014 in excellent condition. Features a strong turbo engine, AWD capability, premium interior, and sporty coupe-style design. Perfect blend of performance, comfort, and style.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Lane assist",
-        "Parking sensors",
-        "Rear view camera",
-      ],
-      exterior: [
-        "Alloy wheels",
-        "LED headlights",
-        "Fog lamps",
-        "Panoramic sunroof",
-        "Power tailgate",
-      ],
-      interior: [
-        "Leather seats",
-        "Digital display",
-        "Touchscreen infotainment",
-        "Cruise control",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Power steering",
-        "Dual-zone climate control",
-        "Electric seat adjustment",
-      ],
-    },
+    mileage: "135,000 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Turbo",
+    driveType: "AWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Grey",
+    seats: 5,
+    cityMPG: 18,
+    highwayMPG: 25,
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "ford-explorer-2019",
-    slug: "ford-explorer-2019",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
+  description:
+    "Powerful and luxurious BMW X6 2014 in excellent condition. Features a strong turbo engine, AWD capability, premium interior, and sporty coupe-style design. Perfect blend of performance, comfort, and style.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Parking sensors",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Fog lamps",
+      "Panoramic sunroof",
+      "Power tailgate",
+    ],
+    interior: [
+      "Leather seats",
+      "Digital display",
+      "Touchscreen infotainment",
+      "Cruise control",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Power steering",
+      "Dual-zone climate control",
+      "Electric seat adjustment",
+    ],
+  },
+},
+  {
+  id: "ford-explorer-active-2019",
+  slug: "ford-explorer-active-2019",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
+
+  title: "Ford Explorer Active 2019",
+  make: "Ford",
+  model: "Explorer Active",
+  bodyType: "SUV",
+
+  rating: 4,
+  reviews: 8,
+
+  currency: "AED",
+  price: 48000,
+  salePrice: 45000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/ford/ford (1).jpg",
+    "/assets/images/ford/ford (2).jpg",
+    "/assets/images/ford/ford (3).jpg",
+    "/assets/images/ford/ford (4).jpg",
+    "/assets/images/ford/ford (5).jpg",
+    "/assets/images/ford/ford (6).jpg",
+    "/assets/images/ford/ford (7).jpg",
+    "/assets/images/ford/ford (8).jpg",
+    "/assets/images/ford/ford (9).jpg",
+    "/assets/images/ford/ford (10).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "120,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "FEX2019",
+    vin: "1FM5K8D85KGB12345",
     year: 2019,
-
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Ford Explorer 2019",
-    make: "Ford",
-    model: "Explorer",
-    bodyType: "SUV",
-
-    rating: 4,
-    reviews: 8,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 48000, // assumed market price
-    salePrice: 45000, // assumed offer price
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/ford/ford (1).jpg",
-      "/assets/images/ford/ford (2).jpg",
-      "/assets/images/ford/ford (3).jpg",
-      "/assets/images/ford/ford (4).jpg",
-      "/assets/images/ford/ford (5).jpg",
-      "/assets/images/ford/ford (6).jpg",
-      "/assets/images/ford/ford (7).jpg",
-      "/assets/images/ford/ford (8).jpg",
-      "/assets/images/ford/ford (9).jpg",
-      "/assets/images/ford/ford (10).jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "68,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "FEX2019",
-      vin: "1FM5K8D85KGB12345", // placeholder VIN
-      year: 2019,
-      mileage: "45,000 miles",
-      transmission: "Automatic",
-      engineSize: "2.3L EcoBoost",
-      driveType: "2WD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 5,
-      color: "White",
-      seats: 5,
-      cityMPG: 20,
-      highwayMPG: 27,
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Well-maintained Ford Explorer 2019 with a powerful yet efficient engine. Spacious interior with seating for five, smooth automatic transmission, and excellent safety features. Ideal for families and long drives.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Parking sensors",
-        "Rear view camera",
-      ],
-      exterior: ["Alloy wheels", "Fog lamps", "Roof rails", "LED tail lamps"],
-      interior: [
-        "Leather seats",
-        "Touchscreen infotainment",
-        "Cruise control",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Power steering",
-        "Dual-zone climate control",
-      ],
-    },
+    mileage: "120,000 km",
+    transmission: "Automatic",
+    engineSize: "2.3L EcoBoost",
+    driveType: "2WD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "White",
+    seats: 5,
+    cityMPG: 20,
+    highwayMPG: 27,
   },
 
-  // {
-  //   /* =========================
-  //    IDENTIFICATION
-  // ========================== */
-  //   id: "hyundai-elantra-2020",
-  //   slug: "hyundai-elantra-2020",
+  description:
+    "Ford Explorer Active 2019 in white with automatic transmission and 2WD. Spacious SUV with comfortable interior, smooth drive, and reliable performance. Well maintained and ready to drive.",
 
-  //   /* =========================
-  //    BADGES / FLAGS
-  // ========================== */
-  //   featured: false,
-  //   discountPercent: 0,
-  //   condition: "Used",
-  //   year: 2020,
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Parking sensors",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "Fog lamps",
+      "Roof rails",
+      "LED tail lamps"
+    ],
+    interior: [
+      "Leather seats",
+      "Touchscreen infotainment",
+      "Cruise control",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Power steering",
+      "Dual-zone climate control",
+    ],
+  },
+},
 
-  //   /* =========================
-  //    BASIC DISPLAY INFO (Listing)
-  // ========================== */
-  //   title: "Hyundai Elantra 2020",
-  //   make: "Hyundai",
-  //   model: "Elantra",
-  //   bodyType: "Sedan",
-
-  //   rating: 4,
-  //   reviews: 6,
-
-  //   /* =========================
-  //    PRICING
-  // ========================== */
-  //   currency: "AED",
-  //   price: 28000, // market price
-  //   salePrice: 25500, // offer price
-
-  //   /* =========================
-  //    LOCATION (Details page)
-  // ========================== */
-  //   location: {
-  //     city: "Dubai",
-  //     state: "Dubai",
-  //     country: "United Arab Emirates",
-  //     address: "Al Aweer Auto Market, Dubai",
-  //   },
-
-  //   /* =========================
-  //    MEDIA
-  // ========================== */
-  //   images: [
-  //     "/assets/images/hyundai/h (1).jpg",
-  //     "/assets/images/hyundai/h (2).jpg",
-  //     "/assets/images/hyundai/h (3).jpg",
-  //   ],
-
-  //   /* =========================
-  //    QUICK SPECS (Listing cards)
-  // ========================== */
-  //   quickSpecs: {
-  //     fuel: "Petrol",
-  //     mileage: "46,000 miles",
-  //     transmission: "Automatic",
-  //   },
-
-  //   /* =========================
-  //    FULL OVERVIEW (Details page)
-  // ========================== */
-  //   overview: {
-  //     stockNumber: "HYE2020",
-  //     vin: "KMHD84LF6LU123456", // placeholder VIN
-  //     year: 2020,
-  //     mileage: "46,000 miles",
-  //     transmission: "Automatic",
-  //     engineSize: "2.0L",
-  //     driveType: "FWD",
-  //     cylinders: 4,
-  //     fuelType: "Petrol",
-  //     doors: 4,
-  //     color: "Silver",
-  //     seats: 5,
-  //     cityMPG: 26,
-  //     highwayMPG: 35,
-  //   },
-
-  //   /* =========================
-  //    DESCRIPTION (Details page)
-  // ========================== */
-  //   description:
-  //     "Fuel-efficient Hyundai Elantra 2020 with modern features and comfortable seating. Smooth automatic transmission, reliable petrol engine, and excellent mileage make it ideal for daily commuting and city driving.",
-
-  //   /* =========================
-  //    FEATURES (Details page)
-  // ========================== */
-  //   features: {
-  //     safety: [
-  //       "Front airbags",
-  //       "ABS",
-  //       "Rear view camera",
-  //       "Electronic stability control",
-  //     ],
-  //     exterior: ["Body-colored mirrors", "Halogen headlamps", "Steel wheels"],
-  //     interior: [
-  //       "Fabric seats",
-  //       "Touchscreen infotainment",
-  //       "Bluetooth connectivity",
-  //       "Multi-function steering wheel",
-  //     ],
-  //     convenience: [
-  //       "Fuel-efficient engine",
-  //       "Power steering",
-  //       "Keyless entry",
-  //       "Steering mounted controls",
-  //     ],
-  //   },
-  // },
+ 
   {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "mazda-3-2019",
-    slug: "mazda-3-2019",
+  id: "mazda-3-2019",
+  slug: "mazda-3-2019",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
+
+  title: "Mazda 3 2019",
+  make: "Mazda",
+  model: "3",
+  bodyType: "Sedan",
+
+  rating: 4,
+  reviews: 7,
+
+  currency: "AED",
+  price: 42000,
+  salePrice: 40000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/mazda/m (1).jpg",
+    "/assets/images/mazda/m (2).jpg",
+    "/assets/images/mazda/m (3).jpg",
+    "/assets/images/mazda/m (4).jpg",
+    "/assets/images/mazda/m (5).jpg",
+    "/assets/images/mazda/m (6).jpg",
+    "/assets/images/mazda/m (7).jpg",
+    "/assets/images/mazda/m (8).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "120,000 miles",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "MZ32019",
+    vin: "JM1BPBLM8K1134567",
     year: 2019,
-
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Mazda 3 2019",
-    make: "Mazda",
-    model: "3",
-    bodyType: "Sedan",
-
-    rating: 4,
-    reviews: 7,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 42000, // estimated market price
-    salePrice: 40000, // estimated offer price
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/mazda/m (1).jpg",
-      "/assets/images/mazda/m (2).jpg",
-      "/assets/images/mazda/m (3).jpg",
-      "/assets/images/mazda/m (4).jpg",
-      "/assets/images/mazda/m (5).jpg",
-      "/assets/images/mazda/m (6).jpg",
-      "/assets/images/mazda/m (7).jpg",
-      "/assets/images/mazda/m (8).jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "120,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "MZ32019",
-      vin: "JM1BPBLM8K1134567", // placeholder VIN
-      year: 2019,
-      mileage: "120,000 miles",
-      transmission: "Automatic",
-      engineSize: "2.5L",
-      driveType: "AWD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Red",
-      seats: 5,
-      cityMPG: 26,
-      highwayMPG: 35,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Stylish and reliable Mazda 3 2019 with sporty performance and premium interior feel. Smooth automatic transmission, strong petrol engine, and excellent driving dynamics make it a great compact sedan for daily use.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Parking sensors",
-        "Rear view camera",
-      ],
-      exterior: ["Alloy wheels", "LED headlights", "Body-colored mirrors"],
-      interior: [
-        "Leather-wrapped steering",
-        "Touchscreen infotainment",
-        "Bluetooth connectivity",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Push start",
-        "Keyless entry",
-        "Power steering",
-        "Cruise control",
-      ],
-    },
+    mileage: "120,000 miles",
+    transmission: "Automatic",
+    engineSize: "2.5L",
+    driveType: "AWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Black",
+    seats: 5,
+    cityMPG: 26,
+    highwayMPG: 35,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
   },
 
-  // {
-  //   /* =========================
-  //    IDENTIFICATION
-  // ========================== */
-  //   id: "lexus-is-350-2021",
-  //   slug: "lexus-is-350-2021",
+  description:
+    "Stylish and reliable Mazda 3 2019 with sporty performance and premium interior feel. Smooth automatic transmission, strong petrol engine, and excellent driving dynamics make it a great compact sedan for daily use.",
 
-  //   /* =========================
-  //    BADGES / FLAGS
-  // ========================== */
-  //   featured: true,
-  //   discountPercent: 5,
-  //   condition: "Used",
-  //   year: 2021,
-
-  //   /* =========================
-  //    BASIC DISPLAY INFO (Listing)
-  // ========================== */
-  //   title: "Lexus IS 350 2021",
-  //   make: "Lexus",
-  //   model: "IS 350",
-  //   bodyType: "Sedan",
-
-  //   rating: 5,
-  //   reviews: 10,
-
-  //   /* =========================
-  //    PRICING
-  // ========================== */
-  //   currency: "AED",
-  //   price: 110000, // market price
-  //   salePrice: 105000, // offer price
-
-  //   /* =========================
-  //    LOCATION (Details page)
-  // ========================== */
-  //   location: {
-  //     city: "Dubai",
-  //     state: "Dubai",
-  //     country: "United Arab Emirates",
-  //     address: "Al Aweer Auto Market, Dubai",
-  //   },
-
-  //   /* =========================
-  //    MEDIA
-  // ========================== */
-  //   images: [
-  //     "/assets/images/lexus/lexus (1).jpg",
-  //     "/assets/images/lexus/lexus (2).jpg",
-  //     "/assets/images/lexus/lexus (3).jpg",
-  //     "/assets/images/lexus/lexus (4).jpg",
-  //     "/assets/images/lexus/lexus (5).jpg",
-  //     "/assets/images/lexus/lexus (6).jpg",
-  //     "/assets/images/lexus/lexus (7).jpg",
-  //     "/assets/images/lexus/lexus (8).jpg",
-  //   ],
-
-  //   /* =========================
-  //    QUICK SPECS (Listing cards)
-  // ========================== */
-  //   quickSpecs: {
-  //     fuel: "Petrol",
-  //     mileage: "85,000 km",
-  //     transmission: "Automatic",
-  //   },
-
-  //   /* =========================
-  //    FULL OVERVIEW (Details page)
-  // ========================== */
-  //   overview: {
-  //     stockNumber: "LIS35021",
-  //     vin: "JTHBZ1D26M5012345", // placeholder VIN
-  //     year: 2021,
-  //     mileage: "85,000 km",
-  //     transmission: "Automatic",
-  //     engineSize: "3.5L V6",
-  //     driveType: "RWD",
-  //     cylinders: 6,
-  //     fuelType: "Petrol",
-  //     doors: 4,
-  //     color: "Black",
-  //     seats: 5,
-  //     cityMPG: 19,
-  //     highwayMPG: 26,
-  //     specs: "GCC Specs",
-  //     steeringSide: "LHD",
-  //   },
-
-  //   /* =========================
-  //    DESCRIPTION (Details page)
-  // ========================== */
-  //   description:
-  //     "Powerful and luxurious Lexus IS 350 2021 featuring a 3.5L V6 engine with exceptional performance. Premium interior, smooth automatic transmission, and renowned Lexus reliability make it an excellent choice for enthusiasts and daily drivers alike.",
-
-  //   /* =========================
-  //    FEATURES (Details page)
-  // ========================== */
-  //   features: {
-  //     safety: [
-  //       "Front & side airbags",
-  //       "ABS",
-  //       "Traction control",
-  //       "Parking sensors",
-  //       "Rear view camera",
-  //     ],
-  //     exterior: [
-  //       "Alloy wheels",
-  //       "LED headlights",
-  //       "Sunroof",
-  //       "Body-colored mirrors",
-  //     ],
-  //     interior: [
-  //       "Leather seats",
-  //       "Touchscreen infotainment",
-  //       "Dual-zone climate control",
-  //       "Multi-function steering wheel",
-  //     ],
-  //     convenience: [
-  //       "Keyless entry",
-  //       "Push start",
-  //       "Power steering",
-  //       "Cruise control",
-  //     ],
-  //   },
-  // },
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Parking sensors",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Body-colored mirrors"
+    ],
+    interior: [
+      "Leather-wrapped steering",
+      "Touchscreen infotainment",
+      "Bluetooth connectivity",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Push start",
+      "Keyless entry",
+      "Power steering",
+      "Cruise control",
+    ],
+  },
+},
   {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "nissan-sentra-2022",
-    slug: "nissan-sentra-2022",
+  id: "nissan-sentra-2022",
+  slug: "nissan-sentra-2022",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2022,
+
+  title: "Nissan Sentra 2022",
+  make: "Nissan",
+  model: "Sentra",
+  bodyType: "Sedan",
+
+  rating: 4,
+  reviews: 5,
+
+  currency: "AED",
+  price: 42000,
+  salePrice: 40000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/nissan/nissan (1).jpg",
+    "/assets/images/nissan/nissan (2).jpg",
+    "/assets/images/nissan/nissan (3).jpg",
+    "/assets/images/nissan/nissan (4).jpg",
+    "/assets/images/nissan/nissan (5).jpg",
+    "/assets/images/nissan/nissan (6).jpg",
+    "/assets/images/nissan/nissan (7).jpg",
+    "/assets/images/nissan/nissan (8).jpg",
+    "/assets/images/nissan/nissan (9).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "40,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "NS2022",
+    vin: "3N1AB8CV6NY123456",
     year: 2022,
-
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Nissan Sentra 2022",
-    make: "Nissan",
-    model: "Sentra",
-    bodyType: "Sedan",
-
-    rating: 4,
-    reviews: 5,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 42000, // market price
-    salePrice: 40000, // offer price
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/nissan/nissan (1).jpg",
-      "/assets/images/nissan/nissan (2).jpg",
-      "/assets/images/nissan/nissan (3).jpg",
-      "/assets/images/nissan/nissan (4).jpg",
-      "/assets/images/nissan/nissan (5).jpg",
-      "/assets/images/nissan/nissan (6).jpg",
-      "/assets/images/nissan/nissan (7).jpg",
-      "/assets/images/nissan/nissan (8).jpg",
-      "/assets/images/nissan/nissan (9).jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "40,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "NS2022",
-      vin: "3N1AB8CV6NY123456", // placeholder VIN
-      year: 2022,
-      mileage: "23,000 miles",
-      transmission: "Automatic",
-      engineSize: "2.0L",
-      driveType: "2WD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Grey",
-      seats: 5,
-      cityMPG: 29,
-      highwayMPG: 39,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Practical and efficient Nissan Sentra 2022 with low mileage and modern styling. Smooth automatic transmission, excellent fuel efficiency, and comfortable interior make it an ideal compact sedan for daily commuting and city driving.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Parking sensors",
-        "Rear view camera",
-      ],
-      exterior: ["Alloy wheels", "LED headlights", "Body-colored mirrors"],
-      interior: [
-        "Fabric seats",
-        "Touchscreen infotainment",
-        "Bluetooth connectivity",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Power steering",
-        "Cruise control",
-      ],
-    },
+    mileage: "23,000 km",
+    transmission: "Automatic",
+    engineSize: "2.0L",
+    driveType: "2WD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Grey",
+    seats: 5,
+    cityMPG: 29,
+    highwayMPG: 39,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "porsche-cayenne-s-2015",
-    slug: "porsche-cayenne-s-2015",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 8,
-    condition: "Used",
+  description:
+    "Practical and efficient Nissan Sentra 2022 with low mileage and modern styling. Smooth automatic transmission, excellent fuel efficiency, and comfortable interior make it an ideal compact sedan for daily commuting and city driving.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Parking sensors",
+      "Rear view camera",
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Body-colored mirrors"
+    ],
+    interior: [
+      "Fabric seats",
+      "Touchscreen infotainment",
+      "Bluetooth connectivity",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Power steering",
+      "Cruise control",
+    ],
+  },
+},
+ {
+  id: "porsche-cayenne-s-2015",
+  slug: "porsche-cayenne-s-2015",
+
+  featured: true,
+  discountPercent: 8,
+  condition: "Used",
+  year: 2015,
+
+  title: "Porsche Cayenne S 2015",
+  make: "Porsche",
+  model: "Cayenne S",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 9,
+
+  currency: "AED",
+  price: 72000,
+  salePrice: 70000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/porsche/porsche (1).jpg",
+    "/assets/images/porsche/porsche (2).jpg",
+    "/assets/images/porsche/porsche (3).jpg",
+    "/assets/images/porsche/porsche (4).jpg",
+    "/assets/images/porsche/porsche (5).jpg",
+    "/assets/images/porsche/porsche (6).jpg",
+    "/assets/images/porsche/porsche (8).jpg",
+    "/assets/images/porsche/porsche (9).jpg",
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "92,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "PCS2015",
+    vin: "WP1AB2A20FLA12345",
     year: 2015,
-
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Porsche Cayenne S 2015",
-    make: "Porsche",
-    model: "Cayenne S",
-    bodyType: "SUV",
-
-    rating: 5,
-    reviews: 9,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 72000, // market price
-    salePrice: 70000, // offer price
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/porsche/porsche (1).jpg",
-      "/assets/images/porsche/porsche (2).jpg",
-      "/assets/images/porsche/porsche (3).jpg",
-      "/assets/images/porsche/porsche (4).jpg",
-      "/assets/images/porsche/porsche (5).jpg",
-      "/assets/images/porsche/porsche (6).jpg",
-      "/assets/images/porsche/porsche (8).jpg",
-      "/assets/images/porsche/porsche (9).jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "92,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "PCS2015",
-      vin: "WP1AB2A20FLA12345", // placeholder VIN
-      year: 2015,
-      mileage: "70,000 miles",
-      transmission: "Automatic",
-      engineSize: "4.8L V8",
-      driveType: "AWD",
-      cylinders: 8,
-      fuelType: "Petrol",
-      doors: 5,
-      color: "White",
-      seats: 5,
-      cityMPG: 14,
-      highwayMPG: 21,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Luxury Porsche Cayenne S 2015 combining powerful V8 performance with premium comfort. Well-maintained SUV featuring smooth automatic transmission, all-wheel drive, and a refined interior—ideal for both city driving and long-distance journeys.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Parking sensors",
-        "Rear view camera",
-      ],
-      exterior: [
-        "Alloy wheels",
-        "LED headlights",
-        "Panoramic sunroof",
-        "Power tailgate",
-      ],
-      interior: [
-        "Leather seats",
-        "Touchscreen infotainment",
-        "Dual-zone climate control",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Power steering",
-        "Cruise control",
-      ],
-    },
+    mileage: "92,000 km",
+    transmission: "Automatic",
+    engineSize: "4.8L V8",
+    driveType: "AWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "White",
+    seats: 5,
+    cityMPG: 14,
+    highwayMPG: 21,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "dodge-challenger-2021",
-    slug: "dodge-challenger-2021",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 6,
-    condition: "Used",
-    year: 2021,
+  description:
+    "Luxury Porsche Cayenne S 2015 combining powerful V8 performance with premium comfort. Well-maintained SUV featuring smooth automatic transmission, all-wheel drive, and a refined interior—ideal for both city driving and long-distance journeys.",
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Dodge Challenger 2021",
-    make: "Dodge",
-    model: "Challenger",
-    bodyType: "Coupe",
-
-    rating: 5,
-    reviews: 11,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 67000, // market price
-    salePrice: 65000, // offer price
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/dodge/dodge (1).jpg",
-      "/assets/images/dodge/dodge (2).jpg",
-      "/assets/images/dodge/dodge (3).jpg",
-      "/assets/images/dodge/dodge (4).jpg",
-      "/assets/images/dodge/dodge (5).jpg",
-      "/assets/images/dodge/dodge (6).jpg",
-      "/assets/images/dodge/dodge (7).jpg",
-      "/assets/images/dodge/dodge (8).jpg",
-      "/assets/images/dodge/dodge (9).jpg",
-      "/assets/images/dodge/dodge (10).jpg",
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Parking sensors",
+      "Rear view camera",
     ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "131,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "DC2021",
-      vin: "2C3CDZAG7MH123456", // placeholder VIN
-      year: 2021,
-      mileage: "65,000 miles",
-      transmission: "Automatic",
-      engineSize: "3.6L V6",
-      driveType: "2WD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 2,
-      color: "Go Mango",
-      seats: 5,
-      cityMPG: 19,
-      highwayMPG: 30,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Bold and powerful Dodge Challenger 2021 showcasing classic American muscle car styling. Strong petrol engine, smooth automatic transmission, and a comfortable interior make it perfect for enthusiasts who want performance with everyday usability.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Parking sensors",
-        "Rear view camera",
-      ],
-      exterior: [
-        "Alloy wheels",
-        "LED headlights",
-        "Dual exhaust",
-        "Sport body kit",
-      ],
-      interior: [
-        "Leather seats",
-        "Touchscreen infotainment",
-        "Dual-zone climate control",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Power steering",
-        "Cruise control",
-      ],
-    },
-  },
-  // {
-  //   /* =========================
-  //    IDENTIFICATION
-  // ========================== */
-  //   id: "nissan-armada-2020",
-  //   slug: "nissan-armada-2020",
-
-  //   /* =========================
-  //    BADGES / FLAGS
-  // ========================== */
-  //   featured: true,
-  //   discountPercent: 7,
-  //   condition: "Used",
-  //   year: 2020,
-
-  //   /* =========================
-  //    BASIC DISPLAY INFO (Listing)
-  // ========================== */
-  //   title: "Nissan Armada 2020",
-  //   make: "Nissan",
-  //   model: "Armada",
-  //   bodyType: "SUV",
-
-  //   rating: 4,
-  //   reviews: 9,
-
-  //   /* =========================
-  //    PRICING
-  // ========================== */
-  //   currency: "AED",
-  //   price: 62000, // market price
-  //   salePrice: 58000, // offer price
-
-  //   /* =========================
-  //    LOCATION (Details page)
-  // ========================== */
-  //   location: {
-  //     city: "Dubai",
-  //     state: "Dubai",
-  //     country: "United Arab Emirates",
-  //     address: "Al Aweer Auto Market, Dubai",
-  //   },
-
-  //   /* =========================
-  //    MEDIA
-  // ========================== */
-  //   images: [
-  //     "/assets/images/nissann/nissann (1).jpg",
-  //     "/assets/images/nissann/nissann (2).jpg",
-  //     "/assets/images/nissann/nissann (3).jpg",
-  //     "/assets/images/nissann/nissann (4).jpg",
-  //     "/assets/images/nissann/nissann (5).jpg",
-  //     "/assets/images/nissann/nissann (6).jpg",
-  //     "/assets/images/nissann/nissann (7).jpg",
-  //     "/assets/images/nissann/nissann (8).jpg",
-  //     "/assets/images/nissann/nissann (9).jpg",
-  //     "/assets/images/nissann/nissann (10).jpg",
-  //     "/assets/images/nissann/nissann (11).jpg",
-  //   ],
-
-  //   /* =========================
-  //    QUICK SPECS (Listing cards)
-  // ========================== */
-  //   quickSpecs: {
-  //     fuel: "Petrol",
-  //     mileage: "88,000 miles",
-  //     transmission: "Automatic",
-  //   },
-
-  //   /* =========================
-  //    FULL OVERVIEW (Details page)
-  // ========================== */
-  //   overview: {
-  //     stockNumber: "NA2020",
-  //     vin: "JN8AY2NC8L9123456", // placeholder VIN
-  //     year: 2020,
-  //     mileage: "88,000 miles",
-  //     transmission: "Automatic",
-  //     engineSize: "5.6L V8",
-  //     driveType: "RWD",
-  //     cylinders: 8,
-  //     fuelType: "Petrol",
-  //     doors: 5,
-  //     color: "Black",
-  //     seats: 7,
-  //     cityMPG: 14,
-  //     highwayMPG: 19,
-  //     specs: "GCC Specs",
-  //     steeringSide: "LHD",
-  //   },
-
-  //   /* =========================
-  //    DESCRIPTION (Details page)
-  // ========================== */
-  //   description:
-  //     "Powerful and spacious Nissan Armada 2020 offering full-size SUV luxury and performance. Equipped with a strong V8 engine, smooth automatic transmission, and seating for seven, making it ideal for families and long-distance travel.",
-
-  //   /* =========================
-  //    FEATURES (Details page)
-  // ========================== */
-  //   features: {
-  //     safety: [
-  //       "Front & side airbags",
-  //       "ABS",
-  //       "Traction control",
-  //       "Parking sensors",
-  //       "Rear view camera",
-  //     ],
-  //     exterior: [
-  //       "Alloy wheels",
-  //       "LED headlights",
-  //       "Roof rails",
-  //       "Power tailgate",
-  //     ],
-  //     interior: [
-  //       "Leather seats",
-  //       "Touchscreen infotainment",
-  //       "Tri-zone climate control",
-  //       "Multi-function steering wheel",
-  //     ],
-  //     convenience: [
-  //       "Keyless entry",
-  //       "Push start",
-  //       "Power steering",
-  //       "Cruise control",
-  //     ],
-  //   },
-  // },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "ford-explorer-2018",
-    slug: "ford-explorer-2018",
-
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: "2019",
-
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Ford Explorer 2019",
-    make: "Ford",
-    model: "Explorer",
-    bodyType: "SUV",
-
-    rating: 4,
-    reviews: 7,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 57000, // market price
-    salePrice: 55000, // offer price
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/fords/ford (1).jpg",
-      "/assets/images/fords/ford (2).jpg",
-      "/assets/images/fords/ford (3).jpg",
-      "/assets/images/fords/ford (4).jpg",
-      "/assets/images/fords/ford (5).jpg",
-      "/assets/images/fords/ford (6).jpg",
-      "/assets/images/fords/ford (7).jpg",
-      "/assets/images/fords/ford (8).jpg",
-      "/assets/images/fords/ford (9).jpg",
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Panoramic sunroof",
+      "Power tailgate",
     ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "120,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "FE2018",
-      vin: "1FM5K7D87JGB12345", // placeholder VIN
-      year: 2018,
-      mileage: "120,000 miles",
-      transmission: "Automatic",
-      engineSize: "3.5L V6",
-      driveType: "4WD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 5,
-      color: "Silver",
-      seats: 5,
-      cityMPG: 17,
-      highwayMPG: 24,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Reliable Ford Explorer 2018 offering comfort, space, and versatility. Smooth automatic transmission, strong V6 engine, and a practical interior make it an excellent mid-size SUV for families and everyday use.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Rear view camera",
-      ],
-      exterior: ["Alloy wheels", "Roof rails", "Halogen headlights"],
-      interior: [
-        "Fabric seats",
-        "Touchscreen infotainment",
-        "Multi-function steering wheel",
-      ],
-      convenience: ["Power steering", "Cruise control", "Keyless entry"],
-    },
+    interior: [
+      "Leather seats",
+      "Touchscreen infotainment",
+      "Dual-zone climate control",
+      "Multi-function steering wheel",
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Power steering",
+      "Cruise control",
+    ],
   },
+},
+  
+ {
+  id: "ford-explorer-xlt-2019",
+  slug: "ford-explorer-xlt-2019",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
+
+  title: "Ford Explorer XLT 2019",
+  make: "Ford",
+  model: "Explorer XLT",
+  bodyType: "SUV",
+
+  rating: 4,
+  reviews: 7,
+
+  currency: "AED",
+  price: 57000,
+  salePrice: 55000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/fords/ford (1).jpg",
+    "/assets/images/fords/ford (2).jpg",
+    "/assets/images/fords/ford (3).jpg",
+    "/assets/images/fords/ford (4).jpg",
+    "/assets/images/fords/ford (5).jpg",
+    "/assets/images/fords/ford (6).jpg",
+    "/assets/images/fords/ford (7).jpg",
+    "/assets/images/fords/ford (8).jpg",
+    "/assets/images/fords/ford (9).jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "195,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "FE2019",
+    vin: "1FM5K7D87JGB12345",
+    year: 2019,
+    mileage: "195,000 km",
+    transmission: "Automatic",
+    engineSize: "3.5L V6",
+    driveType: "4WD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "White",
+    seats: 5,
+    cityMPG: 17,
+    highwayMPG: 24,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+  },
+
+  description:
+    "Ford Explorer XLT 2019 in white with automatic transmission and 4WD. Spacious and reliable SUV with strong engine, comfortable interior, and great performance for daily use and long drives.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Rear view camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "Roof rails",
+      "Halogen headlights"
+    ],
+    interior: [
+      "Fabric seats",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Power steering",
+      "Cruise control",
+      "Keyless entry"
+    ],
+  },
+},
   {
     /* =========================
      IDENTIFICATION
@@ -4535,7 +4398,7 @@ const cars = [
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "64,421 miles",
+      mileage: "64,423 M",
       transmission: "9-speed Automatic",
     },
 
@@ -4546,7 +4409,7 @@ const cars = [
       stockNumber: "RRE2021",
       vin: "SALZJ2FX1NH167442",
       year: 2022,
-      mileage: "64,500 miles",
+      mileage: "64,423 M",
       transmission: "9-speed Automatic",
       engineSize: "2.0L Ingenium Turbo I4",
       driveType: "AWD",
@@ -4603,374 +4466,293 @@ const cars = [
       ],
     },
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "hyundai-sonata-sport-2018",
-    slug: "hyundai-sonata-sport-2018",
+ {
+  id: "hyundai-sonata-sport-2019",
+  slug: "hyundai-sonata-sport-2019",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2018,
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Hyundai Sonata Sport 2.4L 2018",
-    make: "Hyundai",
-    model: "Sonata Sport 2.4L",
-    bodyType: "Sedan",
+  title: "Hyundai Sonata Sport 2019",
+  make: "Hyundai",
+  model: "Sonata Sport",
+  bodyType: "Sedan",
 
-    rating: 4,
-    reviews: 6,
+  rating: 4,
+  reviews: 6,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "37000", // not provided
-    salePrice: "35000", // not provided
+  currency: "AED",
+  price: 37000,
+  salePrice: 35000,
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/sonata/1.jpg",
-      "/assets/images/sonata/2.jpg",
-      "/assets/images/sonata/3.jpg",
-      "/assets/images/sonata/4.jpg",
-      "/assets/images/sonata/5.jpg",
-      "/assets/images/sonata/6.jpg",
-      "/assets/images/sonata/7.jpg",
-      "/assets/images/sonata/8.jpg",
-      "/assets/images/sonata/9.jpg",
-      "/assets/images/sonata/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-    ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "70,574 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "HSS2019",
-      vin: "5NPE34AF6KH814716",
-      year: 2019,
-      mileage: "70,574 miles",
-      transmission: "Automatic",
-      engineSize: "2.4L",
-      driveType: "2WD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "White",
-      seats: 5,
-      cityMPG: 25,
-      highwayMPG: 35,
-      specs: "US Specs",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "185 HP",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Sporty and comfortable Hyundai Sonata Sport 2.4L 2019 featuring a reliable petrol engine and smooth automatic transmission. Well-suited for daily commuting, offering balanced performance, spacious seating, and modern styling.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Rear view camera",
-      ],
-      exterior: ["Sport alloy wheels", "Fog lights", "Body-colored mirrors"],
-      interior: [
-        "Fabric seats",
-        "Touchscreen infotainment",
-        "Multi-function steering wheel",
-      ],
-      convenience: ["Power steering", "Cruise control", "Keyless entry"],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "mercedes-benz-300ce-24-1992",
-    slug: "mercedes-benz-300ce-24-1992",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 0,
-    condition: "Used",
+  images: [
+    "/assets/images/sonata/1.jpg",
+    "/assets/images/sonata/2.jpg",
+    "/assets/images/sonata/3.jpg",
+    "/assets/images/sonata/4.jpg",
+    "/assets/images/sonata/5.jpg",
+    "/assets/images/sonata/6.jpg",
+    "/assets/images/sonata/7.jpg",
+    "/assets/images/sonata/8.jpg",
+    "/assets/images/sonata/9.jpg",
+    "/assets/images/sonata/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "47,328 miles",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "HSS2019",
+    vin: "5NPE34AF6KH814716",
+    year: 2019,
+    mileage: "47,328 miles",
+    transmission: "Automatic",
+    engineSize: "2.4L",
+    driveType: "2WD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Red",
+    seats: 5,
+    cityMPG: 25,
+    highwayMPG: 35,
+    specs: "US Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "185 HP"
+    }
+  },
+
+  description:
+    "Hyundai Sonata Sport 2019 in red with automatic transmission. Comfortable sedan with smooth performance, reliable engine, and spacious interior. Ideal for daily driving.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Rear view camera"
+    ],
+    exterior: [
+      "Sport alloy wheels",
+      "Fog lights",
+      "Body-colored mirrors"
+    ],
+    interior: [
+      "Fabric seats",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Power steering",
+      "Cruise control",
+      "Keyless entry"
+    ]
+  }
+},
+  {
+  id: "mercedes-benz-300-24-1992",
+  slug: "mercedes-benz-300-24-1992",
+
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 1992,
+
+  title: "Mercedes Benz 300-24 1992",
+  make: "Mercedes Benz",
+  model: "300-24",
+  bodyType: "Coupe",
+
+  rating: 5,
+  reviews: 4,
+
+  currency: "AED",
+  price: 62000,
+  salePrice: 60000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Classic Car Collection, Dubai",
+  },
+
+  images: [
+    "/assets/images/benz/1.jpg",
+    "/assets/images/benz/2.jpg",
+    "/assets/images/benz/3.jpg",
+    "/assets/images/benz/4.jpg",
+    "/assets/images/benz/5.jpg",
+    "/assets/images/benz/6.jpg",
+    "/assets/images/benz/7.jpg",
+    "/assets/images/benz/8.jpg",
+    "/assets/images/benz/9.jpg",
+    "/assets/images/benz/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "60,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "MB30024",
+    vin: "WDB1240511B535797",
     year: 1992,
-
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Mercedes-Benz 300CE-24 1992",
-    make: "Mercedes-Benz",
-    model: "300CE-24",
-    bodyType: "Coupe",
-
-    rating: 5,
-    reviews: 4,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "62000", // not provided
-    salePrice: "60000", // not provided
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Classic Car Collection, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/benz/1.jpg",
-      "/assets/images/benz/2.jpg",
-      "/assets/images/benz/3.jpg",
-      "/assets/images/benz/4.jpg",
-      "/assets/images/benz/5.jpg",
-      "/assets/images/benz/6.jpg",
-      "/assets/images/benz/7.jpg",
-      "/assets/images/benz/8.jpg",
-      "/assets/images/benz/9.jpg",
-      "/assets/images/benz/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "60,000 Km",
-      transmission: "Manual / Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "MB300CE24",
-      vin: "WDB1240511B535797",
-      year: 1980,
-      mileage: "60,000 Km",
-      transmission: "Manual / Automatic",
-      engineSize: "3.0L Inline-6",
-      driveType: "FWD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 2,
-      color: "Maroon",
-      seats: 4,
-      cityMPG: null,
-      highwayMPG: null,
-      specs: "US Classic",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "217 HP",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Classic Mercedes-Benz 300CE-24 from 1980, powered by a 3.0L inline-6 engine with rear-wheel drive. A rare and collectible coupe known for its timeless design, solid engineering, and smooth driving experience—ideal for classic car enthusiasts and collectors.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: ["Classic reinforced body structure", "Disc brakes"],
-      exterior: [
-        "Classic alloy wheels",
-        "Chrome detailing",
-        "Timeless coupe design",
-      ],
-      interior: [
-        "Classic upholstery",
-        "Analog instrument cluster",
-        "Wood trim accents",
-      ],
-      convenience: [
-        "Smooth inline-6 engine",
-        "Rear-wheel drive dynamics",
-        "Collector-grade classic",
-      ],
-    },
+    mileage: "60,000 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Inline-6",
+    driveType: "RWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Maroon",
+    seats: 4,
+    cityMPG: null,
+    highwayMPG: null,
+    specs: "Classic",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "217 HP"
+    }
   },
+
+  description:
+    "Mercedes Benz 300-24 1992 in maroon with automatic transmission and rear-wheel drive. Classic luxury coupe known for its strong inline-6 engine, timeless design, and smooth driving experience.",
+
+  features: {
+    safety: [
+      "Classic reinforced body structure",
+      "Disc brakes"
+    ],
+    exterior: [
+      "Classic alloy wheels",
+      "Chrome detailing",
+      "Timeless coupe design"
+    ],
+    interior: [
+      "Classic upholstery",
+      "Analog instrument cluster",
+      "Wood trim accents"
+    ],
+    convenience: [
+      "Smooth inline-6 engine",
+      "Rear-wheel drive dynamics",
+      "Collector-grade classic"
+    ]
+  }
+},
   {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "chevrolet-silverado-custom-2022",
-    slug: "chevrolet-silverado-custom-2022",
+  id: "chevrolet-silverado-2024",
+  slug: "chevrolet-silverado-2024",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2022,
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2024,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Chevrolet Silverado Custom 2022",
-    make: "Chevrolet",
-    model: "Silverado Custom",
-    bodyType: "Pickup Truck",
+  title: "Chevrolet Silverado 2024",
+  make: "Chevrolet",
+  model: "Silverado",
+  bodyType: "Pickup Truck",
 
-    rating: 4,
-    reviews: 6,
+  rating: 4,
+  reviews: 6,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "102000", // not provided
-    salePrice: "100000", // not provided
+  currency: "AED",
+  price: 102000,
+  salePrice: 100000,
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/silverado/1.jpg",
-      "/assets/images/silverado/2.jpg",
-      "/assets/images/silverado/3.jpg",
-      "/assets/images/silverado/4.jpg",
-      "/assets/images/silverado/5.jpg",
-      "/assets/images/silverado/6.jpg",
-      "/assets/images/silverado/7.jpg",
-      "/assets/images/silverado/8.jpg",
-      "/assets/images/silverado/9.jpg",
-      "/assets/images/silverado/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "71,487 miles",
-      transmission: "8-speed Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "CS2022",
-      vin: "1GCRDBEK7NZ646222",
-      year: 2022,
-      mileage: "71,487 miles",
-      transmission: "8-speed Automatic",
-      engineSize: "2.7L TurboMax",
-      driveType: "4WD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Black",
-      seats: 5,
-      cityMPG: 19,
-      highwayMPG: 22,
-      specs: "US Specs",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "310 HP",
-        towingCapacity: "9,600 lbs",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Powerful and capable Chevrolet Silverado Custom 2022 equipped with a 2.7L TurboMax engine. Designed for both work and comfort, featuring tow/haul mode, strong towing capability, and a spacious cabin—ideal for heavy-duty tasks and daily driving.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Rear view camera",
-      ],
-      exterior: [
-        "20-inch alloy wheels",
-        "LED headlights",
-        "Tow hooks",
-        "Side steps",
-      ],
-      interior: [
-        "Cloth seats",
-        "Touchscreen infotainment",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Tow/Haul mode",
-        "Power steering",
-        "Cruise control",
-        "Large cargo bed",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
   },
+
+  images: [
+    "/assets/images/silverado/1.jpg",
+    "/assets/images/silverado/2.jpg",
+    "/assets/images/silverado/3.jpg",
+    "/assets/images/silverado/4.jpg",
+    "/assets/images/silverado/5.jpg",
+    "/assets/images/silverado/6.jpg",
+    "/assets/images/silverado/7.jpg",
+    "/assets/images/silverado/8.jpg",
+    "/assets/images/silverado/9.jpg",
+    "/assets/images/silverado/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "N/A",
+    transmission: "N/A",
+  },
+
+  overview: {
+    stockNumber: "CS2024",
+    vin: "1GCRDBEK7NZ646222",
+    year: 2024,
+    mileage: "N/A",
+    transmission: "N/A",
+    engineSize: "2.7L Turbo",
+    driveType: "4WD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "White",
+    seats: 5,
+    cityMPG: 19,
+    highwayMPG: 22,
+    specs: "US Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "310 HP"
+    }
+  },
+
+  description:
+    "Chevrolet Silverado 2024 in white. Powerful pickup truck with strong engine, large cargo bed, and comfortable cabin. Suitable for work and daily driving.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Rear view camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Tow hooks",
+      "Side steps"
+    ],
+    interior: [
+      "Cloth seats",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Power steering",
+      "Cruise control",
+      "Large cargo bed"
+    ]
+  }
+},
   {
     /* =========================
      IDENTIFICATION
@@ -5102,127 +4884,100 @@ const cars = [
       ],
     },
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "toyota-mark-ii-grande-1995",
-    slug: "toyota-mark-ii-grande-1995",
+ {
+  id: "toyota-mark-2-1995",
+  slug: "toyota-mark-2-1995",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: 1995,
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 1995,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Toyota Mark II Grande TwinCam24 1995",
-    make: "Toyota",
-    model: "Mark II Grande TwinCam24",
-    bodyType: "Sedan",
+  title: "Toyota Mark 2 1995",
+  make: "Toyota",
+  model: "Mark 2",
+  bodyType: "Sedan",
 
-    rating: 4,
-    reviews: 5,
+  rating: 4,
+  reviews: 5,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "32000", // not provided
-    salePrice: "30000", // not provided
+  currency: "AED",
+  price: 32000,
+  salePrice: 30000,
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "JDM Classic Collection, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/mark/1.jpg",
-      "/assets/images/mark/2.jpg",
-      "/assets/images/mark/3.jpg",
-      "/assets/images/mark/4.jpg",
-      "/assets/images/mark/5.jpg",
-      "/assets/images/mark/6.jpg",
-      "/assets/images/mark/7.jpg",
-      "/assets/images/mark/8.jpg",
-      "/assets/images/mark/9.jpg",
-      "/assets/images/mark/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "54,000 km",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "TMG2000",
-      vin: "CX813289437",
-      year: 2000,
-      mileage: "54,000 km",
-      transmission: "Automatic",
-      engineSize: "1G-FE 2.0L Inline-6",
-      driveType: "FWD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Classic White",
-      seats: 5,
-      cityMPG: null,
-      highwayMPG: null,
-      specs: "Japanese Specs",
-      steeringSide: "RHD",
-      performance: {
-        horsepower: "N/A",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Classic JDM Toyota Mark II Grande TwinCam24 from the year 2000, powered by the legendary 1G-FE 2.0L inline-6 engine with rear-wheel drive. Known for its smooth performance, comfort-focused Grande trim, and timeless Japanese sedan design—ideal for JDM enthusiasts and collectors.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: ["Classic reinforced body structure", "Disc brakes"],
-      exterior: [
-        "Original JDM alloy wheels",
-        "Chrome trim accents",
-        "Timeless sedan styling",
-      ],
-      interior: [
-        "Classic fabric upholstery",
-        "Wood trim accents",
-        "Analog instrument cluster",
-      ],
-      convenience: [
-        "Smooth inline-6 engine",
-        "Rear-wheel drive dynamics",
-        "Collector-grade JDM classic",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "JDM Classic Collection, Dubai",
   },
+
+  images: [
+    "/assets/images/mark/1.jpg",
+    "/assets/images/mark/2.jpg",
+    "/assets/images/mark/3.jpg",
+    "/assets/images/mark/4.jpg",
+    "/assets/images/mark/5.jpg",
+    "/assets/images/mark/6.jpg",
+    "/assets/images/mark/7.jpg",
+    "/assets/images/mark/8.jpg",
+    "/assets/images/mark/9.jpg",
+    "/assets/images/mark/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "55,000 mi",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "TM1995",
+    vin: "CX813289437",
+    year: 1995,
+    mileage: "55,000 mi",
+    transmission: "Automatic",
+    engineSize: "2.0L Inline-6",
+    driveType: "RWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "White",
+    seats: 5,
+    cityMPG: null,
+    highwayMPG: null,
+    specs: "Japanese Specs",
+    steeringSide: "RHD",
+    performance: {
+      horsepower: "N/A"
+    }
+  },
+
+  description:
+    "Toyota Mark 2 1995 in white with automatic transmission and RWD. Classic Japanese sedan known for smooth inline-6 performance, comfortable ride, and timeless design.",
+
+  features: {
+    safety: [
+      "Classic reinforced body structure",
+      "Disc brakes"
+    ],
+    exterior: [
+      "Original alloy wheels",
+      "Chrome trim",
+      "Classic sedan styling"
+    ],
+    interior: [
+      "Fabric seats",
+      "Wood trim accents",
+      "Analog cluster"
+    ],
+    convenience: [
+      "Smooth inline-6 engine",
+      "Rear-wheel drive",
+      "Classic comfort ride"
+    ]
+  }
+},
   {
     /* =========================
      IDENTIFICATION
@@ -5340,241 +5095,199 @@ const cars = [
       ],
     },
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "bmw-320i-2020",
-    slug: "bmw-320i-2020",
+   {
+  id: "bmw-230i-2022",
+  slug: "bmw-230i-2022",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2020,
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2022,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "BMW 320i 2.0L 2020",
-    make: "BMW",
-    model: "320i",
-    bodyType: "Sedan",
+  title: "BMW 230i 2022",
+  make: "BMW",
+  model: "230i",
+  bodyType: "Coupe",
 
-    rating: 5,
-    reviews: 4,
+  rating: 5,
+  reviews: 4,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "115000",
-    salePrice: "112000",
+  currency: "AED",
+  price: 115000,
+  salePrice: 112000,
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/bmw-320i/1.jpg",
-      "/assets/images/bmw-320i/2.jpg",
-      "/assets/images/bmw-320i/3.jpg",
-      "/assets/images/bmw-320i/4.jpg",
-      "/assets/images/bmw-320i/5.jpg",
-      "/assets/images/bmw-320i/6.jpg",
-      "/assets/images/bmw-320i/7.jpg",
-      "/assets/images/bmw-320i/8.jpg",
-      "/assets/images/bmw-320i/9.jpg",
-      "/assets/images/bmw-320i/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "13,641 km",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "BMW320I2020",
-      vin: "WBA5R1C09L7B12345",
-      year: 2020,
-      mileage: "13,641 km",
-      transmission: "Automatic",
-      engineSize: "2.0L",
-      driveType: "2WD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Black",
-      seats: 5,
-      cityMPG: 26,
-      highwayMPG: 36,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "184 HP",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Premium and sporty BMW 320i 2020 finished in elegant black, featuring a powerful yet efficient 2.0L petrol engine with automatic transmission. Low mileage vehicle offering smooth handling, luxury interior, and an engaging driving experience — perfect for city and highway driving.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Rear parking sensors",
-        "Reverse camera",
-      ],
-      exterior: ["Alloy wheels", "LED headlights", "Sport body styling"],
-      interior: [
-        "Leather seats",
-        "Digital instrument cluster",
-        "Touchscreen infotainment",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Push start button",
-        "Keyless entry",
-        "Cruise control",
-        "Dual-zone climate control",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
   },
 
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "bmw-318i-1998",
-    slug: "bmw-318i-1998",
+  images: [
+    "/assets/images/bmw-320i/1.jpg",
+    "/assets/images/bmw-320i/2.jpg",
+    "/assets/images/bmw-320i/3.jpg",
+    "/assets/images/bmw-320i/4.jpg",
+    "/assets/images/bmw-320i/5.jpg",
+    "/assets/images/bmw-320i/6.jpg",
+    "/assets/images/bmw-320i/7.jpg",
+    "/assets/images/bmw-320i/8.jpg",
+    "/assets/images/bmw-320i/9.jpg",
+    "/assets/images/bmw-320i/10.jpg"
+  ],
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "13,641 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BMW230I2022",
+    vin: "WBA5R1C09L7B12345",
+    year: 2022,
+    mileage: "13,641 km",
+    transmission: "Automatic",
+    engineSize: "2.0L",
+    driveType: "RWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Black",
+    seats: 4,
+    cityMPG: 26,
+    highwayMPG: 36,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "255 HP"
+    }
+  },
+
+  description:
+    "BMW 230i 2022 in black with automatic transmission and rear-wheel drive. Sporty coupe with strong performance, premium interior, and smooth handling. Low mileage and excellent condition.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Rear parking sensors",
+      "Reverse camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Sport body styling"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital instrument cluster",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Push start button",
+      "Keyless entry",
+      "Cruise control",
+      "Dual-zone climate control"
+    ]
+  }
+},
+
+  {
+  id: "bmw-318is-mtech-1998",
+  slug: "bmw-318is-mtech-1998",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 1998,
+
+  title: "BMW 318is M Tech 1998",
+  make: "BMW",
+  model: "318is M Tech",
+  bodyType: "Sedan",
+
+  rating: 4,
+  reviews: 3,
+
+  currency: "AED",
+  price: 18000,
+  salePrice: 16500,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/bmw-318i/1.jpg",
+    "/assets/images/bmw-318i/2.jpg",
+    "/assets/images/bmw-318i/3.jpg",
+    "/assets/images/bmw-318i/4.jpg",
+    "/assets/images/bmw-318i/5.jpg",
+    "/assets/images/bmw-318i/6.jpg",
+    "/assets/images/bmw-318i/7.jpg",
+    "/assets/images/bmw-318i/8.jpg",
+    "/assets/images/bmw-318i/9.jpg",
+    "/assets/images/bmw-318i/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "124,000 km",
+    transmission: "Manual",
+  },
+
+  overview: {
+    stockNumber: "BMW3181998",
+    vin: "WBAAB12345EXAMPLE",
     year: 1998,
-
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "BMW 318i 1.8L 1998",
-    make: "BMW",
-    model: "318i",
-    bodyType: "Sedan",
-
-    rating: 4,
-    reviews: 3,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "18000",
-    salePrice: "16500",
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/bmw-318i/1.jpg",
-      "/assets/images/bmw-318i/2.jpg",
-      "/assets/images/bmw-318i/3.jpg",
-      "/assets/images/bmw-318i/4.jpg",
-      "/assets/images/bmw-318i/5.jpg",
-      "/assets/images/bmw-318i/6.jpg",
-      "/assets/images/bmw-318i/7.jpg",
-      "/assets/images/bmw-318i/8.jpg",
-      "/assets/images/bmw-318i/9.jpg",
-      "/assets/images/bmw-318i/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "77,603 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "BMW318I1998",
-      vin: "WBAAB12345EXAMPLE",
-      year: 1998,
-      mileage: "77,050 miles",
-      transmission: "Automatic",
-      engineSize: "1.8L",
-      driveType: "FWD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Silver",
-      seats: 5,
-      cityMPG: 23,
-      highwayMPG: 31,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "118 HP",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Classic BMW 318i 1998 finished in silver, powered by a reliable 1.8L petrol engine with automatic transmission. Known for its solid build quality and smooth driving dynamics, this sedan is ideal for daily use and BMW enthusiasts looking for timeless German engineering.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: ["Driver airbag", "ABS"],
-      exterior: ["Alloy wheels", "Body-colored mirrors"],
-      interior: ["Fabric seats", "Manual AC", "Power windows"],
-      convenience: ["Power steering", "Central locking"],
-    },
+    mileage: "124,000 km",
+    transmission: "Manual",
+    engineSize: "1.8L",
+    driveType: "RWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Silver",
+    seats: 5,
+    cityMPG: 23,
+    highwayMPG: 31,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "118 HP"
+    }
   },
+
+  description:
+    "BMW 318is M Tech 1998 in silver with manual transmission and rear-wheel drive. Classic sporty BMW with solid build quality, smooth handling, and timeless design.",
+
+  features: {
+    safety: [
+      "Driver airbag",
+      "ABS"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "Body-colored mirrors",
+      "M Tech styling"
+    ],
+    interior: [
+      "Fabric seats",
+      "Manual AC",
+      "Power windows"
+    ],
+    convenience: [
+      "Power steering",
+      "Central locking"
+    ]
+  }
+},
   {
     /* =========================
      IDENTIFICATION
@@ -5639,7 +5352,7 @@ const cars = [
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "220,000 miles",
+      mileage: "220,000 KM",
       transmission: "Automatic",
     },
 
@@ -5650,7 +5363,7 @@ const cars = [
       stockNumber: "BMWX52016",
       vin: "WBAKR0C57G0EXAMPLE",
       year: 2016,
-      mileage: "220,000 miles",
+      mileage: "220,000 KM",
       transmission: "Automatic",
       engineSize: "3.0L",
       driveType: "AWD",
@@ -5702,130 +5415,104 @@ const cars = [
     },
   },
 
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "ford-mustang-2019",
-    slug: "ford-mustang-2019",
+ {
+  id: "ford-mustang-2019",
+  slug: "ford-mustang-2019",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2019,
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2019,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Ford Mustang 2.3L 2019",
-    make: "Ford",
-    model: "Mustang",
-    bodyType: "Coupe",
+  title: "Ford Mustang 2019",
+  make: "Ford",
+  model: "Mustang",
+  bodyType: "Coupe",
 
-    rating: 4,
-    reviews: 6,
+  rating: 4,
+  reviews: 6,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "85000",
-    salePrice: "82000",
+  currency: "AED",
+  price: 85000,
+  salePrice: 82000,
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/mustang/1.jpg",
-      "/assets/images/mustang/2.jpg",
-      "/assets/images/mustang/3.jpg",
-      "/assets/images/mustang/4.jpg",
-      "/assets/images/mustang/5.jpg",
-      "/assets/images/mustang/6.jpg",
-      "/assets/images/mustang/7.jpg",
-      "/assets/images/mustang/8.jpg",
-      "/assets/images/mustang/9.jpg",
-      "/assets/images/mustang/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "146,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "MUSTANG2019",
-      vin: "1FA6P8TH9K5EXAMPLE",
-      year: 2019,
-      mileage: "146,000 miles",
-      transmission: "Automatic",
-      engineSize: "2.3L EcoBoost",
-      driveType: "2WD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 2,
-      color: "Black",
-      seats: 4,
-      cityMPG: 21,
-      highwayMPG: 32,
-      specs: "US Specs",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "310 HP",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Bold and aggressive Ford Mustang 2019 finished in black, powered by a turbocharged 2.3L EcoBoost engine with 2WD and automatic transmission. Despite higher mileage, this muscle coupe delivers thrilling performance, iconic styling, and a fun-to-drive experience on city roads and highways.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Rear view camera",
-      ],
-      exterior: ["Alloy wheels", "LED headlights", "Dual exhaust"],
-      interior: [
-        "Leather seats",
-        "Digital instrument cluster",
-        "Touchscreen infotainment",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Push start button",
-        "Keyless entry",
-        "Cruise control",
-        "Dual-zone climate control",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
   },
+
+  images: [
+    "/assets/images/mustang/1.jpg",
+    "/assets/images/mustang/2.jpg",
+    "/assets/images/mustang/3.jpg",
+    "/assets/images/mustang/4.jpg",
+    "/assets/images/mustang/5.jpg",
+    "/assets/images/mustang/6.jpg",
+    "/assets/images/mustang/7.jpg",
+    "/assets/images/mustang/8.jpg",
+    "/assets/images/mustang/9.jpg",
+    "/assets/images/mustang/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "146,000 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "MUSTANG2019",
+    vin: "1FA6P8TH9K5EXAMPLE",
+    year: 2019,
+    mileage: "146,000 km",
+    transmission: "Automatic",
+    engineSize: "2.3L EcoBoost",
+    driveType: "RWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Black",
+    seats: 4,
+    cityMPG: 21,
+    highwayMPG: 32,
+    specs: "US Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "310 HP"
+    }
+  },
+
+  description:
+    "Ford Mustang 2019 in black with automatic transmission and rear-wheel drive. Sporty muscle coupe with strong performance, iconic design, and powerful driving experience.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Rear view camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Dual exhaust"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital instrument cluster",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Push start button",
+      "Keyless entry",
+      "Cruise control",
+      "Dual-zone climate control"
+    ]
+  }
+},
 
   {
     /* =========================
@@ -6058,263 +5745,207 @@ const cars = [
       convenience: ["Keyless entry", "Cruise control", "Power windows"],
     },
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "mercedes-s400-2017",
-    slug: "mercedes-s400-2017",
+ {
+  id: "mercedes-benz-s400h-2017",
+  slug: "mercedes-benz-s400h-2017",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2017,
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2017,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Mercedes-Benz S400 3.0L 2017",
-    make: "Mercedes-Benz",
-    model: "S400",
-    bodyType: "Sedan",
+  title: "Mercedes Benz S400h 2017",
+  make: "Mercedes Benz",
+  model: "S400h",
+  bodyType: "Sedan",
 
-    rating: 5,
-    reviews: 6,
+  rating: 5,
+  reviews: 6,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "145000",
-    salePrice: "138000",
+  currency: "AED",
+  price: 145000,
+  salePrice: 138000,
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/mercedes-s400/1.jpg",
-      "/assets/images/mercedes-s400/2.jpg",
-      "/assets/images/mercedes-s400/3.jpg",
-      "/assets/images/mercedes-s400/4.jpg",
-      "/assets/images/mercedes-s400/5.jpg",
-      "/assets/images/mercedes-s400/6.jpg",
-      "/assets/images/mercedes-s400/7.jpg",
-      "/assets/images/mercedes-s400/8.jpg",
-      "/assets/images/mercedes-s400/9.jpg",
-      "/assets/images/mercedes-s400/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "111,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "S4002017",
-      vin: "WDDUG6EB9HAEXAMPLE",
-      year: 2017,
-      mileage: "111,000 miles",
-      transmission: "Automatic",
-      engineSize: "3.0L V6",
-      driveType: "2WD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Black",
-      seats: 5,
-      cityMPG: 20,
-      highwayMPG: 28,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "329 HP",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Luxury and elegance define this Mercedes-Benz S400 2017 finished in black. Powered by a refined 3.0L V6 petrol engine with smooth automatic transmission and 2WD, the S-Class delivers exceptional comfort, advanced technology, and a premium driving experience — ideal for executive and family use.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Multiple airbags",
-        "ABS",
-        "Traction control",
-        "Lane assist",
-        "Blind spot monitoring",
-      ],
-      exterior: [
-        "Alloy wheels",
-        "LED Intelligent headlights",
-        "Chrome exterior accents",
-      ],
-      interior: [
-        "Leather seats",
-        "Digital instrument cluster",
-        "Touchscreen infotainment",
-        "Ambient lighting",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Push start button",
-        "Keyless entry",
-        "Cruise control",
-        "Dual-zone climate control",
-        "Power seats with memory",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "nissan-pathfinder-2017",
-    slug: "nissan-pathfinder-2017",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2017,
+  images: [
+    "/assets/images/mercedes-s400/1.jpg",
+    "/assets/images/mercedes-s400/2.jpg",
+    "/assets/images/mercedes-s400/3.jpg",
+    "/assets/images/mercedes-s400/4.jpg",
+    "/assets/images/mercedes-s400/5.jpg",
+    "/assets/images/mercedes-s400/6.jpg",
+    "/assets/images/mercedes-s400/7.jpg",
+    "/assets/images/mercedes-s400/8.jpg",
+    "/assets/images/mercedes-s400/9.jpg",
+    "/assets/images/mercedes-s400/10.jpg"
+  ],
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Nissan Pathfinder 3.5L 2017",
-    make: "Nissan",
-    model: "Pathfinder",
-    bodyType: "SUV",
-
-    rating: 4,
-    reviews: 5,
-
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "52000",
-    salePrice: "49500",
-
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/nissan-pathfinder/1.jpg",
-      "/assets/images/nissan-pathfinder/2.jpg",
-      "/assets/images/nissan-pathfinder/3.jpg",
-      "/assets/images/nissan-pathfinder/4.jpg",
-      "/assets/images/nissan-pathfinder/5.jpg",
-      "/assets/images/nissan-pathfinder/6.jpg",
-      "/assets/images/nissan-pathfinder/7.jpg",
-      "/assets/images/nissan-pathfinder/8.jpg",
-      "/assets/images/nissan-pathfinder/9.jpg",
-      "/assets/images/nissan-pathfinder/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "163,000 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "PATHFINDER2017",
-      vin: "5N1DR2MM6HCEXAMPLE",
-      year: 2017,
-      mileage: "163,000 miles",
-      transmission: "Automatic",
-      engineSize: "3.5L V6",
-      driveType: "AWD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 5,
-      color: "Blue",
-      seats: 7,
-      cityMPG: 20,
-      highwayMPG: 27,
-      specs: "US Specs",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "284 HP",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Spacious and capable Nissan Pathfinder 2017 finished in blue, powered by a strong 3.5L V6 petrol engine with AWD and automatic transmission. Designed for families and long journeys, this SUV offers comfortable 7-seat accommodation, solid performance, and confidence on both city roads and highways.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Blind spot monitoring",
-        "Reverse camera",
-      ],
-      exterior: ["Alloy wheels", "LED headlights", "Roof rails"],
-      interior: [
-        "Leather seats",
-        "Touchscreen infotainment",
-        "Multi-function steering wheel",
-        "Third-row seating",
-      ],
-      convenience: [
-        "Push start button",
-        "Keyless entry",
-        "Cruise control",
-        "Tri-zone climate control",
-        "Power tailgate",
-      ],
-    },
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "111,308 km",
+    transmission: "Automatic",
   },
+
+  overview: {
+    stockNumber: "S4002017",
+    vin: "WDDUG6EB9HAEXAMPLE",
+    year: 2017,
+    mileage: "111,308 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Hybrid",
+    driveType: "AWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Black",
+    seats: 5,
+    cityMPG: 20,
+    highwayMPG: 28,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "329 HP"
+    }
+  },
+
+  description:
+    "Mercedes Benz S400h 2017 in black with automatic transmission and AWD. Luxury sedan with hybrid performance, premium interior, and smooth driving comfort.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED Intelligent headlights",
+      "Chrome exterior accents"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital instrument cluster",
+      "Touchscreen infotainment",
+      "Ambient lighting",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Push start button",
+      "Keyless entry",
+      "Cruise control",
+      "Dual-zone climate control",
+      "Power seats with memory"
+    ]
+  }
+},
+  {
+  id: "nissan-pathfinder-2017",
+  slug: "nissan-pathfinder-2017",
+
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2017,
+
+  title: "Nissan Pathfinder 2017",
+  make: "Nissan",
+  model: "Pathfinder",
+  bodyType: "SUV",
+
+  rating: 4,
+  reviews: 5,
+
+  currency: "AED",
+  price: 52000,
+  salePrice: 49500,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/nissan-pathfinder/1.jpg",
+    "/assets/images/nissan-pathfinder/2.jpg",
+    "/assets/images/nissan-pathfinder/3.jpg",
+    "/assets/images/nissan-pathfinder/4.jpg",
+    "/assets/images/nissan-pathfinder/5.jpg",
+    "/assets/images/nissan-pathfinder/6.jpg",
+    "/assets/images/nissan-pathfinder/7.jpg",
+    "/assets/images/nissan-pathfinder/8.jpg",
+    "/assets/images/nissan-pathfinder/9.jpg",
+    "/assets/images/nissan-pathfinder/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "263,861 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "PATHFINDER2017",
+    vin: "5N1DR2MM6HCEXAMPLE",
+    year: 2017,
+    mileage: "263,861 km",
+    transmission: "Automatic",
+    engineSize: "3.5L V6",
+    driveType: "4WD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Blue",
+    seats: 7,
+    cityMPG: 20,
+    highwayMPG: 27,
+    specs: "US Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "284 HP"
+    }
+  },
+
+  description:
+    "Nissan Pathfinder 2017 in blue with automatic transmission and 4WD. Spacious 7-seater SUV with strong V6 engine, comfortable interior, and reliable performance for family use.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Blind spot monitoring",
+      "Reverse camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Roof rails"
+    ],
+    interior: [
+      "Leather seats",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel",
+      "Third-row seating"
+    ],
+    convenience: [
+      "Push start button",
+      "Keyless entry",
+      "Cruise control",
+      "Tri-zone climate control",
+      "Power tailgate"
+    ]
+  }
+},
 
   {
     /* =========================
@@ -6380,7 +6011,7 @@ const cars = [
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "47,000 miles",
+      mileage: "47,00 miles",
       transmission: "Automatic",
     },
 
@@ -6391,7 +6022,7 @@ const cars = [
       stockNumber: "SONATASP2018",
       vin: "5NPE34AF8JHXXXXXX",
       year: 2018,
-      mileage: "47,000 miles",
+      mileage: "47,00 miles",
       transmission: "Automatic",
       engineSize: "2.4L",
       driveType: "2WD",
@@ -6440,132 +6071,106 @@ const cars = [
     },
   },
 
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "volvo-s60-polestar-2017",
-    slug: "volvo-s60-polestar-2017",
+ {
+  id: "volvo-s60-polestar-2016",
+  slug: "volvo-s60-polestar-2016",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2017,
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2016,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Volvo S60 Polestar 2.0L 2017",
-    make: "Volvo",
-    model: "S60 Polestar",
-    bodyType: "Sedan",
+  title: "Volvo S60 Polestar 2016",
+  make: "Volvo",
+  model: "S60 Polestar",
+  bodyType: "Sedan",
 
-    rating: 5,
-    reviews: 4,
+  rating: 5,
+  reviews: 4,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: "78000",
-    salePrice: "74500",
+  currency: "AED",
+  price: 78000,
+  salePrice: 74500,
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
-
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/volvo-s60-polestar/1.jpg",
-      "/assets/images/volvo-s60-polestar/2.jpg",
-      "/assets/images/volvo-s60-polestar/3.jpg",
-      "/assets/images/volvo-s60-polestar/4.jpg",
-      "/assets/images/volvo-s60-polestar/5.jpg",
-      "/assets/images/volvo-s60-polestar/6.jpg",
-      "/assets/images/volvo-s60-polestar/7.jpg",
-      "/assets/images/volvo-s60-polestar/8.jpg",
-      "/assets/images/volvo-s60-polestar/9.jpg",
-      "/assets/images/volvo-s60-polestar/10.jpg",
-    ],
-
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "95,650 miles",
-      transmission: "Automatic",
-    },
-
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "S60POLESTAR2017",
-      vin: "YV1FS8DP6H2EXAMPLE",
-      year: 2017,
-      mileage: "95,650 miles",
-      transmission: "Automatic",
-      engineSize: "2.0L Turbo",
-      driveType: "FWD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Black",
-      seats: 5,
-      cityMPG: 22,
-      highwayMPG: 32,
-      specs: "US Specs",
-      steeringSide: "LHD",
-      performance: {
-        horsepower: "367 HP",
-      },
-    },
-
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "High-performance Volvo S60 Polestar 2017 finished in black, featuring a powerful 2.0L turbocharged petrol engine with FWD and automatic transmission. Tuned by Polestar for enhanced driving dynamics, this sedan combines Scandinavian luxury, aggressive performance, and everyday comfort.",
-
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Multiple airbags",
-        "ABS",
-        "Traction control",
-        "Blind spot monitoring",
-        "Lane keep assist",
-      ],
-      exterior: ["Polestar alloy wheels", "LED headlights", "Sport body kit"],
-      interior: [
-        "Sport leather seats",
-        "Digital instrument cluster",
-        "Touchscreen infotainment",
-        "Polestar sport steering wheel",
-      ],
-      convenience: [
-        "Push start button",
-        "Keyless entry",
-        "Cruise control",
-        "Dual-zone climate control",
-        "Power seats",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
   },
+
+  images: [
+    "/assets/images/volvo-s60-polestar/1.jpg",
+    "/assets/images/volvo-s60-polestar/2.jpg",
+    "/assets/images/volvo-s60-polestar/3.jpg",
+    "/assets/images/volvo-s60-polestar/4.jpg",
+    "/assets/images/volvo-s60-polestar/5.jpg",
+    "/assets/images/volvo-s60-polestar/6.jpg",
+    "/assets/images/volvo-s60-polestar/7.jpg",
+    "/assets/images/volvo-s60-polestar/8.jpg",
+    "/assets/images/volvo-s60-polestar/9.jpg",
+    "/assets/images/volvo-s60-polestar/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "153,929 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "S60POLESTAR2016",
+    vin: "YV1FS8DP6H2EXAMPLE",
+    year: 2016,
+    mileage: "153,929 km",
+    transmission: "Automatic",
+    engineSize: "2.0L Turbo",
+    driveType: "AWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Black",
+    seats: 5,
+    cityMPG: 22,
+    highwayMPG: 32,
+    specs: "US Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "367 HP"
+    }
+  },
+
+  description:
+    "Volvo S60 Polestar 2016 in black with automatic transmission and AWD. Performance sedan with strong turbo engine, premium interior, and sporty driving experience.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Blind spot monitoring",
+      "Lane keep assist"
+    ],
+    exterior: [
+      "Polestar alloy wheels",
+      "LED headlights",
+      "Sport body kit"
+    ],
+    interior: [
+      "Sport leather seats",
+      "Digital instrument cluster",
+      "Touchscreen infotainment",
+      "Sport steering wheel"
+    ],
+    convenience: [
+      "Push start button",
+      "Keyless entry",
+      "Cruise control",
+      "Dual-zone climate control",
+      "Power seats"
+    ]
+  }
+}
 ];
 
 export default cars;

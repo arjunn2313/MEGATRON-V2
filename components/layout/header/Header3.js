@@ -29,7 +29,7 @@ export default function Header3({
                   <li>
                     <Link href="/#">
                       <i className="icon-Group3" />
-                      <p>Mail Us: optimusmegatroncars@gmail.com</p>
+                      <p>Mail Us: info@optimusmegatroncars.com</p>
                     </Link>
                   </li>
                 </ul>

@@ -34,7 +34,7 @@ export default function Footer1() {
                   </li>
                   <li>
                     <i className="icon-Group-1" />
-                    <span className="text-light">optimusmegatroncars@gmail.com</span>
+                    <span className="text-light">info@optimusmegatroncars.com</span>
                   </li>
                 </ul>
               </div>
