@@ -7,9 +7,6 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { FaWhatsapp } from "react-icons/fa";
 
- 
-
-
 export default function CarList() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
@@ -21,7 +18,7 @@ export default function CarList() {
 
   const filteredCars = selectedMake
     ? cars.filter(
-        (car) => car.make?.toLowerCase() === selectedMake.toLowerCase()
+        (car) => car.make?.toLowerCase() === selectedMake.toLowerCase(),
       )
     : cars;
 
@@ -46,14 +43,14 @@ export default function CarList() {
   }, []);
   const handleToggle = () => setToggled(!isToggled);
 
-   const ITEMS_PER_PAGE = 6;
+  const ITEMS_PER_PAGE = 6;
   const [currentPage, setCurrentPage] = useState(1);
 
   const totalPages = Math.ceil(filteredCars.length / ITEMS_PER_PAGE);
 
   const paginatedCars = filteredCars.slice(
     (currentPage - 1) * ITEMS_PER_PAGE,
-    currentPage * ITEMS_PER_PAGE
+    currentPage * ITEMS_PER_PAGE,
   );
 
   useEffect(() => {
@@ -63,7 +60,6 @@ export default function CarList() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [currentPage]);
-
 
   return (
     <>
@@ -508,7 +504,7 @@ export default function CarList() {
 
                               <a
                                 href={`https://wa.me/971565049928?text=${encodeURIComponent(
-                                  `Hi, I would like to know more about the ${car.title}`
+                                  `Hi, I would like to know more about the ${car.title}`,
                                 )}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -540,7 +536,7 @@ export default function CarList() {
                                 </h6>
 
                                 {/* RATING */}
-                                <div className="review-wrap">
+                                {/* <div className="review-wrap">
                                   <div className="rating">
                                     {[...Array(car.rating)].map((_, i) => (
                                       <i className="icon-Vector3" key={i} />
@@ -549,8 +545,24 @@ export default function CarList() {
                                   <span className="review">
                                     ( {car.reviews} Reviews )
                                   </span>
-                                </div>
+                                </div> */}
+                                <div className="review-wrap">
+                                  {/* <div className="rating">
+                                    {[...Array(car.rating)].map((_, i) => (
+                                      <i className="icon-Vector3" key={i} />
+                                    ))}
+                                  </div> */}
 
+                                 <span
+  className="review"
+  style={{
+    color: car?.status === "Available" ? "green" : "red",
+    fontWeight: "600",
+  }}
+>
+  {car?.status === "Available" ? "Available" : "Sold"}
+</span>
+                                </div>
                                 {/* SPECS */}
                                 <div className="description">
                                   <ul>
@@ -1434,44 +1446,45 @@ export default function CarList() {
                                                     </div>
                                                 </div> */}
                       </div>
-                    <div className="tf-pagination">
-  {/* PREV */}
-  <button
-    className="prev page-numbers"
-    disabled={currentPage === 1}
-    onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))}
-  >
-    <i className="icon-3" />
-  </button>
+                      <div className="tf-pagination">
+                        {/* PREV */}
+                        <button
+                          className="prev page-numbers"
+                          disabled={currentPage === 1}
+                          onClick={() =>
+                            setCurrentPage((p) => Math.max(p - 1, 1))
+                          }
+                        >
+                          <i className="icon-3" />
+                        </button>
 
-  {/* PAGE NUMBERS */}
-  {Array.from({ length: totalPages }).map((_, i) => {
-    const page = i + 1;
-    return (
-      <button
-        key={page}
-        className={`page-numbers ${
-          currentPage === page ? "active" : ""
-        }`}
-        onClick={() => setCurrentPage(page)}
-      >
-        {page}
-      </button>
-    );
-  })}
+                        {/* PAGE NUMBERS */}
+                        {Array.from({ length: totalPages }).map((_, i) => {
+                          const page = i + 1;
+                          return (
+                            <button
+                              key={page}
+                              className={`page-numbers ${
+                                currentPage === page ? "active" : ""
+                              }`}
+                              onClick={() => setCurrentPage(page)}
+                            >
+                              {page}
+                            </button>
+                          );
+                        })}
 
-  {/* NEXT */}
-  <button
-    className="next page-numbers"
-    disabled={currentPage === totalPages}
-    onClick={() =>
-      setCurrentPage((p) => Math.min(p + 1, totalPages))
-    }
-  >
-    <i className="icon--1" />
-  </button>
-</div>
-
+                        {/* NEXT */}
+                        <button
+                          className="next page-numbers"
+                          disabled={currentPage === totalPages}
+                          onClick={() =>
+                            setCurrentPage((p) => Math.min(p + 1, totalPages))
+                          }
+                        >
+                          <i className="icon--1" />
+                        </button>
+                      </div>
                     </div>
                     <div
                       className={

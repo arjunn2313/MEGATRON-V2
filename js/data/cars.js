@@ -2,7 +2,7 @@ const cars = [
   {
   id: "mercedes-benz-e300-2023",
   slug: "mercedes-benz-e300-2023",
-
+  status: "Available",
   featured: true,
   discountPercent: 0,
   condition: "Used",
@@ -104,7 +104,7 @@ const cars = [
   {
   id: "land-rover-discovery-hse-2024",
   slug: "land-rover-discovery-hse-2024",
-
+ status: "Available",
   featured: true,
   discountPercent: 0,
   condition: "Used",
@@ -207,7 +207,7 @@ const cars = [
   {
   id: "range-rover-sport-2023",
   slug: "range-rover-sport-2023",
-
+ status: "Available",
   featured: true,
   discountPercent: 0,
   condition: "Used",
@@ -309,7 +309,7 @@ const cars = [
   {
     id: "maserati-levante-s-2019",
     slug: "maserati-levante-s-2019",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -410,7 +410,7 @@ const cars = [
   {
     id: "lexus-nx350-2025",
     slug: "lexus-nx350-2025",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -512,7 +512,7 @@ const cars = [
   {
     id: "mercedes-benz-cla250-2015",
     slug: "mercedes-benz-cla250-2015",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -602,7 +602,7 @@ const cars = [
   {
     id: "lexus-lc500h-2025",
     slug: "lexus-lc500h-2025",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -704,7 +704,7 @@ const cars = [
   {
     id: "bmw-x6-2019",
     slug: "bmw-x6-2019",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -806,7 +806,7 @@ const cars = [
   {
     id: "porsche-macan-2024",
     slug: "porsche-macan-2024",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -904,7 +904,7 @@ const cars = [
   {
     id: "mercedes-benz-e250-2021",
     slug: "mercedes-benz-e250-2021",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -1000,7 +1000,7 @@ const cars = [
     discountPercent: 0,
     condition: "Used",
     year: 1989,
-
+ status: "Available",
     title: "Mercedes-Benz 560 SEL 1989",
     make: "Mercedes-Benz",
     model: "560 SEL",
@@ -1072,7 +1072,7 @@ const cars = [
     discountPercent: 0,
     condition: "Used",
     year: 2019,
-
+ status: "Available",
     title: "Mercedes-Benz SLC 300 2019",
     make: "Mercedes-Benz",
     model: "SLC 300",
@@ -1144,7 +1144,7 @@ const cars = [
     discountPercent: 0,
     condition: "Used",
     year: 2020,
-
+ status: "Available",
     title: "Range Rover Velar 2020",
     make: "Land Rover",
     model: "Velar",
@@ -1216,7 +1216,7 @@ const cars = [
     discountPercent: 0,
     condition: "Used",
     year: 2020,
-
+ status: "Available",
     title: "Chevrolet Camaro 2020",
     make: "Chevrolet",
     model: "Camaro",
@@ -1283,7 +1283,7 @@ const cars = [
   {
     id: "cadillac-escalade-600-2023",
     slug: "cadillac-escalade-600-2023",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -1382,7 +1382,7 @@ const cars = [
   {
     id: "chevrolet-corvette-2021",
     slug: "chevrolet-corvette-2021",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -1480,7 +1480,7 @@ const cars = [
   {
     id: "audi-rs6-2023",
     slug: "audi-rs6-2023",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -1578,7 +1578,7 @@ const cars = [
   {
     id: "bentley-continental-gt-2022",
     slug: "bentley-continental-gt-2022",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -1676,7 +1676,7 @@ const cars = [
   {
     id: "bmw-x6-2018",
     slug: "bmw-x6-2018",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -1766,7 +1766,7 @@ const cars = [
   {
     id: "ford-mustang-2020",
     slug: "ford-mustang-2020",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -1862,7 +1862,7 @@ const cars = [
   {
     id: "jeep-wrangler-2025",
     slug: "jeep-wrangler-2025",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -1957,7 +1957,7 @@ const cars = [
   {
     id: "lamborghini-urus-s-2024",
     slug: "lamborghini-urus-s-2024",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -2056,7 +2056,7 @@ const cars = [
   {
     id: "land-rover-defender-s110-p400-2023",
     slug: "land-rover-defender-s110-p400-2023",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -2154,7 +2154,7 @@ const cars = [
   {
     id: "nissan-kicks-2019",
     slug: "nissan-kicks-2019",
-
+ status: "Sold",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -2242,7 +2242,7 @@ const cars = [
   {
     id: "range-rover-velar-2025",
     slug: "range-rover-velar-2025",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -2341,7 +2341,7 @@ const cars = [
   {
     id: "bentley-continental-gt-convertible-2022",
     slug: "bentley-continental-gt-convertible-2022",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -2439,7 +2439,7 @@ const cars = [
   {
     id: "mercedes-benz-glc-43-amg-2021",
     slug: "mercedes-benz-glc-43-amg-2021",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -2538,7 +2538,7 @@ const cars = [
   {
     id: "mercedes-benz-e-300-2017",
     slug: "mercedes-benz-e-300-2017",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -2631,7 +2631,7 @@ const cars = [
   {
     id: "nissan-armada-nismo-2022",
     slug: "nissan-armada-nismo-2022",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -2730,7 +2730,7 @@ const cars = [
   {
     id: "bmw-430i-2024",
     slug: "bmw-430i-2024",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -2821,7 +2821,7 @@ const cars = [
   {
     id: "kia-optima-2017",
     slug: "kia-optima-2017",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -2912,7 +2912,7 @@ const cars = [
   {
     id: "toyota-tundra-2024",
     slug: "toyota-tundra-2024",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3003,7 +3003,7 @@ const cars = [
   {
     id: "ford-mustang-gt-2024",
     slug: "ford-mustang-gt-2024",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3099,7 +3099,7 @@ const cars = [
   {
     id: "mercedes-benz-glb-250-2020",
     slug: "mercedes-benz-glb-250-2020",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3190,7 +3190,7 @@ const cars = [
   {
     id: "honda-civic-2022",
     slug: "honda-civic-2022",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3281,7 +3281,7 @@ const cars = [
   {
     id: "ford-f150-2020",
     slug: "ford-f150-2020",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3371,7 +3371,7 @@ const cars = [
   {
     id: "dodge-hornet-2024",
     slug: "dodge-hornet-2024",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3468,7 +3468,7 @@ const cars = [
   {
     id: "dodge-challenger-2021",
     slug: "dodge-challenger-2021",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3558,7 +3558,7 @@ const cars = [
   {
     id: "land-rover-defender-110-p300-2024",
     slug: "land-rover-defender-110-p300-2024",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3655,7 +3655,7 @@ const cars = [
   {
     id: "bmw-x6-m60i-2025",
     slug: "bmw-x6-m60i-2025",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3752,7 +3752,7 @@ const cars = [
   {
     id: "bmw-x6-2014",
     slug: "bmw-x6-2014",
-
+ status: "Sold",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3851,7 +3851,7 @@ const cars = [
   {
     id: "ford-explorer-active-2019",
     slug: "ford-explorer-active-2019",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -3942,7 +3942,7 @@ const cars = [
   {
     id: "mazda-3-2019",
     slug: "mazda-3-2019",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -4032,7 +4032,7 @@ const cars = [
   {
     id: "nissan-sentra-2022",
     slug: "nissan-sentra-2022",
-
+ status: "Sold",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -4123,7 +4123,7 @@ const cars = [
   {
     id: "porsche-cayenne-s-2015",
     slug: "porsche-cayenne-s-2015",
-
+ status: "Available",
     featured: true,
     discountPercent: 8,
     condition: "Used",
@@ -4219,7 +4219,7 @@ const cars = [
   {
     id: "ford-explorer-xlt-2019",
     slug: "ford-explorer-xlt-2019",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -4306,7 +4306,7 @@ const cars = [
   ========================== */
     id: "range-rover-evoque-ingenium-2022",
     slug: "range-rover-evoque-ingenium-2022",
-
+ status: "Available",
     /* =========================
      BADGES / FLAGS
   ========================== */
@@ -4435,7 +4435,7 @@ const cars = [
   {
     id: "hyundai-sonata-sport-2019",
     slug: "hyundai-sonata-sport-2019",
-
+ status: "Sold",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -4523,7 +4523,7 @@ const cars = [
   {
     id: "mercedes-benz-300-24-1992",
     slug: "mercedes-benz-300-24-1992",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -4614,7 +4614,7 @@ const cars = [
   {
     id: "chevrolet-silverado-2024",
     slug: "chevrolet-silverado-2024",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -4705,7 +4705,7 @@ const cars = [
   ========================== */
     id: "nissan-armada-2024",
     slug: "nissan-armada-2024",
-
+ status: "Available",
     /* =========================
      BADGES / FLAGS
   ========================== */
@@ -4838,7 +4838,7 @@ const cars = [
   {
     id: "toyota-mark-2-1995",
     slug: "toyota-mark-2-1995",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -4926,7 +4926,7 @@ const cars = [
   {
     id: "bmw-230i-2022",
     slug: "bmw-230i-2022",
-
+ status: "Sold",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -5022,7 +5022,7 @@ const cars = [
   {
     id: "bmw-318is-mtech-1998",
     slug: "bmw-318is-mtech-1998",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -5104,7 +5104,7 @@ const cars = [
   ========================== */
     id: "bmw-x5-2016",
     slug: "bmw-x5-2016",
-
+ status: "Available",
     /* =========================
      BADGES / FLAGS
   ========================== */
@@ -5228,7 +5228,7 @@ const cars = [
   {
     id: "ford-mustang-2019",
     slug: "ford-mustang-2019",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -5326,7 +5326,7 @@ const cars = [
   ========================== */
     id: "jeep-wrangler-2014",
     slug: "jeep-wrangler-2014",
-
+ status: "Available",
     /* =========================
      BADGES / FLAGS
   ========================== */
@@ -5439,7 +5439,7 @@ const cars = [
   ========================== */
     id: "kia-forte-2020",
     slug: "kia-forte-2020",
-
+ status: "Available",
     /* =========================
      BADGES / FLAGS
   ========================== */
@@ -5554,7 +5554,7 @@ const cars = [
   {
     id: "mercedes-benz-s400h-2017",
     slug: "mercedes-benz-s400h-2017",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
@@ -5655,7 +5655,7 @@ const cars = [
   {
     id: "nissan-pathfinder-2017",
     slug: "nissan-pathfinder-2017",
-
+ status: "Available",
     featured: false,
     discountPercent: 0,
     condition: "Used",
@@ -5755,7 +5755,7 @@ const cars = [
   ========================== */
     id: "hyundai-sonata-sport-2018-grey",
     slug: "hyundai-sonata-sport-2018-grey",
-
+ status: "Sold",
     /* =========================
      BADGES / FLAGS
   ========================== */
@@ -5876,7 +5876,7 @@ const cars = [
   {
     id: "volvo-s60-polestar-2016",
     slug: "volvo-s60-polestar-2016",
-
+ status: "Available",
     featured: true,
     discountPercent: 0,
     condition: "Used",
