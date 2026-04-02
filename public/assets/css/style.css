@@ -2161,6 +2161,10 @@ body.modal-open {
   position: relative;
   display: inline-block;
   border-radius: 5px;
+    display: flex;       
+  gap: 15px;             
+  flex-wrap: wrap;  
+ 
 }
  
 
@@ -2175,6 +2179,7 @@ body.modal-open {
   border-radius: 3px;
   transition: 400ms;
   padding: 15px 44px;
+ 
 }
 .btn-main .button_main_inner:hover {
   color: #ffffff;
@@ -5094,7 +5099,7 @@ ul.social-icon li a i:hover {
 /*------------ Widget car banner ---------------- */
 /*------------ Widget Selling car ---------------- */
 .widget-selling-car {
-  background-color: #F8F8F8;
+  /* background-color: #F8F8F8; */
   padding-top: 184px;
 }
 
@@ -10900,4 +10905,335 @@ a.mapboxgl-ctrl-logo {
 
 .apply-mail a:hover {
   text-decoration: underline;
+}
+
+/* confidence */
+/* SECTION */
+.confidence-section {
+  /* background: #f8fafc; */
+  padding: 80px 20px;
+}
+
+.confidence-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* TEXT */
+.confidence-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.confidence-desc {
+  color: #6b7280;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* CARDS */
+.confidence-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.confidence-card {
+  display: flex;
+  gap: 15px;
+  padding: 18px;
+  background: #ffffff;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  border: 1px solid #f1f1f1;
+}
+
+.confidence-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ICON */
+.confidence-icon {
+  font-size: 20px;
+  color: #D4AF37; /* orange */
+  margin-top: 4px;
+}
+
+/* CARD TEXT */
+.confidence-card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.confidence-card p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* BUTTON */
+.confidence-btn {
+  margin-top: 30px;
+  background: #D4AF37;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.confidence-btn:hover {
+  background: #ea580c;
+}
+
+/* IMAGE */
+.confidence-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.confidence-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .confidence-container {
+    grid-template-columns: 1fr;
+  }
+
+  .confidence-title {
+    font-size: 28px;
+  }
+
+  .confidence-image-wrapper {
+    height: 300px;
+  }
+}
+
+
+
+
+/* sell SECTION */
+.sell-section {
+ 
+  padding: 80px 20px;
+}
+
+.sell-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.sell-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sell-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #D4AF37;
+  margin-bottom: 10px;
+}
+
+.sell-header p {
+  max-width: 700px;
+  margin: auto;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* GRID */
+.sell-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* IMAGE */
+.sell-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.sell-image {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* CARDS */
+.sell-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sell-card {
+  display: flex;
+  gap: 15px;
+  padding: 18px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #f1f1f1;
+  transition: 0.3s ease;
+}
+
+.sell-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ICON */
+.sell-icon {
+  font-size: 20px;
+  color: #D4AF37;
+  margin-top: 4px;
+}
+
+/* TEXT */
+.sell-card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.sell-card p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* BUTTON */
+.sell-btn {
+  margin-top: 20px;
+  background: #D4AF37;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.3s;
+}
+
+.sell-btn:hover {
+  background: #ea580c;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .sell-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sell-image-wrapper {
+    height: 280px;
+  }
+
+  .sell-header h2 {
+    font-size: 26px;
+  }
+}
+
+
+ /* SECTION */
+.testimonials-section {
+  padding: 120px 40px; /* 🔥 more space */
+   
+}
+
+.container {
+  max-width: 1400px; /* 🔥 wider layout */
+  margin: auto;
+}
+
+/* TITLE */
+.testimonials-title {
+  text-align: center;
+  font-size: 42px; /* 🔥 bigger */
+  font-weight: 800;
+  color: #D4AF37;
+  margin-bottom: 70px;
+  letter-spacing: 0.5px;
+}
+
+/* GRID */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px; /* 🔥 more spacing */
+}
+
+/* CARD */
+.testimonial-card {
+  background: #ffffff;
+  padding: 40px 30px; /* 🔥 bigger card */
+  border-radius: 16px;
+  border: 1px solid #eee;
+  position: relative;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+/* HOVER */
+.testimonial-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* TEXT */
+.testimonial-card p {
+  color: #374151;
+  font-size: 17px; /* 🔥 bigger text */
+  line-height: 1.9;
+  margin-top: 10px;
+}
+
+/* QUOTES */
+.quote-icon {
+  color: #D4AF37;
+  font-size: 30px; /* 🔥 bigger quotes */
+  font-weight: bold;
+}
+
+.quote-icon.left {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.quote-icon.right {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-title {
+    font-size: 32px;
+  }
 }

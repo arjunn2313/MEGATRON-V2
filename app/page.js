@@ -4,16 +4,21 @@ import BrowseByMode from "@/components/sections/BrowseByMode"
 import CarBannerV1 from "@/components/sections/CarBannerV1"
 import CarBlogV1 from "@/components/sections/CarBlogV1"
 import CarListV2 from "@/components/sections/CarListV2"
+import ConfidenceSection from "@/components/sections/ConfidenceSection"
 import CounterCar from "@/components/sections/CounterCar"
 import FeaturesCar from "@/components/sections/FeaturesCar"
 import IconBox from "@/components/sections/IconBox"
 import Logo from "@/components/sections/Logo"
 import Quote from "@/components/sections/Quote"
+import SellCarSection from "@/components/sections/SellCarSection"
 import SellingCar from "@/components/sections/SellingCar"
 import Slide from "@/components/sections/Slide"
 import SlideSearchCar from "@/components/sections/SlideSearchCar"
 import TabCarService from "@/components/sections/TabCarService"
 import TestimonialCar from "@/components/sections/TestimonialCar"
+import Testimonials from "@/components/sections/Testimonials"
+import TestimonialSlider from "@/components/slider/TestimonialSlider"
+import TestimonialSliderV2 from "@/components/slider/TestimonialSliderV2"
 export default function Home() {
 
     return (
@@ -24,11 +29,18 @@ export default function Home() {
    
 
                 <ChristmasOffers/>
+                  <ConfidenceSection/>
+                 
+                  <SellCarSection/>
+                  <SellingCar/>
                 {/* <SlideSearchCar /> */}
                 <IconBox />
                    <CarListV2 />
                 <TabCarService />
                <BrowseByMode />
+               <Testimonials />
+               
+             
                 {/* <Logo /> */}
                 
                 <Quote />

@@ -27,12 +27,12 @@ export default function ChristmasOffers() {
 {/* <span className="text-yellow-400 tracking-widest text-sm">
             RAMADAN KAREEM
           </span> */}
-          <h2 className="title text-white mt-3 text-4xl font-bold">
+          {/* <h2 className="title text-white mt-3 text-4xl font-bold">
             🌙 Ramadan Car Deals
           </h2>
           <p className="text-gray-300 mt-3">
             Drive home your dream car this blessed month with exclusive savings
-          </p>
+          </p> */}
 </div>
 
 
