@@ -1,5 +1,104 @@
 const cars = [
   {
+  id: "hyundai-elantra-2024",
+  slug: "hyundai-elantra-2024",
+ status: "Available",
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2024,
+
+  title: "Hyundai Elantra 2024",
+  make: "Hyundai",
+  model: "Elantra",
+  bodyType: "Sedan",
+
+  rating: 4,
+  reviews: 4,
+
+  currency: "AED",
+  price: 78000,
+  salePrice: 75000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/elantra/elantra (1).jpg",
+    "/assets/images/elantra/elantra (2).jpg",
+    "/assets/images/elantra/elantra (3).jpg",
+    "/assets/images/elantra/elantra (4).jpg",
+    "/assets/images/elantra/elantra (5).jpg",
+    "/assets/images/elantra/elantra (6).jpg",
+    "/assets/images/elantra/elantra (7).jpg",
+    "/assets/images/elantra/elantra (8).jpg",
+    "/assets/images/elantra/elantra (9).jpg",
+    "/assets/images/elantra/elantra (10).jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "69,770 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "ELANTRA2024",
+    vin: "KMHLN4AG0RU123456",
+    year: 2024,
+    mileage: "69,770 km",
+    transmission: "Automatic",
+    engineSize: "2.0L",
+    driveType: "FWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "White",
+    seats: 5,
+    cityMPG: 28,
+    highwayMPG: 36,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "147 HP"
+    }
+  },
+
+  description:
+    "Hyundai Elantra 2024 GCC in white with FWD and automatic transmission. Stylish and efficient sedan offering comfortable driving, modern design, and reliable performance.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Rear camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Sport styling"
+    ],
+    interior: [
+      "Fabric seats",
+      "Digital display",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Climate control"
+    ]
+  }
+},
+  {
   id: "mercedes-benz-e300-2023",
   slug: "mercedes-benz-e300-2023",
   status: "Available",
