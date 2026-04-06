@@ -1863,100 +1863,101 @@ const cars = [
     },
   },
   {
-    id: "ford-mustang-2020",
-    slug: "ford-mustang-2020",
- status: "Available",
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2020,
+  id: "ford-mustang-2020",
+  slug: "ford-mustang-2020",
 
-    title: "Ford Mustang 2020",
-    make: "Ford",
-    model: "Mustang",
-    bodyType: "Coupe",
+  status: "Available",
+  featured: false,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2020,
 
-    rating: 4,
-    reviews: 7,
+  title: "Ford Mustang 2020",
+  make: "Ford",
+  model: "Mustang",
+  bodyType: "Coupe",
 
-    currency: "AED",
-    price: 145000,
-    salePrice: 138000,
+  rating: 4,
+  reviews: 7,
 
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Ras Al Khor Auto Market, Dubai",
-    },
+  currency: "AED",
+  price: 145000,
+  salePrice: 138000,
 
-    images: [
-      "/assets/images/ford-mustang/mustang (1).jpg",
-      "/assets/images/ford-mustang/mustang (2).jpg",
-      "/assets/images/ford-mustang/mustang (3).jpg",
-      "/assets/images/ford-mustang/mustang (4).jpg",
-      "/assets/images/ford-mustang/mustang (5).jpg",
-      "/assets/images/ford-mustang/mustang (6).jpg",
-      "/assets/images/ford-mustang/mustang (7).jpg",
-      "/assets/images/ford-mustang/mustang (8).jpg",
-      "/assets/images/ford-mustang/mustang (9).jpg",
-      "/assets/images/ford-mustang/mustang (10).jpg",
-    ],
-
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "66,423 miles",
-      transmission: "Automatic",
-    },
-
-    overview: {
-      stockNumber: "FMST2020",
-      vin: "1FA6P8TH6L5123456",
-      year: 2020,
-      mileage: "66,423 miles",
-      transmission: "Automatic",
-      engineSize: "2.3L Turbo",
-      driveType: "RWD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 2,
-      color: "Black",
-      seats: 4,
-      cityMPG: 21,
-      highwayMPG: 32,
-    },
-
-    description:
-      "Sporty Ford Mustang 2020 in black with rear-wheel drive and automatic transmission. Powerful performance, iconic muscle car design, and comfortable interior make it perfect for enthusiasts and daily driving.",
-
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Stability control",
-        "Rear view camera",
-      ],
-      exterior: [
-        "Alloy wheels",
-        "LED headlights",
-        "Rear spoiler",
-        "Dual exhaust",
-      ],
-      interior: [
-        "Leather seats",
-        "Digital instrument cluster",
-        "Touchscreen infotainment",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Dual-zone climate control",
-        "Electric seat adjustment",
-      ],
-    },
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Ras Al Khor Auto Market, Dubai",
   },
+
+  images: [
+    "/assets/images/ford-mustang/mustang (1).jpg",
+    "/assets/images/ford-mustang/mustang (2).jpg",
+    "/assets/images/ford-mustang/mustang (3).jpg",
+    "/assets/images/ford-mustang/mustang (4).jpg",
+    "/assets/images/ford-mustang/mustang (5).jpg",
+    "/assets/images/ford-mustang/mustang (6).jpg",
+    "/assets/images/ford-mustang/mustang (7).jpg",
+    "/assets/images/ford-mustang/mustang (8).jpg",
+    "/assets/images/ford-mustang/mustang (9).jpg",
+    "/assets/images/ford-mustang/mustang (10).jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "66,423 miles",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "FMST2020",
+    vin: "1FA6P8TH6L5123456",
+    year: 2020,
+    mileage: "66,423 miles",
+    transmission: "Automatic",
+    engineSize: "5.0L V8",
+    driveType: "RWD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Black",
+    seats: 4,
+    cityMPG: 15,
+    highwayMPG: 24,
+  },
+
+  description:
+    "Ford Mustang 2020 in black with a powerful 5.0L V8 engine, automatic transmission, and rear-wheel drive. Iconic muscle car delivering thrilling performance, aggressive styling, and an exciting driving experience.",
+
+  features: {
+    safety: [
+      "Front & side airbags",
+      "ABS",
+      "Traction control",
+      "Stability control",
+      "Rear view camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Rear spoiler",
+      "Dual exhaust"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital instrument cluster",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Dual-zone climate control",
+      "Electric seat adjustment"
+    ]
+  }
+},
  
   {
     id: "jeep-wrangler-2025",
