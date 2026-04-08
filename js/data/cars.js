@@ -1,5 +1,107 @@
 const cars = [
   {
+  id: "bmw-735i-2026",
+  slug: "bmw-735i-2026",
+ status: "Available",
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2026,
+
+  title: "BMW 735i 2026",
+  make: "BMW",
+  model: "735i",
+  bodyType: "Sedan",
+
+  rating: 5,
+  reviews: 1,
+
+  currency: "AED",
+  price: 420000,
+  salePrice: 405000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/bmw-7/1.jpg",
+    "/assets/images/bmw-7/2.jpg",
+    "/assets/images/bmw-7/3.jpg",
+    "/assets/images/bmw-7/4.jpg",
+    "/assets/images/bmw-7/5.jpg",
+    "/assets/images/bmw-7/6.jpg",
+    "/assets/images/bmw-7/7.jpg",
+    "/assets/images/bmw-7/8.jpg",
+    "/assets/images/bmw-7/9.jpg",
+    "/assets/images/bmw-7/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "8,200 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BMW735I2026",
+    vin: "WBA735I2026EX1234",
+    year: 2026,
+    mileage: "8,200 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Turbo",
+    driveType: "AWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Black",
+    seats: 5,
+    cityMPG: 22,
+    highwayMPG: 30,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "286 HP"
+    }
+  },
+
+  description:
+    "BMW 735i 2026 in black with AWD and automatic transmission. Ultra-luxury sedan with advanced technology, smooth performance, and premium comfort with very low mileage.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360 camera"
+    ],
+    exterior: [
+      "Premium alloy wheels",
+      "LED headlights",
+      "Panoramic sunroof",
+      "Soft-close doors"
+    ],
+    interior: [
+      "Luxury leather seats",
+      "Curved digital display",
+      "Ambient lighting",
+      "Rear entertainment system"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Adaptive cruise control",
+      "Multi-zone climate control",
+      "Electric seats with memory"
+    ]
+  }
+},
+  {
   id: "hyundai-elantra-2024",
   slug: "hyundai-elantra-2024",
  status: "Available",
