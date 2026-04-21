@@ -1,5 +1,308 @@
 const cars = [
   {
+  id: "chevrolet-silverado-2024",
+  slug: "chevrolet-silverado-2024",
+ status: "Available",
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2024,
+
+  title: "Chevrolet Silverado 2024",
+  make: "Chevrolet",
+  model: "Silverado",
+  bodyType: "Pickup Truck",
+
+  rating: 4,
+  reviews: 4,
+
+  currency: "AED",
+  price: 135000,
+  salePrice: 128000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+     "/assets/images/silverado-2024/5.jpg",
+    "/assets/images/silverado-2024/1.jpg",
+    "/assets/images/silverado-2024/2.jpg",
+    "/assets/images/silverado-2024/3.jpg",
+    "/assets/images/silverado-2024/4.jpg",
+   
+    "/assets/images/silverado-2024/6.jpg",
+    "/assets/images/silverado-2024/7.jpg",
+    "/assets/images/silverado-2024/8.jpg",
+    "/assets/images/silverado-2024/9.jpg",
+    "/assets/images/silverado-2024/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "N/A",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "SILVERADO2024",
+    vin: "3GCUDDED0RG123456",
+    year: 2024,
+    mileage: "N/A",
+    transmission: "Automatic",
+    engineSize: "5.3L V8",
+    driveType: "4WD",
+    cylinders: 8,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "White",
+    seats: 5,
+    cityMPG: 16,
+    highwayMPG: 22,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "355 HP"
+    }
+  },
+
+  description:
+    "Chevrolet Silverado 2024 in white with automatic transmission and 4WD. Powerful pickup truck with strong V8 engine, spacious cabin, and excellent capability for both work and daily use.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Rear camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Tow hooks",
+      "Side steps"
+    ],
+    interior: [
+      "Cloth seats",
+      "Touchscreen infotainment",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Large cargo bed"
+    ]
+  }
+},
+  {
+  id: "ford-bronco-2023",
+  slug: "ford-bronco-2023",
+ status: "Available",
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2023,
+
+  title: "Ford Bronco 2023",
+  make: "Ford",
+  model: "Bronco",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 2,
+
+  currency: "AED",
+  price: 215000,
+  salePrice: 205000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+     "/assets/images/ford-bronco/8.jpg",
+    "/assets/images/ford-bronco/1.jpg",
+    "/assets/images/ford-bronco/2.jpg",
+    "/assets/images/ford-bronco/3.jpg",
+    "/assets/images/ford-bronco/4.jpg",
+    "/assets/images/ford-bronco/5.jpg",
+    "/assets/images/ford-bronco/6.jpg",
+    "/assets/images/ford-bronco/7.jpg",
+   
+    "/assets/images/ford-bronco/9.jpg",
+    "/assets/images/ford-bronco/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "21,740 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BRONCO2023",
+    vin: "1FMDE5CP6PL123456",
+    year: 2023,
+    mileage: "21,740 km",
+    transmission: "Automatic",
+    engineSize: "2.7L Twin Turbo",
+    driveType: "4WD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 4,
+    color: "Azure Grey",
+    seats: 5,
+    cityMPG: 17,
+    highwayMPG: 20,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "330 HP"
+    }
+  },
+
+  description:
+    "Ford Bronco 2023 GCC in Azure Grey with automatic transmission and 4WD. Rugged off-road SUV with strong twin-turbo performance, bold design, and modern interior built for adventure.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Hill descent control",
+      "Rear camera"
+    ],
+    exterior: [
+      "All-terrain tires",
+      "LED headlights",
+      "Removable roof panels",
+      "Tow hooks"
+    ],
+    interior: [
+      "Durable upholstery",
+      "Touchscreen infotainment",
+      "Digital cluster",
+      "Multi-function steering wheel"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Climate control",
+      "Off-road drive modes"
+    ]
+  }
+},
+  {
+  id: "bmw-m4-competition-2022",
+  slug: "bmw-m4-competition-2022",
+ status: "Available",
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2022,
+
+  title: "BMW M4 Competition 2022",
+  make: "BMW",
+  model: "M4 Competition",
+  bodyType: "Coupe",
+
+  rating: 5,
+  reviews: 3,
+
+  currency: "AED",
+  price: 385000,
+  salePrice: 372000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+    "/assets/images/bmw-m4/1 (1).jpg",
+    "/assets/images/bmw-m4/1 (2).jpg",
+    "/assets/images/bmw-m4/1 (3).jpg",
+    "/assets/images/bmw-m4/1 (4).jpg",
+    "/assets/images/bmw-m4/1 (5).jpg",
+    "/assets/images/bmw-m4/1 (6).jpg",
+    "/assets/images/bmw-m4/1 (7).jpg",
+    "/assets/images/bmw-m4/1 (8).jpg",
+    "/assets/images/bmw-m4/1 (9).jpg",
+    "/assets/images/bmw-m4/1 (10).jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "39,435 km",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "BMWM42022",
+    vin: "WBS33AY06NFX12345",
+    year: 2022,
+    mileage: "39,435 km",
+    transmission: "Automatic",
+    engineSize: "3.0L Twin Turbo",
+    driveType: "AWD",
+    cylinders: 6,
+    fuelType: "Petrol",
+    doors: 2,
+    color: "Blue",
+    seats: 4,
+    cityMPG: 16,
+    highwayMPG: 23,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "503 HP"
+    }
+  },
+
+  description:
+    "BMW M4 Competition 2022 in blue with AWD and automatic transmission. High-performance coupe with twin-turbo power, aggressive styling, and track-level performance combined with luxury comfort.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360 camera"
+    ],
+    exterior: [
+      "M alloy wheels",
+      "LED headlights",
+      "Carbon fiber roof",
+      "Sport exhaust"
+    ],
+    interior: [
+      "M sport leather seats",
+      "Digital cockpit",
+      "Touchscreen infotainment",
+      "Heads-up display"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Adaptive cruise control",
+      "Dual climate control",
+      "Electric seats"
+    ]
+  }
+},
+  {
   id: "bmw-735i-2026",
   slug: "bmw-735i-2026",
  status: "Available",
