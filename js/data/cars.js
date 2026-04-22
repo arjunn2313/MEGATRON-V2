@@ -1,5 +1,108 @@
 const cars = [
   {
+  id: "jaguar-f-pace-2024",
+  slug: "jaguar-f-pace-2024",
+status: "Available",
+  featured: true,
+  discountPercent: 0,
+  condition: "Used",
+  year: 2024,
+
+  title: "Jaguar F-Pace 2024",
+  make: "Jaguar",
+  model: "F-Pace",
+  bodyType: "SUV",
+
+  rating: 5,
+  reviews: 1,
+
+  currency: "AED",
+  price: 245000,
+  salePrice: 238000,
+
+  location: {
+    city: "Dubai",
+    state: "Dubai",
+    country: "United Arab Emirates",
+    address: "Al Aweer Auto Market, Dubai",
+  },
+
+  images: [
+      "/assets/images/jaguar-fpace/3.jpg",
+    "/assets/images/jaguar-fpace/1.jpg",
+    "/assets/images/jaguar-fpace/2.jpg",
+  
+    "/assets/images/jaguar-fpace/4.jpg",
+    "/assets/images/jaguar-fpace/5.jpg",
+    "/assets/images/jaguar-fpace/6.jpg",
+    "/assets/images/jaguar-fpace/7.jpg",
+    "/assets/images/jaguar-fpace/8.jpg",
+    "/assets/images/jaguar-fpace/9.jpg",
+    "/assets/images/jaguar-fpace/10.jpg"
+  ],
+
+  quickSpecs: {
+    fuel: "Petrol",
+    mileage: "6,790 miles",
+    transmission: "Automatic",
+  },
+
+  overview: {
+    stockNumber: "FPACE2024",
+    vin: "SADCT2EX7RA735785",
+    year: 2024,
+    mileage: "6,790 miles",
+    transmission: "Automatic",
+    engineSize: "2.0L Turbo",
+    driveType: "AWD",
+    cylinders: 4,
+    fuelType: "Petrol",
+    doors: 5,
+    color: "Black",
+    seats: 5,
+    cityMPG: 22,
+    highwayMPG: 28,
+    specs: "GCC Specs",
+    steeringSide: "LHD",
+    performance: {
+      horsepower: "247 HP"
+    }
+  },
+
+  description:
+    "Jaguar F-Pace 2024 with AWD and automatic transmission. Premium luxury SUV with sporty performance, refined interior, and low mileage.",
+
+  features: {
+    safety: [
+      "Multiple airbags",
+      "ABS",
+      "Traction control",
+      "Lane assist",
+      "Blind spot monitoring",
+      "360 camera"
+    ],
+    exterior: [
+      "Alloy wheels",
+      "LED headlights",
+      "Panoramic roof",
+      "Power tailgate"
+    ],
+    interior: [
+      "Leather seats",
+      "Digital cluster",
+      "Touchscreen infotainment",
+      "Ambient lighting"
+    ],
+    convenience: [
+      "Keyless entry",
+      "Push start",
+      "Cruise control",
+      "Dual climate control",
+      "Electric seats"
+    ]
+  }
+},
+  {
   id: "chevrolet-silverado-2024",
   slug: "chevrolet-silverado-2024",
  status: "Available",
