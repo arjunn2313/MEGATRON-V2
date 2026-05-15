@@ -2470,7 +2470,7 @@ status: "Available",
   {
     id: "jeep-wrangler-2025",
     slug: "jeep-wrangler-2025",
- status: "Available",
+ status: "Sold",
     featured: false,
     discountPercent: 0,
     condition: "Used",
